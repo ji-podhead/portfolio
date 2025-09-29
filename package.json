@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^10.7.6",
-    "@react-three/fiber": "^9.3.0",
+    "@react-three/drei": "^9.102.6",
+    "@react-three/fiber": "^8.16.8",
     "d3": "^7.9.0",
     "d3-geo": "^3.1.1",
     "gl-matrix": "^3.4.4",
@@ -18,22 +18,23 @@
     "leaflet.markercluster": "^1.5.3",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "three": "^0.158.0"
   },
   "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.158.0",
     "@types/d3": "^7.4.3",
     "@types/d3-geo": "^3.1.0",
     "@types/leaflet": "^1.9.20",
     "@types/leaflet.markercluster": "^1.5.6",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/three": "^0.180.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
-    "postcss": "^8",
-    "raw-loader": "^4.0.2",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "raw-loader": "^4.0.2"
   }
 }
