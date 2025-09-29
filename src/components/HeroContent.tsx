@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useRef, Suspense, useMemo, useCallback } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Text } from '@react-three/drei';
-import { Animator } from '@/lib/kooljs/animator';
-import { Particles } from '@/lib/particles/workerParticles';
+import { Animator } from '../lib/kooljs/animator';
+import { Particles } from '../lib/particles/workerParticles';
 import * as THREE from 'three';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js'; // Import FontLoader directly
 import ParticlesMain from '@/lib/particles/particles';
@@ -83,7 +83,9 @@ const ParticleTextSystem = ({ onExplode }: { onExplode: (system: Particles) => v
 
         particleSystem.setStartPositionFromArray(false, targets[0]);
         particleSystem.startPS();
-        setParticleMesh(pMesh);
+        // If InitializeParticles returns void, pMesh will be undefined.
+        // Set particleMesh to null in that case, as it expects Mesh | null.
+        setParticleMesh(pMesh === undefined ? null : pMesh);
 
         const animator = new Animator(60);
         animatorRef.current = animator;

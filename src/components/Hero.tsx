@@ -24,7 +24,7 @@ const Hero = () => {
     function draw() {
       if (!ctx) return;
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillRect(0, 0, canvas!.width, canvas!.height);
 
       ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--primary-color').trim() || "#00ff41";
       ctx.font = fontSize + "px " + getComputedStyle(document.documentElement).getPropertyValue('--font-mono').trim();
@@ -33,7 +33,7 @@ const Hero = () => {
         const text = chars[Math.floor(Math.random() * chars.length)];
         ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
-        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        if (drops[i] * fontSize > canvas!.height && Math.random() > 0.975) {
           drops[i] = 0;
         }
         drops[i]++;

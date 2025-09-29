@@ -1,8 +1,8 @@
 "use client";
 import React, { useRef } from 'react';
-import { useExample1, exampleProps1 } from '@/examples/useExample1';
-import { useExample2, exampleProps2 } from '@/examples/useExample2';
-import { useExample3, exampleProps3 } from '@/examples/useExample3';
+import { useExample1, exampleProps1 } from '../examples/useExample1';
+import { useExample2, exampleProps2 } from '../examples/useExample2';
+import { useExample3, exampleProps3 } from '../examples/useExample3';
 
 const ProjectCard = ({ title, description, children, useExampleHook, exampleProps, refs }: any) => {
     const controls = useExampleHook(...refs);

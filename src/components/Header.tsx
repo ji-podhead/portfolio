@@ -4,8 +4,8 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 
 // Import shaders
-import vertexShader from '@/lib/shaders/background.vert';
-import fontFragmentShader from '@/lib/shaders/font-renderer.frag';
+import vertexShader from '../lib/shaders/background.vert';
+import fontFragmentShader from '../lib/shaders/font-renderer.frag';
 
 const ShaderText = () => {
     const meshRef = useRef<THREE.Mesh>(null!);

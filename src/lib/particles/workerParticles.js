@@ -40,7 +40,7 @@ const postemp2 = new Float32Array(3)
 let randomX,randomY,randomZ
 const scaletemp2 = new Float32Array(3)
 const rottemp2 = new Float32Array(3)
-// alert(JSON.stringify(matrix4))
+alert(JSON.stringify(matrix4))
 let isRotating
 let isScaling
 let isTransforming
@@ -152,6 +152,7 @@ export class Particles {
 			direc.random=true
 			direc.minRange=minRange
 			direc.maxRange=maxRange
+			alert("rand")
 		}
 		else{
 			direc.random=false
@@ -204,6 +205,7 @@ export class Particles {
 		}else{
 			this.burstCount = count
 		}
+		alert(this.burstCount	)
 
 	
 	}
@@ -307,26 +309,6 @@ export class Particles {
 		}
 	}
 	createPointCloud(geometry, forceField, startPosition, fromArray, step) {
-		// Handle deprecated THREE.Geometry
-		if (geometry.vertices && geometry.faces) {
-			const bufferGeometry = new THREE.BufferGeometry();
-			bufferGeometry.setFromPoints(geometry.vertices);
-			if (geometry.faces.length > 0) {
-				const indices = [];
-				for (let i = 0; i < geometry.faces.length; i++) {
-					const face = geometry.faces[i];
-					indices.push(face.a, face.b, face.c);
-				}
-				bufferGeometry.setIndex(indices);
-			}
-			geometry = bufferGeometry;
-		}
-
-		if (!fromArray && (!geometry || !geometry.attributes || !geometry.attributes.position)) {
-			console.error("createPointCloud: Invalid geometry provided. Missing geometry, attributes, or position attribute.");
-			return; // Exit early if geometry is invalid
-		}
-		step = (step === undefined || step === 0) ? 10 : step; // Provide a default step value
 		let amount = this.amount
 		let height, width, depth, stepY, stepX, stepZ
 		let xMin = 100.0
@@ -377,6 +359,7 @@ export class Particles {
 			stepY = height / step
 			stepX = width / step
 			stepZ = depth / step
+			alert("stepx" + stepX + " stepy" + stepY)
 		}
 		function findNearest(point, index) {
 			let nearestDist = Infinity
@@ -415,6 +398,7 @@ export class Particles {
 
 		if (startPosition) {
 			this.pointCloud = pc
+			alert("pc" + JSON.stringify(pc))
 		}
 		else if (forceField) {
 			this.forceField = pc
@@ -663,6 +647,7 @@ export class Particles {
 		}
 		else{
 			this.instance.instanceCount+=1
+			alert("burst")
 		}
 		this.resetParticle(i,this.attributesoverLifeTime)
 		this.setTransform(position1[0],position1[1],position1[2],i)
@@ -1096,7 +1081,7 @@ export class Particles {
 		startForce = typeof startForce != "object" ? {values:[0, 0, 0] } : startForce
 		startForceFieldForce = typeof startForceFieldForce != "object" ? {values:[0, 0, 0],random:false } : startForceFieldForce
 		spawnFrequency = typeof spawnFrequency != "number" ? 1 : spawnFrequency
-		maxSpawnCount = typeof maxSpawnCount != "number" ? amount : maxSpawnCount
+		maxSpawnCount = typeof maxSpawnCount != "number" ? 1 : maxSpawnCount
 		spawnOverTime = typeof spawnOverTime != "boolean" ? false : maxSpawnCount
 		burstCount = typeof burstCount != "number" ? 100 : (burstCount>maxSpawnCount?maxSpawnCount:burstCount)
 		startDirection = typeof startDirection != "object" ? {values:[0, 0, 0],random:false } : startDirection
@@ -1135,15 +1120,11 @@ export class Particles {
 			distance: -1,
 			parent: null
 		}
-		const geometry = mesh.geometry || new THREE.PlaneGeometry(1, 1); // Fallback to a basic plane geometry
+		const geometry = mesh.geometry
 		//++++++++++++++++++++++++++++  >>initialize objects<<  ++++++++++++++++++++++++++++++++++++
 		const instancedGeometry = new THREE.InstancedBufferGeometry()
 		this.instance = instancedGeometry
-		if (geometry && geometry.index) {
-			instancedGeometry.index = geometry.index
-		} else {
-			console.warn("Mesh geometry or index is missing. Cannot initialize instanced geometry index.");
-		}
+		instancedGeometry.index = geometry.index
 		instancedGeometry.maxInstancedCount = this.amount
 
 		//instancedGeometry.instanceCount = spawnOverTime == true ? maxSpawnCount : Infinity
@@ -1185,13 +1166,9 @@ export class Particles {
 		instancedGeometry.setAttribute( 'boxPosition', boxPositionAttribute);
 		instancedGeometry.setAttribute( 'boxSize',boxSizeAttribute );
 		instancedGeometry.setAttribute( 'rotation', rotatioAttributen);
-		if (geometry && geometry.attributes) {
-			Object.keys(geometry.attributes).forEach(attributeName => {
-				instancedGeometry.attributes[attributeName] = geometry.attributes[attributeName]
-			})
-		} else {
-			console.warn("Mesh geometry attributes are missing. Cannot copy attributes.");
-		}
+		Object.keys(geometry.attributes).forEach(attributeName => {
+			instancedGeometry.attributes[attributeName] = geometry.attributes[attributeName]
+		})
 		const intersectsScene = new THREE.Scene()
 		//+++++++++++++++++++++ >>create subMesh<< +++++++++++++++++++++++++++
 		//instancedGeometry.morphAttributes.position = [ morphTargetsAttribute ];
@@ -1223,8 +1200,8 @@ export class Particles {
 						
 					
 		intersectsScene.updateMatrixWorld(true)
-		const instanceMaterial = mesh.material || new THREE.MeshBasicMaterial({ color: 0xffffff }); // Fallback to a default material
-		if(instanceMaterial.transparent === true){ // Use strict equality
+		const instanceMaterial = mesh.material
+		if(instanceMaterial.transparent==true){
 			instanceMaterial.depthWrite=false
 		}
 			//	mat4 aInstanceMatrix = mat4(aInstanceMatrix0,aInstanceMatrix1,aInstanceMatrix2,aInstanceMatrix3);

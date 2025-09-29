@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useRef } from 'react';
 import { Canvas, useThree, useFrame } from "@react-three/fiber";
 import * as THREE from "three/src/Three";
@@ -73,6 +74,12 @@ export default function ParticlesMain() {
   return (
     <>
       <Canvas camera={{ position: [0, 0, 5] }}> {/* Added a default camera position */}
+        <color attach="background" args={['#000000']} /> {/* Set background color to black */}
+        {/* Test with a simple mesh to check R3F setup */}
+        <mesh>
+          <boxGeometry args={[1, 1, 1]} />
+          <meshBasicMaterial color="red" />
+        </mesh>
         <SceneInitializer particle={particle} childParticle={childParticle} amount={amount} />
         <ParticleAutoDisposal />
         {/* Add other scene elements here if needed */}

@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useRef, Suspense, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Text } from '@react-three/drei';
-import { Animator } from '@/lib/kooljs/animator';
-import { Particles } from '@/lib/particles/engine';
+import { Animator } from '../lib/kooljs/animator';
+import { Particles } from '../lib/particles/workerParticles';
 import * as THREE from 'three';
 
 const words = ["devops", "mlops", "ml", "robotics", "fullstack"];
@@ -24,7 +24,6 @@ function sampleFromGeometry(geometry: THREE.BufferGeometry, count: number) {
         triangle.set(vA, vB, vC);
 
         const point = new THREE.Vector3();
-        triangle.getPoint(new THREE.Vector3(Math.random(), Math.random(), Math.random()).normalize(), point);
         point.toArray(points, i * 3);
     }
     return points;
@@ -85,7 +84,9 @@ const ParticleTextSystem = ({ textGeometries }: { textGeometries: Float32Array[]
         // Start particles from the first word's geometry
         particleSystem.setStartPositionFromArray(false, textGeometries[0]);
         particleSystem.startPS();
-        setParticleMesh(pMesh);
+        // If InitializeParticles returns void, pMesh will be undefined.
+        // Set particleMesh to null in that case, as it expects Mesh | null.
+        setParticleMesh(pMesh === undefined ? null : pMesh);
 
         // Setup kooljs animator to cycle through targets
         const animator = new Animator(60);

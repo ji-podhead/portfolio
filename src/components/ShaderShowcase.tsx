@@ -1,12 +1,6 @@
 "use client";
 import React, { useState, Suspense } from 'react';
-import dynamic from 'next/dynamic';
-
-// Dynamically import the GLSLBackground component to avoid SSR issues with canvas
-const GLSLBackground = dynamic(() => import('@/components/GLSLBackground'), {
-    ssr: false,
-    loading: () => <p>Loading shader...</p>,
-});
+import GLSLBackground from "../components/GLSLBackground";
 
 const shaderNames = ['ribbon', 'metaball', 'dither', 'background'] as const;
 type ShaderName = typeof shaderNames[number];

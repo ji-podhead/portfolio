@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, RefObject } from 'react';
-import type { Animator } from '@/lib/kooljs/animator';
+import type { Animator } from '../lib/kooljs/animator';
 
 export const useExample3 = (containerRef: RefObject<HTMLDivElement>) => {
     const animatorRef = useRef<Animator | null>(null);
@@ -9,7 +9,7 @@ export const useExample3 = (containerRef: RefObject<HTMLDivElement>) => {
     useEffect(() => {
         let animator: Animator;
 
-        import('@/lib/kooljs/animator').then(({ Animator: AnimatorClass }) => {
+        import('../lib/kooljs/animator').then(({ Animator: AnimatorClass }) => {
             animator = new AnimatorClass(40);
             animatorRef.current = animator;
             const container = containerRef.current;

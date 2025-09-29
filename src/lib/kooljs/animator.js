@@ -716,7 +716,7 @@ class Animator {
       this.worker.terminate();
     });
     this.worker.onmessage = (ev) => {
-      function try_to_set(index, value, setter) {
+      const try_to_set = (index, value, setter) => {
         try {
           setter.prop.updater(value, index);
         } catch (err) {
@@ -728,7 +728,7 @@ error: ` + err
           );
           this.stop_animations([[index]]);
         }
-      }
+      };
       if (ev.data.message == "render") {
         requestAnimationFrame(() => {
           try {

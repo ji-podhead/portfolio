@@ -47,7 +47,7 @@ const OSMView = () => {
             .enter()
             .append("g")
             .attr("class", "marker")
-            .attr("id", d => `marker-${d.id}`);
+            .attr("id", (d: typeof locations[0]) => `marker-${d.id}`);
 
         // Add circle background
         markerGroups.append("circle")
@@ -95,19 +95,19 @@ const OSMView = () => {
         };
 
         // Interactivity
-        markerGroups.on('mouseover', function (event, d) {
+        markerGroups.on('mouseover', function (event: any, d: typeof locations[0]) {
             if (selectedMarker.current === d.id) return;
-            d3.select(this).select("circle").transition().duration(150).attr("transform", "scale(1)");
-            d3.select(this).select(".popup").transition().duration(150).style("opacity", 1);
+            d3.select(this as SVGGElement).select("circle").transition().duration(150).attr("transform", "scale(1)");
+            d3.select(this as SVGGElement).select(".popup").transition().duration(150).style("opacity", 1);
         });
 
-        markerGroups.on('mouseout', function (event, d) {
+        markerGroups.on('mouseout', function (event: any, d: typeof locations[0]) {
             if (selectedMarker.current === d.id) return;
-            d3.select(this).select("circle").transition().duration(150).attr("transform", "scale(0.75)");
-            d3.select(this).select(".popup").transition().duration(150).style("opacity", 0);
+            d3.select(this as SVGGElement).select("circle").transition().duration(150).attr("transform", "scale(0.75)");
+            d3.select(this as SVGGElement).select(".popup").transition().duration(150).style("opacity", 0);
         });
 
-        markerGroups.on('click', function (event, d) {
+        markerGroups.on('click', function (event: any, d: typeof locations[0]) {
             // Unselect previous
             if(selectedMarker.current) {
                  d3.select(`#marker-${selectedMarker.current}`).select("circle").transition().duration(150).attr("transform", "scale(0.75)");
@@ -115,8 +115,8 @@ const OSMView = () => {
             }
             // Select new one
             selectedMarker.current = d.id;
-            d3.select(this).select("circle").transition().duration(150).attr("transform", "scale(1.2)");
-            d3.select(this).select(".popup").transition().duration(150).style("opacity", 1);
+            d3.select(this as SVGGElement).select("circle").transition().duration(150).attr("transform", "scale(1.2)");
+            d3.select(this as SVGGElement).select(".popup").transition().duration(150).style("opacity", 1);
             map.setView(d.coords, 15, { animate: true });
         });
 

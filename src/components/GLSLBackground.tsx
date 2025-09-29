@@ -4,13 +4,13 @@ import React, { useMemo, useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 
 // Statically import all available shaders
-import vertexShader from '@/lib/shaders/background.vert';
-import backgroundFragmentShader from '@/lib/shaders/background.frag';
-import ribbonFragmentShader from '@/lib/shaders/ribbon.frag';
-import metaballFragmentShader from '@/lib/shaders/metaball.frag';
-import ditherFragmentShader from '@/lib/shaders/dither-effect.frag';
-import fontFragmentShader from '@/lib/shaders/font-renderer.frag';
-import finalBackgroundFragmentShader from '@/lib/shaders/final-background.frag';
+import vertexShader from '../lib/shaders/background.vert';
+import backgroundFragmentShader from '../lib/shaders/background.frag';
+import ribbonFragmentShader from '../lib/shaders/ribbon.frag';
+import metaballFragmentShader from '../lib/shaders/metaball.frag';
+import ditherFragmentShader from '../lib/shaders/dither-effect.frag';
+import fontFragmentShader from '../lib/shaders/font-renderer.frag';
+import finalBackgroundFragmentShader from '../lib/shaders/final-background.frag';
 
 const shaders = {
     background: backgroundFragmentShader,
