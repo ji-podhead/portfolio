@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useRef } from 'react';
 import { Canvas, useThree, useFrame } from "@react-three/fiber";
-import * as THREE from "three/src/Three";
+import * as THREE from "three";
 import { Particles } from './workerParticles';
 import ParticleAutoDisposal from './workerHelper';
 
@@ -19,7 +19,8 @@ function SceneInitializer({ particle, childParticle, amount }) { // Receive prop
     mesh.castShadow = true;
 
     // Initialize the particle system
-    particle.InitializeParticles(scene, mesh, amount);
+    const particleMesh = particle.InitializeParticles(mesh, amount);
+    scene.add(particleMesh);
     particle.setSpawnOverTime(true);
     particle.setSourceAttributes("opacity", [1], false);
     particle.setSourceAttributes("emission", [255, 255, 252], true, [50, 50, 50], [250, 250, 250]);

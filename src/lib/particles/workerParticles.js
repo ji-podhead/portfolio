@@ -1066,7 +1066,7 @@ export class Particles {
 			killCount=0
 	
 	}
-	InitializeParticles(scene, mesh, amount, maxLifeTime, burstCount, spawnOverTime, spawnFrequency, maxSpawnCount, startPosition, startScale, startRotation,startDirection, startOpacity,startColor, startForce, startForceFieldForce) {
+	InitializeParticles(mesh, amount, maxLifeTime, burstCount, spawnOverTime, spawnFrequency, maxSpawnCount, startPosition, startScale, startRotation,startDirection, startOpacity,startColor, startForce, startForceFieldForce) {
 		this.spawnOfset=0	
 		this.indexSlide=false
 		//alert(JSON.stringify(sphereVerts))
@@ -1287,7 +1287,8 @@ shader.fragmentShader = `
 			instanceMaterial
 		)
 		//console.log(instaneMesh)
-		scene.add(instaneMesh)
+		// scene.add(instaneMesh)
+		return instaneMesh;
 		//this.instance.instanceCount=this.burstCount
 	}
 }

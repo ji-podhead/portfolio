@@ -83,9 +83,8 @@ const ParticleTextSystem = ({ onExplode }: { onExplode: (system: Particles) => v
 
         particleSystem.setStartPositionFromArray(false, targets[0]);
         particleSystem.startPS();
-        // If InitializeParticles returns void, pMesh will be undefined.
-        // Set particleMesh to null in that case, as it expects Mesh | null.
-        setParticleMesh(pMesh === undefined ? null : pMesh);
+        // Set the returned mesh to the state
+        setParticleMesh(pMesh);
 
         const animator = new Animator(60);
         animatorRef.current = animator;
