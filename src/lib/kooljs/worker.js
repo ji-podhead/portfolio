@@ -584,11 +584,25 @@ class Animator extends Worker_Utils {
     async initialize_callbacks(callbacks) {
         for (const [key, val] of callbacks.entries()) {
             try {
-                const func_string = `export default (${val.args.join(',')}) => { ${val.callback} }`;
-                const blob = new Blob([func_string], { type: 'text/javascript' });
-                const url = URL.createObjectURL(blob);
-                const exportedFunction = new Function(`return (${func_string})`)();
-                URL.revokeObjectURL(url);
+                // Ensure val.args is an array before joining. If it's not an array, use an empty string or handle appropriately.
+                const argsString = Array.isArray(val.args) ? val.args.join(',') : '';
+                // Construct the function body directly. 'export default' is not valid within new Function.
+                // The new Function constructor itself creates a function.
+                // The callback string might contain 'export' keywords which are invalid inside a function body.
+                // We need to ensure that only the actual function body is passed.
+                // For simplicity, we assume val.callback contains the function body.
+                // Remove 'export default' if it exists at the beginning of the callback string.
+                let callback_body = val.callback;
+                if (callback_body.startsWith('export default ')) {
+                    callback_body = callback_body.substring('export default '.length);
+                }
+                // Ensure the callback_body is a valid function expression.
+                // If it's a function declaration, wrap it.
+                if (callback_body.trim().startsWith('function')) {
+                    callback_body = `(${callback_body})`;
+                }
+                const func_body = `(${argsString}) => { ${callback_body} }`;
+                const exportedFunction = new Function(func_body);
                 this.callback_map.set(key, { callback: exportedFunction, props: val.props, key: val.key, args: val.args });
             } catch (e) {
                 console.error(`Failed to initialize callback for key ${key}:`, e);

@@ -308,7 +308,7 @@ export class Particles {
 	}
 	createPointCloud(geometry, forceField, startPosition, fromArray, step) {
 		// Handle deprecated THREE.Geometry
-		if (geometry instanceof THREE.Geometry) {
+		if (geometry.vertices && geometry.faces) {
 			const bufferGeometry = new THREE.BufferGeometry();
 			bufferGeometry.setFromPoints(geometry.vertices);
 			if (geometry.faces.length > 0) {
@@ -322,7 +322,7 @@ export class Particles {
 			geometry = bufferGeometry;
 		}
 
-		if (!geometry || !geometry.attributes || !geometry.attributes.position) {
+		if (!fromArray && (!geometry || !geometry.attributes || !geometry.attributes.position)) {
 			console.error("createPointCloud: Invalid geometry provided. Missing geometry, attributes, or position attribute.");
 			return; // Exit early if geometry is invalid
 		}
@@ -1096,7 +1096,7 @@ export class Particles {
 		startForce = typeof startForce != "object" ? {values:[0, 0, 0] } : startForce
 		startForceFieldForce = typeof startForceFieldForce != "object" ? {values:[0, 0, 0],random:false } : startForceFieldForce
 		spawnFrequency = typeof spawnFrequency != "number" ? 1 : spawnFrequency
-		maxSpawnCount = typeof maxSpawnCount != "number" ? 1 : maxSpawnCount
+		maxSpawnCount = typeof maxSpawnCount != "number" ? amount : maxSpawnCount
 		spawnOverTime = typeof spawnOverTime != "boolean" ? false : maxSpawnCount
 		burstCount = typeof burstCount != "number" ? 100 : (burstCount>maxSpawnCount?maxSpawnCount:burstCount)
 		startDirection = typeof startDirection != "object" ? {values:[0, 0, 0],random:false } : startDirection

@@ -1,3 +1,4 @@
+"use client"
 import Header from '@/components/Header';
 import GLSLBackground from '@/components/GLSLBackground';
 import Projects from '@/components/Projects';
@@ -7,6 +8,7 @@ import Experience from '@/components/Experience';
 import HeroContent from '@/components/HeroContent';
 import ShaderShowcase from '@/components/ShaderShowcase';
 import dynamic from 'next/dynamic';
+import ParticlesMain from '@/lib/particles/particles';
 
 // Dynamically import OSMView with SSR turned off to prevent `window` is not defined errors.
 const OSMView = dynamic(() => import('@/components/OSMView'), {
@@ -21,17 +23,19 @@ const OSMView = dynamic(() => import('@/components/OSMView'), {
 export default function Home() {
   return (
     <div>
+      <ParticlesMain></ParticlesMain>
+{/* 
       <GLSLBackground shaderName="final" />
       <Header />
       <main>
-        <HeroContent />
+       <HeroContent />
         <Experience />
         <OSMView />
         <Projects />
         <ShaderShowcase />
-        <Skills />
+        <Skills /> 
       </main>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

@@ -6,6 +6,7 @@ import { Animator } from '@/lib/kooljs/animator';
 import { Particles } from '@/lib/particles/workerParticles';
 import * as THREE from 'three';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js'; // Import FontLoader directly
+import ParticlesMain from '@/lib/particles/particles';
 
 const words = ["devops", "mlops", "ml", "robotics", "fullstack"];
 const PARTICLE_COUNT = 4000;
@@ -88,13 +89,16 @@ const ParticleTextSystem = ({ onExplode }: { onExplode: (system: Particles) => v
         animatorRef.current = animator;
 
         const timeline = animator.Timeline({
+            steps: Array(words.length).fill(0), // Provide steps based on the number of words
             duration: 3 * 60, // 3 seconds per word
             loop: true,
+            callback: { // Use the callback parameter for custom logic
+                callback: () => {
+                    currentTargetIndex.current = (currentTargetIndex.current + 1) % words.length;
+                },
+                key: 'updateTargetIndex' // A key for the callback
+            }
         });
-
-        timeline.on_update = () => {
-            currentTargetIndex.current = (currentTargetIndex.current + 1) % words.length;
-        };
 
         animator.init();
         animator.start();

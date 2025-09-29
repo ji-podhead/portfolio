@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useRef } from 'react';
-
 const Hero = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -64,6 +63,7 @@ const Hero = () => {
 
   return (
     <section id="hero">
+      
       <canvas ref={canvasRef} id="matrix-container"></canvas>
       <div className="hero-content">
         <h1>Ji-Podhead</h1>
