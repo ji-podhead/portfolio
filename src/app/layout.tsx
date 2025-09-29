@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "leaflet/dist/leaflet.css";
+import ScrollspyNav from "@/components/ScrollspyNav";
 
 export const metadata: Metadata = {
   title: "Ji-Podhead - Portfolio",
@@ -13,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body>
+        {children}
+        <ScrollspyNav />
+      </body>
     </html>
   );
 }
