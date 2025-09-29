@@ -5,18 +5,30 @@ import Skills from '@/components/Skills';
 import Footer from '@/components/Footer';
 import Experience from '@/components/Experience';
 import HeroContent from '@/components/HeroContent';
-import OSMView from '@/components/OSMView'; // Import the new map component
+import ShaderShowcase from '@/components/ShaderShowcase';
+import dynamic from 'next/dynamic';
+
+// Dynamically import OSMView with SSR turned off to prevent `window` is not defined errors.
+const OSMView = dynamic(() => import('@/components/OSMView'), {
+  ssr: false,
+  loading: () => (
+    <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <p>Loading Map...</p>
+    </div>
+  ),
+});
 
 export default function Home() {
   return (
     <div>
-      <GLSLBackground />
+      <GLSLBackground shaderName="final" />
       <Header />
       <main>
         <HeroContent />
         <Experience />
         <OSMView />
         <Projects />
+        <ShaderShowcase />
         <Skills />
       </main>
       <Footer />

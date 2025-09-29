@@ -10,6 +10,7 @@ import ribbonFragmentShader from '@/lib/shaders/ribbon.frag';
 import metaballFragmentShader from '@/lib/shaders/metaball.frag';
 import ditherFragmentShader from '@/lib/shaders/dither-effect.frag';
 import fontFragmentShader from '@/lib/shaders/font-renderer.frag';
+import finalBackgroundFragmentShader from '@/lib/shaders/final-background.frag';
 
 const shaders = {
     background: backgroundFragmentShader,
@@ -17,11 +18,12 @@ const shaders = {
     metaball: metaballFragmentShader,
     dither: ditherFragmentShader,
     font: fontFragmentShader,
+    final: finalBackgroundFragmentShader,
 };
 
 type ShaderName = keyof typeof shaders;
 
-const GLSLBackground = ({ shaderName }: { shaderName: ShaderName }) => {
+const GLSLPlane = ({ shaderName }: { shaderName: ShaderName }) => {
     const meshRef = useRef<THREE.Mesh>(null!);
 
     const fragmentShader = useMemo(() => shaders[shaderName] || shaders.background, [shaderName]);
@@ -56,28 +58,31 @@ const GLSLBackground = ({ shaderName }: { shaderName: ShaderName }) => {
         <mesh ref={meshRef}>
             <planeGeometry args={[window.innerWidth, window.innerHeight]} />
             <shaderMaterial
-                key={fragmentShader} // Add key to force re-creation on shader change
+                key={fragmentShader}
                 uniforms={uniforms}
                 vertexShader={vertexShader}
                 fragmentShader={fragmentShader}
                 side={THREE.DoubleSide}
-                transparent={true} // Enable transparency for blending
+                transparent={true}
             />
         </mesh>
     );
 };
 
-const FullscreenCanvas = () => {
-    // We can easily change the default shader here in the future
-    const [currentShader] = useState<ShaderName>('background');
-
+const GLSLBackground = ({ shaderName, children }: { shaderName: ShaderName, children?: React.ReactNode }) => {
     return (
-        <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', zIndex: -1 }}>
-            <Canvas>
-                <GLSLBackground shaderName={currentShader} />
-            </Canvas>
+        <div style={{ position: 'relative', width: '100%', height: '100vh' }}>
+            <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
+                <Canvas>
+                    <GLSLPlane shaderName={shaderName} />
+                </Canvas>
+            </div>
+            <div style={{ position: 'relative', zIndex: 1 }}>
+                {children}
+            </div>
         </div>
     );
 };
 
-export default FullscreenCanvas;
+
+export default GLSLBackground;

@@ -104,8 +104,8 @@ void main() {
     float d = 0.0;
 
     // Example text: "SHADER TEXT"
-    S_char(r()); H(r()); A(p); D(p); E(p); R(p); space(p);
-    T_char(r()); E(p); X(p); T_char(r());
+    S_char(r()); H(r()); A(r()); D(r()); E(r()); R(r()); space(r());
+    T_char(r()); E(r()); X(r()); T_char(r());
 
     vec3 color = vec3(d);
     gl_FragColor = vec4(color, d);
