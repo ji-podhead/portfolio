@@ -587,9 +587,9 @@ class Animator extends Worker_Utils {
                 const func_string = `export default (${val.args.join(',')}) => { ${val.callback} }`;
                 const blob = new Blob([func_string], { type: 'text/javascript' });
                 const url = URL.createObjectURL(blob);
-                const module = await import(url);
+                const exportedFunction = new Function(`return (${func_string})`)();
                 URL.revokeObjectURL(url);
-                this.callback_map.set(key, { callback: module.default, props: val.props, key: val.key, args: val.args });
+                this.callback_map.set(key, { callback: exportedFunction, props: val.props, key: val.key, args: val.args });
             } catch (e) {
                 console.error(`Failed to initialize callback for key ${key}:`, e);
             }
@@ -643,9 +643,9 @@ onmessage = async (event) => {
                     const func_string = `export default ${event.data.callback}`;
                     const blob = new Blob([func_string], { type: 'text/javascript' });
                     const url = URL.createObjectURL(blob);
-                    const module = await import(url);
+                    const exportedFunction = new Function(`return (${func_string})`)();
                     URL.revokeObjectURL(url);
-                    animator.callback_map.set(event.data.id, { callback: module.default });
+                    animator.callback_map.set(event.data.id, { callback: exportedFunction });
                 } catch (e) {
                     console.error("Failed to set lambda for id: " + event.data.id, e);
                 }

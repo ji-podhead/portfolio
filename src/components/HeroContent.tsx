@@ -3,15 +3,16 @@ import React, { useState, useEffect, useRef, Suspense, useMemo, useCallback } fr
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Text } from '@react-three/drei';
 import { Animator } from '@/lib/kooljs/animator';
-import { Particles } from '@/lib/particles/engine';
+import { Particles } from '@/lib/particles/workerParticles';
 import * as THREE from 'three';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js'; // Import FontLoader directly
 
 const words = ["devops", "mlops", "ml", "robotics", "fullstack"];
 const PARTICLE_COUNT = 4000;
 
 // Helper to get points from text geometry
 const getTextPoints = (text: string, font: any, size: number, onReady: (points: Float32Array) => void) => {
-    const loader = new THREE.FontLoader();
+    const loader = new FontLoader(); // Use the imported FontLoader
     loader.load(font, (loadedFont) => {
         const geometry = new THREE.ShapeGeometry(loadedFont.generateShapes(text, size));
         geometry.computeBoundingBox();
@@ -31,7 +32,18 @@ const getTextPoints = (text: string, font: any, size: number, onReady: (points: 
             triangle.set(vA, vB, vC);
 
             const point = new THREE.Vector3();
-            triangle.getPoint(new THREE.Vector3(Math.random(), Math.random(), Math.random()).normalize(), point);
+            // Generate random barycentric coordinates to get a point on the triangle
+            let u = Math.random();
+            let v = Math.random();
+            if (u + v > 1) {
+                u = 1 - u;
+                v = 1 - v;
+            }
+            const w = 1 - u - v;
+            point.x = u * vA.x + v * vB.x + w * vC.x;
+            point.y = u * vA.y + v * vB.y + w * vC.y;
+            point.z = u * vA.z + v * vB.z + w * vC.z;
+
             point.toArray(points, i * 3);
         }
         onReady(points);
@@ -50,7 +62,7 @@ const ParticleTextSystem = ({ onExplode }: { onExplode: (system: Particles) => v
         let loadedCount = 0;
         const geomArray: Float32Array[] = new Array(words.length);
         words.forEach((word, index) => {
-            getTextPoints(word, '/fonts/font.woff', 1.2, (points) => {
+            getTextPoints(word, '/fonts/font.json', 1.2, (points) => {
                 geomArray[index] = points;
                 loadedCount++;
                 if (loadedCount === words.length) {
