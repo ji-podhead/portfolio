@@ -4,165 +4,167 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Text } from '@react-three/drei';
 import { Animator } from '@/lib/kooljs/animator';
 import { Particles } from '@/lib/particles/engine';
-import { ParticleWorkerManager } from '@/lib/particles/worker-helper';
 import * as THREE from 'three';
 
-// A component to render the animated 3D text
-const AnimatedText = ({ content, position, size, delay = 0, onReady, visible }: { content: string, position: [number, number, number], size: number, delay?: number, onReady?: (ref: any) => void, visible: boolean }) => {
-    const [displayText, setDisplayText] = useState('');
+const words = ["devops", "mlops", "ml", "robotics", "fullstack"];
+const PARTICLE_COUNT = 4000;
+
+// Helper to get points from text geometry
+const getTextPoints = (text: string, font: any, size: number, onReady: (points: Float32Array) => void) => {
+    const loader = new THREE.FontLoader();
+    loader.load(font, (loadedFont) => {
+        const geometry = new THREE.ShapeGeometry(loadedFont.generateShapes(text, size));
+        geometry.computeBoundingBox();
+        const center = new THREE.Vector3();
+        geometry.boundingBox?.getCenter(center);
+        geometry.center();
+
+        const points = new Float32Array(PARTICLE_COUNT * 3);
+        const triangle = new THREE.Triangle();
+        const positions = geometry.attributes.position.array;
+
+        for (let i = 0; i < PARTICLE_COUNT; i++) {
+            const randomIndex = Math.floor(Math.random() * (positions.length / 9)) * 9;
+            const vA = new THREE.Vector3().fromArray(positions, randomIndex);
+            const vB = new THREE.Vector3().fromArray(positions, randomIndex + 3);
+            const vC = new THREE.Vector3().fromArray(positions, randomIndex + 6);
+            triangle.set(vA, vB, vC);
+
+            const point = new THREE.Vector3();
+            triangle.getPoint(new THREE.Vector3(Math.random(), Math.random(), Math.random()).normalize(), point);
+            point.toArray(points, i * 3);
+        }
+        onReady(points);
+    });
+};
+
+
+const ParticleTextSystem = ({ onExplode }: { onExplode: (system: Particles) => void }) => {
+    const particleSystem = useMemo(() => new Particles(), []);
+    const [particleMesh, setParticleMesh] = useState<THREE.Mesh | null>(null);
+    const [targets, setTargets] = useState<Float32Array[]>([]);
     const animatorRef = useRef<Animator | null>(null);
-    const textRef = useRef<any>();
+    const currentTargetIndex = useRef(0);
 
     useEffect(() => {
+        let loadedCount = 0;
+        const geomArray: Float32Array[] = new Array(words.length);
+        words.forEach((word, index) => {
+            getTextPoints(word, '/fonts/font.woff', 1.2, (points) => {
+                geomArray[index] = points;
+                loadedCount++;
+                if (loadedCount === words.length) {
+                    setTargets(geomArray);
+                }
+            });
+        });
+    }, []);
+
+    useEffect(() => {
+        if (targets.length === 0) return;
+
+        const geometry = new THREE.SphereGeometry(0.02, 8, 8);
+        const material = new THREE.MeshStandardMaterial({ color: '#00ff41', emissive: '#00ff41', emissiveIntensity: 2 });
+        const mesh = new THREE.Mesh(geometry, material);
+        const pMesh = particleSystem.InitializeParticles(mesh, PARTICLE_COUNT);
+
+        particleSystem.setStartPositionFromArray(false, targets[0]);
+        particleSystem.startPS();
+        setParticleMesh(pMesh);
+
         const animator = new Animator(60);
         animatorRef.current = animator;
 
-        const textAnimation = animator.Timeline({
-            duration: content.length * 8,
-            delay: delay,
-            render_callback: (val: number) => {
-                const roundedIndex = Math.round(val);
-                setDisplayText(content.substring(0, roundedIndex));
-            },
-            steps: Array.from({ length: content.length + 1 }, (_, i) => i),
+        const timeline = animator.Timeline({
+            duration: 3 * 60, // 3 seconds per word
+            loop: true,
         });
 
+        timeline.on_update = () => {
+            currentTargetIndex.current = (currentTargetIndex.current + 1) % words.length;
+        };
+
         animator.init();
-        animator.start_animations([textAnimation.id]);
+        animator.start();
+
+        const handleExplode = () => onExplode(particleSystem);
+        window.addEventListener('explode', handleExplode as EventListener);
 
         return () => {
             animator.kill();
-        };
-    }, [content, delay]);
-
-    useEffect(() => {
-        if(textRef.current && displayText.length === content.length) {
-            if (onReady) {
-                onReady(textRef.current);
-            }
+            window.removeEventListener('explode', handleExplode as EventListener);
         }
-    }, [displayText, content, onReady]);
 
-    return (
-        <Text
-            ref={textRef}
-            position={position}
-            fontSize={size}
-            color="white"
-            anchorX="center"
-            anchorY="middle"
-            font="/fonts/font.woff"
-            visible={visible}
-        >
-            {`${displayText}${displayText.length < content.length ? '_' : ''}`}
-        </Text>
-    );
+    }, [particleSystem, targets, onExplode]);
+
+    useFrame((state, delta) => {
+        if (particleSystem && targets.length > 0) {
+            const currentTargets = targets[currentTargetIndex.current];
+            const positions = particleSystem.properties.get('transform').array;
+
+            for (let i = 0; i < PARTICLE_COUNT; i++) {
+                const i3 = i * 3;
+                if(currentTargets[i3] !== undefined) {
+                    positions[i3] += (currentTargets[i3] - positions[i3]) * 0.04;
+                    positions[i3+1] += (currentTargets[i3+1] - positions[i3+1]) * 0.04;
+                    positions[i3+2] += (currentTargets[i3+2] - positions[i3+2]) * 0.04;
+                }
+            }
+            particleSystem.updateValues(['transform']);
+        }
+    });
+
+    return particleMesh ? <primitive object={particleMesh} /> : null;
 };
 
 
 const HeroContent = () => {
-    const [textVisible, setTextVisible] = useState(true);
-    const [particleMesh, setParticleMesh] = useState<THREE.Mesh | null>(null);
-    const nameRef = useRef<THREE.Mesh | null>(null);
-    const titleRef = useRef<THREE.Mesh | null>(null);
-    const workerManagerRef = useRef<ParticleWorkerManager | null>(null);
-
-    const particleSystem = useMemo(() => new Particles(), []);
-
-    useEffect(() => {
-        const geometry = new THREE.SphereGeometry(0.02, 8, 8);
-        const material = new THREE.MeshStandardMaterial({ color: 'white', emissive: '#00ff41', emissiveIntensity: 1 });
-        const mesh = new THREE.Mesh(geometry, material);
-        const pMesh = particleSystem.InitializeParticles(mesh, 5000);
-        setParticleMesh(pMesh);
-
-        // Initialize the worker manager
-        const manager = new ParticleWorkerManager(particleSystem, 0);
-        workerManagerRef.current = manager;
-
-        return () => {
-            manager.terminate();
-        }
-    }, [particleSystem]);
-
-    const textReady = useRef({ name: false, title: false });
-
     const handleInteraction = useCallback(() => {
-        if (!textVisible || !particleSystem) return;
+        // Create and dispatch a custom event to trigger the explosion
+        const event = new CustomEvent('explode');
+        window.dispatchEvent(event);
 
-        const textGeometries: THREE.BufferGeometry[] = [];
-        if (nameRef.current) textGeometries.push(nameRef.current.geometry.clone().applyMatrix4(nameRef.current.matrixWorld));
-        if (titleRef.current) textGeometries.push(titleRef.current.geometry.clone().applyMatrix4(titleRef.current.matrixWorld));
-
-        const allVertices = new Float32Array(
-            textGeometries.reduce((acc, geom) => acc + geom.attributes.position.array.length, 0)
-        );
-
-        let offset = 0;
-        textGeometries.forEach(geom => {
-            allVertices.set(geom.attributes.position.array, offset);
-            offset += geom.attributes.position.array.length;
-        });
-
-        if (allVertices.length > 0) {
-            particleSystem.setStartPositionFromArray(false, allVertices);
-            particleSystem.setForce([0, 0.0005, 0]);
-            particleSystem.setAttributeOverLifeTime("opacity", [1], [0]);
-            particleSystem.setSourceAttributes("rotation", [0,0,0], true, -Math.PI, Math.PI);
-            particleSystem.setAttributeOverLifeTime("rotation", [0,0,0], [1,1,1]);
-            particleSystem.setMaxLifeTime(3, true, 2, 4);
-            particleSystem.setBurstCount(allVertices.length / 3);
-            particleSystem.startPS();
-            // After setup, update the worker with the new values
-            if (workerManagerRef.current) {
-                workerManagerRef.current.updateWorkerValues();
-            }
-        }
-
-        setTextVisible(false);
-
+        // Scroll down after a delay
         setTimeout(() => {
             window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
-        }, 1000);
-    }, [particleSystem, textVisible]);
+        }, 200);
 
-    const onTextReady = useCallback((type: 'name' | 'title', ref: THREE.Mesh) => {
-        if (type === 'name') nameRef.current = ref;
-        else titleRef.current = ref;
+        // Remove listeners to prevent re-triggering
+        window.removeEventListener('scroll', handleInteraction);
+        window.removeEventListener('click', handleInteraction);
+    }, []);
 
-        textReady.current[type] = true;
-
-        if (textReady.current.name && textReady.current.title) {
-            window.addEventListener('scroll', handleInteraction, { once: true });
-            window.addEventListener('click', handleInteraction, { once: true });
-        }
-    }, [handleInteraction]);
+    const onExplode = (system: Particles) => {
+        console.log("Triggering particle explosion...");
+        system.setForce([0,0,0]); // Reset any existing force
+        system.setAttributeOverLifeTime("force", [0,0,0], [0,0,0], true, [-0.1, 0.1], [0.1, 0.1]); // Random outward force
+        system.setMaxLifeTime(2, true, 1, 2);
+    };
 
     useEffect(() => {
+        window.addEventListener('scroll', handleInteraction, { once: true });
+        window.addEventListener('click', handleInteraction, { once: true });
         return () => {
             window.removeEventListener('scroll', handleInteraction);
             window.removeEventListener('click', handleInteraction);
         };
     }, [handleInteraction]);
 
-    useFrame((state, delta) => {
-        // Offload simulation to the worker
-        if (workerManagerRef.current) {
-            workerManagerRef.current.updateSimulation(delta);
-        }
-    });
-
     return (
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100vh', zIndex: 1 }}>
-            <Canvas camera={{ position: [0, 0, 5] }}>
+        <div style={{ position: 'relative', width: '100%', height: '100vh', zIndex: 1 }}>
+            <div className="absolute top-1/4 left-1/2 -translate-x-1/2 text-center text-white z-10">
+                 <h1 className="text-5xl md:text-7xl font-bold mb-4 font-mono" style={{ textShadow: '2px 2px 8px rgba(0,255,65,0.7)' }}>
+                    ji-podhead
+                </h1>
+                <p className="text-xl md:text-2xl font-mono" style={{ textShadow: '1px 1px 4px rgba(0,255,65,0.5)' }}>
+                    Head of MLOps
+                </p>
+            </div>
+            <Canvas camera={{ position: [0, 0, 10] }}>
                 <Suspense fallback={null}>
-                    <ambientLight intensity={0.5} />
-                    <pointLight position={[10, 10, 10]} />
-
-                    {particleMesh && <primitive object={particleMesh} />}
-
-                    <AnimatedText content="ji-podhead" position={[0, 0.7, 0]} size={1} onReady={(ref) => onTextReady('name', ref)} visible={textVisible} />
-                    <AnimatedText content="Head of MLOps" position={[0, -0.2, 0]} size={0.4} delay={120} onReady={(ref) => onTextReady('title', ref)} visible={textVisible}/>
+                    <ambientLight intensity={0.2} />
+                    <pointLight position={[10, 10, 10]} color="#00ff41" intensity={2}/>
+                    <ParticleTextSystem onExplode={onExplode} />
                 </Suspense>
             </Canvas>
         </div>
