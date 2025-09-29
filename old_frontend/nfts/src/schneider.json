@@ -1,0 +1,2942 @@
+{
+    "elements": [
+  
+  {
+    "type": "node",
+    "id": 310614555,
+    "lat": 52.3947537,
+    "lon": 13.1025332,
+    "tags": {
+      "name": "Haarschneiderei",
+      "opening_hours": "Mo-Fr 08:00-19:00, We 08:00-20:00",
+      "shop": "hairdresser",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 311170151,
+    "lat": 52.5019042,
+    "lon": 13.3054944,
+    "tags": {
+      "craft": "tailor",
+      "name": "Änderungsatelier Dehari",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+      "self_service": "no",
+      "shop": "laundry"
+    }
+  },
+  {
+    "type": "node",
+    "id": 459672229,
+    "lat": 52.5814231,
+    "lon": 13.4048653,
+    "tags": {
+      "name": "Änderungs-Schneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 530715905,
+    "lat": 52.5421653,
+    "lon": 13.3575176,
+    "tags": {
+      "addr:housenumber": "41A",
+      "addr:street": "Sprengelstraße",
+      "cash_withdrawal:operator": "Suaquanao Ratdep",
+      "check_date": "2022-12-12",
+      "level": "0",
+      "name": "Änderungsschneiderei Phan QT",
+      "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00",
+      "phone": "+49 30 4357715",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 586251444,
+    "lat": 52.5123156,
+    "lon": 13.4668980,
+    "tags": {
+      "name": "Maß- und Änderungsatelier",
+      "opening_hours": "Tu-Fr 09:00-18:00; Sa 09:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 670658023,
+    "lat": 52.5033645,
+    "lon": 13.3242279,
+    "tags": {
+      "name": "Leistenschneider",
+      "opening_hours": "Mo-Sa 10:00-19:00",
+      "shop": "photo",
+      "website": "https://www.foto-leistenschneider.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 700775301,
+    "lat": 52.5074790,
+    "lon": 13.4969281,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "39",
+      "addr:postcode": "10317",
+      "addr:street": "Weitlingstraße",
+      "addr:suburb": "Rummelsburg",
+      "contact:phone": "+49 30 52696968",
+      "name": "Der Haarschneider",
+      "opening_hours": "Mo-Fr 10:00-17:00",
+      "shop": "hairdresser",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 737216269,
+    "lat": 52.5501606,
+    "lon": 13.4169890,
+    "tags": {
+      "addr:housenumber": "66",
+      "addr:street": "Wichertstraße",
+      "check_date": "2023-01-14",
+      "check_date:opening_hours": "2022-02-27",
+      "craft": "tailor",
+      "level": "0",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-16:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 755910109,
+    "lat": 52.5020951,
+    "lon": 13.4324990,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "7",
+      "addr:postcode": "10997",
+      "addr:street": "Eisenbahnstraße",
+      "addr:suburb": "Kreuzberg",
+      "name": "Parwana Änderungsschneiderei",
+      "opening_hours": "Mo 12:00-19:30; Tu-Fr 09:00-19:30; Sa 09:00-14:30",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 762505125,
+    "lat": 52.5120222,
+    "lon": 13.4958026,
+    "tags": {
+      "name": "Textilien Anderungsschneiderei",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 775342928,
+    "lat": 52.4585742,
+    "lon": 13.3226493,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "96",
+      "addr:postcode": "12163",
+      "addr:street": "Schloßstraße",
+      "check_date:opening_hours": "2022-06-24",
+      "contact:phone": "+49-30-7918888",
+      "craft": "photographer",
+      "name": "Leistenschneider",
+      "opening_hours": "Mo-Sa 10:00-18:00; PH,Su off",
+      "shop": "photo",
+      "website": "https://www.foto-leistenschneider.de/StoreLocator/detail/18708ee9cb534cccaacb75cd4da9e7b2",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 871561386,
+    "lat": 52.5017183,
+    "lon": 13.4180886,
+    "tags": {
+      "craft": "tailor",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00, Sa 10:00-13:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 952596477,
+    "lat": 52.3487966,
+    "lon": 13.6105606,
+    "tags": {
+      "name": "Schneider",
+      "opening_hours": "Mo-Fr 07:00-17:00; Sa 07:00-12:00",
+      "phone": "+49 33762 72789",
+      "shop": "bakery",
+      "website": "https://www.baeckerei-peter-schneider.de/filialen/backerei-zeuthen-parkstrasse/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 978979323,
+    "lat": 52.5316063,
+    "lon": 13.3962364,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "149",
+      "addr:postcode": "10115",
+      "addr:street": "Ackerstraße",
+      "amenity": "cafe",
+      "cuisine": "regional",
+      "name": "Schneiders Schokoladen",
+      "opening_hours": "We-Su 12:00-18:00",
+      "phone": "+49 30 40054569",
+      "shop": "confectionery",
+      "smoking": "no",
+      "website": "http://www.schneidersschokoladen.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1154634008,
+    "lat": 52.5186404,
+    "lon": 13.4216528,
+    "tags": {
+      "check_date:opening_hours": "2021-11-10",
+      "name": "Haarschneider",
+      "opening_hours": "Tu-Fr 09:00-19:00; Sa 09:00-13:00",
+      "shop": "hairdresser",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1268963249,
+    "lat": 52.5069334,
+    "lon": 13.2934044,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1324887742,
+    "lat": 52.4610774,
+    "lon": 13.5206625,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "40",
+      "addr:postcode": "12459",
+      "addr:street": "Wilhelminenhofstraße",
+      "addr:suburb": "Oberschöneweide",
+      "contact:phone": "+49 30 5371630",
+      "contact:website": "https://www.die-haarschneider.com/",
+      "name": "Die Haarschneider",
+      "opening_hours": "Mo-Fr 09:00-18:30; Sa 08:00-14:00",
+      "opening_hours:signed": "no",
+      "shop": "hairdresser",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1333812246,
+    "lat": 52.4641135,
+    "lon": 13.3301423,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "4",
+      "addr:postcode": "12163",
+      "addr:street": "Schöneberger Straße",
+      "contact:email": "kleiderklinik@yahoo.de",
+      "contact:mobile": "+49 173 4630044",
+      "contact:phone": "+49 30 223397044",
+      "dry_cleaning": "yes",
+      "laundry_service": "yes",
+      "name": "Kleider-Klinik Änderungsschneiderei & Vollreinigung",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+      "operator": "O. Abdelhafex",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1363511597,
+    "lat": 52.4892070,
+    "lon": 13.4087703,
+    "tags": {
+      "name": "Spezial Änderungs Schneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1392108528,
+    "lat": 52.4732024,
+    "lon": 13.2982520,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1442678349,
+    "lat": 52.4519006,
+    "lon": 13.3785875,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "100",
+      "addr:postcode": "12105",
+      "addr:street": "Rathausstraße",
+      "dry_cleaning": "yes",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-12:00,15:00-18:00; Sa 09:00-13:00",
+      "operator": "Gorica Bosnar",
+      "phone": "+49 30 70600475;+49 176 24 123 529",
+      "shop": "tailor",
+      "tailor:alteration_service": "yes",
+      "website": "https://bosnar-aenderungsschneiderei.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1538359021,
+    "lat": 52.5398913,
+    "lon": 13.4057168,
+    "tags": {
+      "name": "Fräulein Schneider",
+      "opening_hours": "Tu-Fr 10:00-19:00; Sa 10:00-18:00",
+      "shop": "hairdresser",
+      "website": "http://www.fraeulein-schneider.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1544180814,
+    "lat": 52.5486093,
+    "lon": 13.4124487,
+    "tags": {
+      "craft": "tailor",
+      "name": "Änderungsschneiderei u. Vollreinigung",
+      "shop": "dry_cleaning",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1608905744,
+    "lat": 52.5275043,
+    "lon": 13.4047409,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "8",
+      "addr:postcode": "10119",
+      "addr:street": "Gormannstraße",
+      "addr:suburb": "Mitte",
+      "contact:facebook": "https://www.facebook.com/Brillenschneiderei/",
+      "name": "Brillenschneiderei",
+      "opening_hours": "Mo,Tu 11:00-19:00; We 11:00-15:30; Th,Fr 11:00-20:00; Sa 11:00-18:00",
+      "shop": "optician",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1663350403,
+    "lat": 52.5099780,
+    "lon": 13.4510593,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "28",
+      "addr:postcode": "10243",
+      "addr:street": "Warschauer Straße",
+      "addr:suburb": "Friedrichshain",
+      "name": "Änderungsschneiderei / Haushaltswaren",
+      "opening_hours": "Mo-Fr 09:30-19:00; Sa 09:30-16:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1702699759,
+    "lat": 52.4651285,
+    "lon": 13.4868043,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housename": "Änderungsschneiderei Goldfaden",
+      "addr:housenumber": "22",
+      "addr:postcode": "12437",
+      "addr:street": "Baumschulenstraße",
+      "addr:suburb": "Baumschulenweg",
+      "name": "Änderungsschneiderei Goldfaden",
+      "opening_hours": "Mo,Tu,Th,Fr 10:00-13:00,15:00-18:00; We 10:00-14:00; Sa 10:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1702794301,
+    "lat": 52.5068206,
+    "lon": 13.5583733,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1774557665,
+    "lat": 52.4677033,
+    "lon": 13.3460310,
+    "tags": {
+      "dry_cleaning": "yes",
+      "name": "Burcu's Änderungsschneiderei Reinigung Blumenladen",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-16:00; Su 10:30-14:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1828600038,
+    "lat": 52.4373743,
+    "lon": 13.2684698,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:street": "Berliner Straße",
+      "addr:suburb": "Zehlendorf",
+      "name": "Änderungsschneiderei",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1948910139,
+    "lat": 52.5186680,
+    "lon": 13.2873635,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:postcode": "14059",
+      "addr:street": "Spandauer Damm",
+      "addr:suburb": "Charlottenburg",
+      "craft": "tailor",
+      "name": "Änderungsschneiderei Vollreinigung",
+      "note": "ein Laden, zwei Services",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+      "self_service": "no",
+      "shop": "laundry",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1969213796,
+    "lat": 52.4847751,
+    "lon": 13.3226792,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "101a",
+      "addr:postcode": "10715",
+      "addr:street": "Uhlandstraße",
+      "addr:suburb": "Wilmersdorf",
+      "craft": "tailor",
+      "name": "Exclusiv Florida Reinigung & Änderungsschneiderei",
+      "shop": "dry_cleaning",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1972305890,
+    "lat": 52.4981763,
+    "lon": 13.3066072,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:postcode": "10709",
+      "addr:street": "Paulsborner Straße",
+      "addr:suburb": "Wilmersdorf",
+      "name": "Änderungsatelier",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2026821144,
+    "lat": 52.4942623,
+    "lon": 13.3834906,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "27",
+      "addr:postcode": "10963",
+      "addr:street": "Großbeerenstraße",
+      "name": "Dialy Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:30, Sa 10:00-14:00",
+      "post_office:brand": "DHL",
+      "post_office:operator": "DHL",
+      "post_office:type": "post_partner",
+      "shop": "dry_cleaning",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2167170123,
+    "lat": 52.5040863,
+    "lon": 13.4869769,
+    "tags": {
+      "contact:mobile": "+49 176 22119894",
+      "name": "Änderungsschneiderei",
+      "note": "schuhreparatur und schlüsseldienst",
+      "opening_hours": "Mo 08:30-18:00; We 13:00-19:00; Th,Fr 08:30-18:00; Tu 13:00-18:00",
+      "operator": "E. Weibert",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2327208859,
+    "lat": 52.4544750,
+    "lon": 13.3283224,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "111",
+      "addr:postcode": "12167",
+      "addr:street": "Albrechtstraße",
+      "addr:suburb": "Steglitz",
+      "check_date:opening_hours": "2022-05-05",
+      "contact:phone": "+49 30 7917055",
+      "name": "Schneiderei Le",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2557698114,
+    "lat": 52.5264485,
+    "lon": 13.3306015,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "34",
+      "addr:postcode": "10555",
+      "addr:street": "Gotzkowskystraße",
+      "addr:suburb": "Moabit",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2618499952,
+    "lat": 52.4380198,
+    "lon": 13.5487177,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "40;41",
+      "addr:postcode": "12489",
+      "addr:street": "Dörpfeldstraße",
+      "addr:suburb": "Adlershof",
+      "name": "Änderungschneiderei und Nagel Studio",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-16:00",
+      "shop": "hairdresser",
+      "source": "Collected via KeypadMapper",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2659342738,
+    "lat": 52.4298601,
+    "lon": 13.4570345,
+    "tags": {
+      "name": "Änderungsschneiderei Yüksel",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2752211191,
+    "lat": 52.5576851,
+    "lon": 13.3858959,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "31",
+      "addr:postcode": "13359",
+      "addr:street": "Prinzenallee",
+      "addr:suburb": "Gesundbrunnen",
+      "check_date:opening_hours": "2022-04-12",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+      "phone": "+49 30 4933833",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2763458042,
+    "lat": 52.5292336,
+    "lon": 13.4702857,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "11",
+      "addr:postcode": "10369",
+      "addr:street": "Anton-Saefkow-Platz",
+      "addr:suburb": "Fennpfuhl",
+      "name": "Änderungsschneiderei / Vollreinigung",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2914315816,
+    "lat": 52.5517743,
+    "lon": 13.3838956,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2935239401,
+    "lat": 52.4848140,
+    "lon": 13.4240925,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "10",
+      "addr:postcode": "12049",
+      "addr:street": "Hermannstraße",
+      "craft": "tailor",
+      "name": "Adam Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-18:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2976817559,
+    "lat": 52.4881083,
+    "lon": 13.3016612,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "156",
+      "addr:postcode": "10713",
+      "addr:street": "Hohenzollerndamm",
+      "addr:suburb": "Wilmersdorf",
+      "level": "0",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00",
+      "operator": "Dorothea Stiller",
+      "phone": "+49 30 8242949",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3081222951,
+    "lat": 52.5427917,
+    "lon": 13.3763251,
+    "tags": {
+      "addr:housenumber": "25",
+      "addr:street": "Neue Hochstraße",
+      "check_date": "2023-01-23",
+      "check_date:opening_hours": "2022-04-15",
+      "level": "0",
+      "name": "Boutique Pyramide Voll-Reinigung & Änderungsschneiderei",
+      "opening_hours": "Mo,We,Th 09:30-18:00; Tu,Fr 13:00-18:00; Sa 09:30-13:00",
+      "shop": "dry_cleaning",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3125696376,
+    "lat": 52.3890884,
+    "lon": 13.0933975,
+    "tags": {
+      "addr:city": "Potsdam",
+      "addr:country": "DE",
+      "addr:housenumber": "27",
+      "addr:postcode": "14482",
+      "addr:street": "Großbeerenstraße",
+      "addr:suburb": "Babelsberg",
+      "check_date:opening_hours": "2022-05-09",
+      "description": "Änderungsschneiderei & Textilien-Vollreinigung",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:30-15:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3286280741,
+    "lat": 52.3994634,
+    "lon": 13.0544496,
+    "tags": {
+      "access": "customers",
+      "addr:city": "Potsdam",
+      "addr:country": "DE",
+      "addr:housenumber": "104",
+      "addr:postcode": "14467",
+      "addr:street": "Charlottenstraße",
+      "contact:phone": "+49 331 379 6298",
+      "door": "hinged",
+      "entrance": "main",
+      "handrail:right": "yes",
+      "level": "0",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:30; PH,Sa,Su off",
+      "operator": "Y. Senol",
+      "operator:type": "business",
+      "repair": "yes",
+      "shop": "tailor",
+      "step_count": "3",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3343315883,
+    "lat": 52.5235506,
+    "lon": 13.3293839,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "19",
+      "addr:postcode": "10555",
+      "addr:street": "Gotzkowskystraße",
+      "addr:suburb": "Moabit",
+      "check_date:opening_hours": "2022-11-22",
+      "name": "Schneiderei Engel",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:30-14:00",
+      "payment:cash": "yes",
+      "shop": "tailor",
+      "website": "https://änderungsschneiderei-engel.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3391905719,
+    "lat": 52.4964848,
+    "lon": 13.2940641,
+    "tags": {
+      "contact:website": "https://annaschneider.com",
+      "name": "Anna Schneider",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "shop": "clothes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3550917598,
+    "lat": 52.5151530,
+    "lon": 13.3049184,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "154",
+      "addr:postcode": "10585",
+      "addr:street": "Wilmersdorfer Straße",
+      "addr:suburb": "Charlottenburg",
+      "name": "Änderungsschneiderei",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3644532893,
+    "lat": 52.5163206,
+    "lon": 13.4401315,
+    "tags": {
+      "addr:postcode": "10243",
+      "addr:street": "Straße der Pariser Kommune",
+      "name": "Änderungsschneiderei",
+      "self_service": "no",
+      "shop": "laundry",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3669533219,
+    "lat": 52.5004212,
+    "lon": 13.3384392,
+    "tags": {
+      "name": "Schneiderei Uzuner",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3677312341,
+    "lat": 52.5565533,
+    "lon": 13.2074082,
+    "tags": {
+      "name": "Vollreinigung Schneiderei",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3689399068,
+    "lat": 52.4862108,
+    "lon": 13.4468998,
+    "tags": {
+      "craft": "tailor",
+      "name": "Änderungsschneiderei, Textilpflege, Reinigung",
+      "opening_hours": "Mo,We,Fr 09:30-15:30; Tu,Th 09:30-16:30; Sa 10:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3792649680,
+    "lat": 52.4622965,
+    "lon": 13.5151972,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "19",
+      "addr:postcode": "12459",
+      "addr:street": "Wilhelminenhofstraße",
+      "addr:suburb": "Oberschöneweide",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:30; Sa 08:30-15:30",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3792681613,
+    "lat": 52.4575559,
+    "lon": 13.5108499,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "27",
+      "addr:postcode": "12439",
+      "addr:street": "Brückenstraße",
+      "addr:suburb": "Niederschöneweide",
+      "name": "Maß- und Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3799527253,
+    "lat": 52.4982293,
+    "lon": 13.3247393,
+    "tags": {
+      "mapillary": "177754254250705",
+      "name": "Exklusive Schureparatur Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3831446199,
+    "lat": 52.4998592,
+    "lon": 13.3036934,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3883150129,
+    "lat": 52.5106254,
+    "lon": 13.4496735,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "40",
+      "addr:postcode": "10243",
+      "addr:street": "Gubener Straße",
+      "addr:suburb": "Friedrichshain",
+      "check_date:opening_hours": "2022-01-30",
+      "contact:email": "info@aenderungsstudio-schwaermer.homepage.t-online.de",
+      "contact:phone": "+49 30 2962205",
+      "contact:website": "http://www.aenderungsstudio-schwaermer.de",
+      "name": "Änderungsstudio Schwärmer",
+      "opening_hours": "Mo-Th 10:00-13:00,14:00-18:00; Fr 10:00-15:00",
+      "operator": "Andree Robby Schwärmer",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3907142925,
+    "lat": 52.5127227,
+    "lon": 13.4501654,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "20",
+      "addr:postcode": "10243",
+      "addr:street": "Grünberger Straße",
+      "check_date:opening_hours": "2022-11-21",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Th 09:00-18:00",
+      "phone": "+49 30 296 15 19",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3914049201,
+    "lat": 52.4524482,
+    "lon": 13.3333273,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "95",
+      "addr:postcode": "12167",
+      "addr:street": "Albrechtstraße",
+      "name": "Schneiderei am Busstop",
+      "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-14:30",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3956555039,
+    "lat": 52.5282123,
+    "lon": 13.3913774,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "199",
+      "addr:postcode": "10115",
+      "addr:street": "Torstraße",
+      "addr:suburb": "Mitte",
+      "amenity": "cafe",
+      "contact:facebook": "https://www.facebook.com/pages/Salon-Schneider/1447978402133763",
+      "contact:phone": "+49 30 263 71155",
+      "contact:website": "http://www.friseursalonschneider.de",
+      "name": "Salon Schneider",
+      "opening_hours": "Tu 14:00-20:00;We-Fr 10:00-20:00;Sa 11:00-17:00;Su,PH off",
+      "operator": "Swantje Schneider",
+      "shop": "hairdresser",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4010531589,
+    "lat": 52.3726663,
+    "lon": 13.6159091,
+    "tags": {
+      "addr:city": "Eichwalde",
+      "addr:housenumber": "88",
+      "addr:postcode": "15732",
+      "addr:street": "Bahnhofstraße",
+      "email": "info@baeckerei-peter-schneider.de",
+      "name": "Schneider",
+      "opening_hours": "Mo-Fr 06:30-18:00, Sa 06:30-12:00",
+      "phone": "+49 33762 72789",
+      "shop": "bakery",
+      "website": "https://www.baeckerei-peter-schneider.de/filialen/backerei-eichwalde-in-der-bahnhofstrasse/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4303834893,
+    "lat": 52.5219898,
+    "lon": 13.3489318,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "7B",
+      "addr:postcode": "10557",
+      "addr:street": "Helgoländer Ufer",
+      "name": "Änderungsschneiderei Strati",
+      "shop": "clothes",
+      "toilets:wheelchair": "no",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4304309091,
+    "lat": 52.4543490,
+    "lon": 13.5762730,
+    "tags": {
+      "laundry_service": "yes",
+      "name": "Änderungsschneiderei",
+      "self_service": "no",
+      "shop": "laundry",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4315470235,
+    "lat": 52.5491943,
+    "lon": 13.3506129,
+    "tags": {
+      "check_date:opening_hours": "2022-10-11",
+      "name": "Coiffeur Schneider",
+      "opening_hours": "Tu-Fr 09:00-18:00; Sa 09:00-15:00",
+      "shop": "hairdresser",
+      "toilets:wheelchair": "no",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4318477534,
+    "lat": 52.5480603,
+    "lon": 13.3695639,
+    "tags": {
+      "name": "Änderungsschneiderei Ole",
+      "opening_hours": "Tu-Fr 09:00-16:00; Sa 09:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4339053558,
+    "lat": 52.5587586,
+    "lon": 13.3655616,
+    "tags": {
+      "check_date:opening_hours": "2022-03-19",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00",
+      "phone": "+49 30 70226756",
+      "shop": "dry_cleaning",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4366576893,
+    "lat": 52.4884519,
+    "lon": 13.3375500,
+    "tags": {
+      "name": "Änderungsschneiderei Felix",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4414952103,
+    "lat": 52.3693865,
+    "lon": 13.1348350,
+    "tags": {
+      "laundry_service": "yes",
+      "name": "Änderungs- und Reinigungsatelier",
+      "opening_hours": "Mo-Sa 10:00-20:00; PH off",
+      "self_service": "no",
+      "shop": "laundry"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4448386334,
+    "lat": 52.5677465,
+    "lon": 13.3134245,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-13:00,14:00-18:00; Sa 09:00-13:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4527802489,
+    "lat": 52.5092123,
+    "lon": 13.4050406,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "10",
+      "addr:postcode": "10179",
+      "addr:street": "Neue Grünstraße",
+      "check_date:opening_hours": "2022-11-08",
+      "name": "Vollreinigung & Schneiderei Demirkan",
+      "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-14:00",
+      "phone": "+49 30 55646072",
+      "shop": "dry_cleaning",
+      "website": "http://www.vollreinigung-schneiderei.de",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4534097111,
+    "lat": 52.5094237,
+    "lon": 13.4646722,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "35A",
+      "addr:postcode": "10245",
+      "addr:street": "Krossener Straße",
+      "name": "Nähstube Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-16:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4558933345,
+    "lat": 52.4179985,
+    "lon": 13.5808097,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "123",
+      "addr:postcode": "12527",
+      "addr:street": "Regattastraße",
+      "contact:phone": "+49 30 67821921",
+      "contact:website": "https://www.baeckerei-peter-schneider.de/filialen/backerei-und-konditorei-berlin-grunau/",
+      "name": "Schneider",
+      "opening_hours": "Mo-Sa 07:00-20:00",
+      "shop": "bakery",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4603664067,
+    "lat": 52.5133725,
+    "lon": 13.4809511,
+    "tags": {
+      "name": "Änderungsscheiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:30-14:00; PH off",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4665154292,
+    "lat": 52.3871076,
+    "lon": 13.4093780,
+    "tags": {
+      "laundry_service": "yes",
+      "name": "Änderungsschneiderei und Wäsche",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00; PH off",
+      "self_service": "no",
+      "shop": "laundry"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4724594897,
+    "lat": 52.5263963,
+    "lon": 13.1654045,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "27",
+      "addr:postcode": "13591",
+      "addr:street": "Baluschekweg",
+      "name": "Latex-Maßschneider",
+      "operator": "Andreas Piehl",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4736286823,
+    "lat": 52.5021130,
+    "lon": 13.3305701,
+    "tags": {
+      "name": "Änderungsschneiderei Arndt",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4738285583,
+    "lat": 52.4998103,
+    "lon": 13.3068697,
+    "tags": {
+      "layer": "-1",
+      "level": "-1",
+      "name": "Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750332801,
+    "lat": 52.3865140,
+    "lon": 13.3999336,
+    "tags": {
+      "craft": "tailor",
+      "level": "0",
+      "name": "Erkann Wäscherei, Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 08:00-18:30; Sa 09:00-14:00; PH off",
+      "shop": "dry_cleaning"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4797313791,
+    "lat": 52.4366474,
+    "lon": 13.5449015,
+    "tags": {
+      "craft": "tailor",
+      "name": "fashion nails & Änderungsschneiderei",
+      "shop": "beauty"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4803249138,
+    "lat": 52.3996434,
+    "lon": 13.0539777,
+    "tags": {
+      "addr:city": "Potsdam",
+      "addr:country": "DE",
+      "addr:housenumber": "53",
+      "addr:postcode": "14467",
+      "addr:street": "Dortustraße",
+      "addr:suburb": "Nördliche Innenstadt",
+      "contact:mobile": "+49 172 384 2367",
+      "name": "Änderungsatelier Jaqueline",
+      "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-14:00; PH,Su off",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4834609495,
+    "lat": 52.5693830,
+    "lon": 13.4015017,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "1",
+      "addr:postcode": "13187",
+      "addr:street": "Schönholzer Straße",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4900034284,
+    "lat": 52.4554578,
+    "lon": 13.3234617,
+    "tags": {
+      "addr:housenumber": "14",
+      "addr:street": "Berlinickestraße",
+      "name": "Änderungs & Maßschneiderei",
+      "opening_hours": "Mo-Fr 08:30-18:30; Sa 09:30-16:30",
+      "phone": "+49 176 57797390",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4910168766,
+    "lat": 52.5075215,
+    "lon": 13.4147536,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:30-18:30, Sa 09:30-14:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4913646736,
+    "lat": 52.3724373,
+    "lon": 13.6266463,
+    "tags": {
+      "addr:city": "Eichwalde",
+      "addr:housenumber": "55",
+      "addr:postcode": "15732",
+      "addr:street": "Uhlandallee",
+      "name": "Schneider",
+      "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-14:00; Su 07:00-17:00",
+      "phone": "+49 30 63313543",
+      "shop": "bakery",
+      "website": "https://www.baeckerei-peter-schneider.de/filialen/backerei-eichwalde-in-der-schmockwitzer-strase/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4946804972,
+    "lat": 52.4968071,
+    "lon": 13.4267076,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "143",
+      "addr:postcode": "10999",
+      "addr:street": "Reichenberger Straße",
+      "craft": "tailor",
+      "name": "Schnellreinigung Änderungsschneiderei",
+      "shop": "dry_cleaning",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4963391516,
+    "lat": 52.5593768,
+    "lon": 13.3845042,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "32",
+      "addr:postcode": "13359",
+      "addr:street": "Soldiner Straße",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-14:00; Sa 09:00-12:00",
+      "operator": "Şerife Şimşek",
+      "phone": "+49 176 20028255",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4990230178,
+    "lat": 52.4152990,
+    "lon": 13.4966510,
+    "tags": {
+      "level": "EG",
+      "name": "Schneiderei & Reinigung",
+      "opening_hours": "Mo-Fr 09:30-17:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4990230190,
+    "lat": 52.4158413,
+    "lon": 13.4983396,
+    "tags": {
+      "name": "Andew Schneider",
+      "opening_hours": "Mo-Fr 09:30-18:00",
+      "shop": "watches",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5038649313,
+    "lat": 52.4993536,
+    "lon": 13.4188411,
+    "tags": {
+      "addr:housenumber": "135a",
+      "addr:street": "Skalitzer Straße",
+      "description": "Synthesizer Modular Elektronische Musik",
+      "name": "SchneidersLaden",
+      "opening_hours": "Mo-Fr 14:00-18:00",
+      "phone": "+49 30 97 89 41 31",
+      "shop": "musical_instrument",
+      "website": "https://www.schneidersladen.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5082266449,
+    "lat": 52.4920987,
+    "lon": 13.4587264,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5117756256,
+    "lat": 52.3972015,
+    "lon": 13.0434423,
+    "tags": {
+      "craft": "tailor",
+      "name": "Änderungsatelier",
+      "opening_hours": "Mo-Fr 08:30-18:30; Sa 09:00-13:00; Su,PH off",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5165382222,
+    "lat": 52.5650534,
+    "lon": 13.5064050,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "1",
+      "addr:postcode": "13051",
+      "addr:street": "Prerower Platz",
+      "laundry_service": "yes",
+      "name": "Express Reinigung & Änderungsschneiderei",
+      "opening_hours": "Mo-Sa 09:30-20:00",
+      "phone": "+49 30 92094045",
+      "self_service": "no",
+      "shop": "laundry",
+      "toilets:wheelchair": "no",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5287275621,
+    "lat": 52.5123284,
+    "lon": 13.4175781,
+    "tags": {
+      "name": "Vollreinigung & Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-14:00",
+      "shop": "dry_cleaning"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5308195617,
+    "lat": 52.3918816,
+    "lon": 13.0957929,
+    "tags": {
+      "addr:city": "Potsdam",
+      "addr:country": "DE",
+      "addr:housenumber": "53",
+      "addr:postcode": "14482",
+      "addr:street": "Rudolf-Breitscheid-Straße",
+      "addr:suburb": "Babelsberg",
+      "check_date:opening_hours": "2020-12-15",
+      "craft": "tailor",
+      "email": "info@kreaktivsalon.de",
+      "name": "Conny´s Näh- & Änderungsatelier",
+      "opening_hours": "Tu,Th 10:00-13:00,14:00-19:00; We 10:00-15:00; Fr 10:00-13:00,14:00-18:00; Sa 10:00-13:00; PH off",
+      "phone": "+49 331 7049343",
+      "phone:mobile": "+49 173 6411127",
+      "shop": "tailor",
+      "website": "https://connys-schneiderei-babelsberg.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5389518872,
+    "lat": 52.4995494,
+    "lon": 13.3427925,
+    "tags": {
+      "name": "Änderungsschneiderei Bahram",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5391659345,
+    "lat": 52.4734113,
+    "lon": 13.2966580,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "49",
+      "addr:postcode": "14199",
+      "addr:street": "Breite Straße",
+      "name": "Änderungschneiderei",
+      "opening_hours": "Mo-Fr 08:00-18:00, Sa 09:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5469266269,
+    "lat": 52.5452398,
+    "lon": 13.4171187,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "28",
+      "addr:postcode": "10437",
+      "addr:street": "Pappelallee",
+      "addr:suburb": "Prenzlauer Berg",
+      "check_date:opening_hours": "2022-01-29",
+      "contact:website": "http://www.haarschneiderei-berlin.de/",
+      "name": "Haarschneiderei",
+      "opening_hours": "Tu-Th 10:00-20:00; Fr 10:00-22:00; Sa 11:00-18:00",
+      "shop": "hairdresser"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5480181392,
+    "lat": 52.5093748,
+    "lon": 13.3015814,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "38",
+      "addr:postcode": "10627",
+      "addr:street": "Kaiser-Friedrich-Straße",
+      "name": "Schneiderei",
+      "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5613780521,
+    "lat": 52.4384552,
+    "lon": 13.5492667,
+    "tags": {
+      "addr:housenumber": "50",
+      "addr:postcode": "12489",
+      "addr:street": "Dörpfeldstraße",
+      "description:en": "clothing & shoe repair",
+      "name": "Änderungsschneiderei & Schuhreparatur",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-15:00",
+      "shop": "shoe_repair",
+      "tailor:alteration_service": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5648017154,
+    "lat": 52.4998255,
+    "lon": 13.3512500,
+    "tags": {
+      "name": "Schneiderei Atelier",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-16:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5730624405,
+    "lat": 52.5128690,
+    "lon": 13.4508206,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "17",
+      "addr:postcode": "10243",
+      "addr:street": "Grünberger Straße",
+      "addr:suburb": "Friedrichshain",
+      "name": "Kelly Nails Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:30-20:00; Sa 10:00-19:00",
+      "shop": "beauty",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5820609051,
+    "lat": 52.5265769,
+    "lon": 13.3498016,
+    "tags": {
+      "name": "Änderungsschneiderei Schuster",
+      "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-15:30",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5922461227,
+    "lat": 52.4605076,
+    "lon": 13.3391459,
+    "tags": {
+      "check_date:opening_hours": "2022-03-06",
+      "name": "Änderungsschneiderei Schirin",
+      "opening_hours": "Mo,Tu,Th 09:00-17:00; We,Fr 12:00-17:00; Sa 09:00-12:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6079858216,
+    "lat": 52.4788180,
+    "lon": 13.4262562,
+    "tags": {
+      "craft": "tailor",
+      "level": "0",
+      "name": "Tekin Änderungsatelier",
+      "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-16:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6089741648,
+    "lat": 52.5073154,
+    "lon": 13.4964649,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "44",
+      "addr:postcode": "10317",
+      "addr:street": "Weitlingstraße",
+      "contact:mobile": "+49 174 2578682",
+      "craft": "key_cutter;tailor;shoemaker",
+      "description": "Auch Annahme von Schuhreparaturen, Reinigung, Messer- und Scherenschleiferei, Teppischreinigung, Schlüsselanfertigung",
+      "laundry_service": "yes",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 11:00-14:00",
+      "shop": "tailor",
+      "tailor:alteration_service": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6123731668,
+    "lat": 52.4893698,
+    "lon": 13.3950077,
+    "tags": {
+      "name": "Änderungsschneiderei Izgin",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6267538453,
+    "lat": 52.4514926,
+    "lon": 13.3386099,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+      "phone": "+49 30 7957390",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6275986819,
+    "lat": 52.5021989,
+    "lon": 13.3099369,
+    "tags": {
+      "name": "Schneiderei Süme",
+      "opening_hours": "Mo-Fr 10:00-13:00,14:00-18:00; Sa 10:00-13:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6297493989,
+    "lat": 52.5008570,
+    "lon": 13.4236777,
+    "tags": {
+      "name": "Änderungsschneiderei Roma",
+      "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-14:00",
+      "operator": "Franco Polisano",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6355013138,
+    "lat": 52.5270718,
+    "lon": 13.3393425,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "3",
+      "addr:postcode": "10551",
+      "addr:street": "Jonasstraße",
+      "addr:suburb": "Moabit",
+      "contact:mobile": "+49 176 24800882",
+      "contact:phone": "+49 30 28600865",
+      "craft": "shoemaker;tailor",
+      "name": "Schuhservice Schneiderei & Reinigung",
+      "opening_hours": "Mo-Fr 08:30-13:00,14:00-18:00; Sa 09:30-13:00",
+      "shop": "dry_cleaning"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6407150984,
+    "lat": 52.5282945,
+    "lon": 13.3373769,
+    "tags": {
+      "name": "Moabiter Änderungsschneiderei",
+      "opening_hours": "Mo-We,Fr 08:00-18:00; Th,Sa 08:00-13:00",
+      "shop": "sewing",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6409920572,
+    "lat": 52.5066366,
+    "lon": 13.2979082,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "90",
+      "addr:postcode": "10627",
+      "addr:street": "Kantstraße",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Tu 09:00-18:00; Th 09:00-19:00; Fr 09:00-18:00; Sa 10:00-14:00",
+      "opening_hours:covid19": "same",
+      "payment:cash": "yes",
+      "phone": "+493020985962",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6417937515,
+    "lat": 52.5220684,
+    "lon": 13.5868712,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "77-83",
+      "addr:postcode": "12619",
+      "addr:street": "Hellersdorfer Straße",
+      "name": "Änderungsatelier",
+      "opening_hours": "Mo-Fr 09:00-19:30, Sa 09:00-16:00, PH off",
+      "phone": "+49 30 56299849",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6469776854,
+    "lat": 52.4487209,
+    "lon": 13.3854106,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "45",
+      "addr:postcode": "12109",
+      "addr:street": "Mariendorfer Damm",
+      "level": "0",
+      "name": "Änderungsschneiderei Elmazi",
+      "operator": "Sukri Elmazi",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6532305046,
+    "lat": 52.5512062,
+    "lon": 13.3481559,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "54",
+      "addr:postcode": "13351",
+      "addr:street": "Kameruner Straße",
+      "addr:suburb": "Wedding",
+      "name": "Modehaus Schneiderei",
+      "opening_hours": "Mo-Fr 09:30-18:00; Sa[2] 10:30-14:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6652785316,
+    "lat": 52.4276962,
+    "lon": 13.3250316,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "30",
+      "addr:postcode": "12207",
+      "addr:street": "Morgensternstraße",
+      "name": "Änderungsschneiderei Thien Phu",
+      "opening_hours": "Mo, We, Fr 09:30-18:30; Sa 09:30-14:00",
+      "phone": "+49307733442",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6676597754,
+    "lat": 52.5383130,
+    "lon": 13.4233073,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "201",
+      "addr:postcode": "10405",
+      "addr:street": "Prenzlauer Allee",
+      "addr:suburb": "Prenzlauer Berg",
+      "check_date:opening_hours": "2020-11-22",
+      "contact:phone": "+49 30 44327432",
+      "contact:website": "https://www.massatelier-minhvu.com/",
+      "name": "Änderungsschneiderei-Maßatelier Minh Vu",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6695381532,
+    "lat": 52.5479984,
+    "lon": 13.3547020,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "2",
+      "addr:postcode": "13353",
+      "addr:street": "Ostender Straße",
+      "addr:suburb": "Wedding",
+      "contact:phone": "+49 30 4533129",
+      "name": "Änderungsstübchen",
+      "opening_hours": "Tu-Fr 10:00-16:00; Sa 09:00-12:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6724722048,
+    "lat": 52.5027453,
+    "lon": 13.4903970,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "24",
+      "addr:postcode": "10317",
+      "addr:street": "Leopoldstraße",
+      "addr:suburb": "Rummelsburg",
+      "check_date:opening_hours": "2021-12-14",
+      "contact:mobile": "+49 1773158822",
+      "contact:website": "http://www.schneiderkeramik.de/",
+      "name": "Schneider Keramik",
+      "opening_hours": "Tu,Th 14:00-19:00",
+      "shop": "pottery",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7020761963,
+    "lat": 52.5428773,
+    "lon": 13.4897317,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "29a",
+      "addr:postcode": "13055",
+      "addr:street": "Konrad-Wolf-Straße",
+      "check_date:opening_hours": "2023-01-15",
+      "name": "Textilreinigung & Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:30-18:00, Sa 10:00-14:00",
+      "shop": "dry_cleaning"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7025879083,
+    "lat": 52.5340891,
+    "lon": 13.4367191,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "150",
+      "addr:postcode": "10407",
+      "addr:street": "Danziger Straße",
+      "check_date:opening_hours": "2022-02-02",
+      "name": "Kurzwaren, Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7025879196,
+    "lat": 52.5355490,
+    "lon": 13.4350885,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "129",
+      "addr:postcode": "10407",
+      "addr:street": "Danziger Straße",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7122918326,
+    "lat": 52.5286320,
+    "lon": 13.4113455,
+    "tags": {
+      "name": "Maß- & Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 11:00-16:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7233554305,
+    "lat": 52.5420083,
+    "lon": 13.4393471,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "165",
+      "addr:postcode": "10409",
+      "addr:street": "Greifswalder Straße",
+      "addr:suburb": "Prenzlauer Berg",
+      "check_date:opening_hours": "2022-10-04",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-13:00,15:00-18:30; Sa 10:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7233815636,
+    "lat": 52.4848502,
+    "lon": 13.3831093,
+    "tags": {
+      "name": "NIL Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:30-12:00,13:30-18:00; Sa 10:30-14:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7235447873,
+    "lat": 52.5029716,
+    "lon": 13.3460956,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "14",
+      "addr:postcode": "10787",
+      "addr:street": "Keithstraße",
+      "addr:suburb": "Schöneberg",
+      "contact:email": "office@ätelier.de",
+      "contact:phone": "+49 30 70080524",
+      "contact:website": "https://ätelier.de/",
+      "name": "Ätelier Schneiderei",
+      "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-14:00; Su,Mo off",
+      "operator": "Polina Schneider",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7315226393,
+    "lat": 52.5071595,
+    "lon": 13.3054063,
+    "tags": {
+      "name": "Änderungsatelier",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7417578442,
+    "lat": 52.5011849,
+    "lon": 13.4615817,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "6",
+      "addr:postcode": "10245",
+      "addr:street": "Persiusstraße",
+      "name": "Reinigungsannahme & Änderungschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7598895264,
+    "lat": 52.4698410,
+    "lon": 13.3307139,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "10",
+      "addr:postcode": "12161",
+      "addr:street": "Schmiljanstraße",
+      "addr:suburb": "Friedenau",
+      "name": "Schneiderei-Bedarf Aurfali",
+      "opening_hours": "Mo-Fr 16:00-20:00, We 10:00-20:00, Sa 10:00-16:00",
+      "shop": "sewing",
+      "website": "http://www.schneidereibedarf-berlin.de/",
+      "wholesale": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7609647921,
+    "lat": 52.5255728,
+    "lon": 13.3400736,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "84a",
+      "addr:postcode": "10555",
+      "addr:street": "Alt-Moabit",
+      "name": "Schneider-Atelier",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640833465,
+    "lat": 52.4749353,
+    "lon": 13.3390868,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "72",
+      "addr:postcode": "12159",
+      "addr:street": "Hauptstraße",
+      "check_date:opening_hours": "2022-07-23",
+      "dry_cleaning": "yes",
+      "name": "Die moderne Änderungsschneiderei & Vollreinigung",
+      "opening_hours:signed": "no",
+      "service:copy": "yes",
+      "service:fax": "yes",
+      "shop": "tailor",
+      "website": "https://anderungsschneiderei-vollreinigung.business.site/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640833466,
+    "lat": 52.4727373,
+    "lon": 13.3372304,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "1",
+      "addr:postcode": "12159",
+      "addr:street": "Fregestraße",
+      "addr:suburb": "Friedenau",
+      "dry_cleaning": "yes",
+      "laundry_service": "yes",
+      "name": "Maß- und Änderungsatelier",
+      "opening_hours": "Mo-We 10:00-17:00; Fr 10:00-17:00; Sa 09:00-19:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640877830,
+    "lat": 52.4735069,
+    "lon": 13.3294577,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "25",
+      "addr:postcode": "12159",
+      "addr:street": "Sarrazinstraße",
+      "addr:suburb": "Friedenau",
+      "check_date:opening_hours": "2021-10-16",
+      "name": "Vangie's Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-13:00,15:00-18:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7659404101,
+    "lat": 52.4800671,
+    "lon": 13.3457466,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "59",
+      "addr:postcode": "10827",
+      "addr:street": "Hauptstraße",
+      "addr:suburb": "Schöneberg",
+      "name": "Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7680987943,
+    "lat": 52.4800329,
+    "lon": 13.3269661,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "16a",
+      "addr:postcode": "10715",
+      "addr:street": "Mainzer Straße",
+      "addr:suburb": "Wilmersdorf",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Tu-Fr 09:00-13:00,14:00-18:30; Sa 09:00-13:30",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7685796320,
+    "lat": 52.4863878,
+    "lon": 13.3191173,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "124",
+      "addr:postcode": "10713",
+      "addr:street": "Berliner Straße",
+      "addr:suburb": "Wilmersdorf",
+      "description": "Maß- und Änderungsschneiderei, Schuhreparatur",
+      "name": "Änderungsschneiderei Youssef",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-14:00",
+      "shoe_repair": "yes",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7752757114,
+    "lat": 52.4954027,
+    "lon": 13.2873230,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "4",
+      "addr:postcode": "10711",
+      "addr:street": "Storkwinkel",
+      "addr:suburb": "Halensee",
+      "dry_cleaning": "yes",
+      "name": "Königer Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7767814952,
+    "lat": 52.4931842,
+    "lon": 13.2960354,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "16",
+      "addr:postcode": "10711",
+      "addr:street": "Seesener Straße",
+      "addr:suburb": "Halensee",
+      "name": "Änderungsschneiderei \"Passt Wieder\"",
+      "opening_hours": "Tu-Fr 08:00-18:00; Sa 09:00-12:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7773344889,
+    "lat": 52.5024501,
+    "lon": 13.3135253,
+    "tags": {
+      "name": "Tiamo Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7804846353,
+    "lat": 52.4863107,
+    "lon": 13.3241672,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "141",
+      "addr:postcode": "10715",
+      "addr:street": "Berliner Straße",
+      "addr:suburb": "Wilmersdorf",
+      "name": "Änderungsschneiderei Hamid",
+      "shop": "tailor",
+      "website": "https://h-f-textilpflege-anderungensschneidrei-hamid.business.site/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7820207196,
+    "lat": 52.5222792,
+    "lon": 13.1643558,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "28-30",
+      "addr:postcode": "13593",
+      "addr:street": "Obstallee",
+      "contact:phone": "+49 162 709 06 06",
+      "name": "Maß-Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-15:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7821126110,
+    "lat": 52.4857312,
+    "lon": 13.3263179,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "6",
+      "addr:postcode": "10715",
+      "addr:street": "Mehlitzstraße",
+      "name": "Lara M. Schneider Atelier",
+      "shop": "tailor",
+      "source": "Geoportal Berlin / Hauskoordinaten"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7836030455,
+    "lat": 52.3145609,
+    "lon": 13.6086034,
+    "tags": {
+      "addr:city": "Wildau",
+      "addr:housenumber": "1",
+      "addr:postcode": "15745",
+      "addr:street": "Chausseestraße",
+      "name": "Express Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7902888554,
+    "lat": 52.5158368,
+    "lon": 13.4646512,
+    "tags": {
+      "addr:housenumber": "36",
+      "addr:street": "Samariterstraße",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7925755984,
+    "lat": 52.4262517,
+    "lon": 13.4820866,
+    "tags": {
+      "name": "Änderungsschneiderei Kleider Klinik",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00",
+      "shop": "sewing"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7995802551,
+    "lat": 52.4826187,
+    "lon": 13.3500905,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "120",
+      "addr:postcode": "10827",
+      "addr:street": "Hauptstraße",
+      "addr:suburb": "Schöneberg",
+      "name": "Änderungsatelier",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8046890644,
+    "lat": 52.4889992,
+    "lon": 13.4217288,
+    "tags": {
+      "craft": "tailor",
+      "name": "Schneiderei Fistan",
+      "opening_hours": "Mo-Fr 10:00-18:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8071126864,
+    "lat": 52.4724117,
+    "lon": 13.3197708,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "16",
+      "addr:postcode": "14197",
+      "addr:street": "Landauer Straße",
+      "addr:suburb": "Wilmersdorf",
+      "check_date:opening_hours": "2022-05-19",
+      "contact:phone": "+49 30 89739698",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:30",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8119481793,
+    "lat": 52.4587481,
+    "lon": 13.3161373,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "11",
+      "addr:postcode": "12165",
+      "addr:street": "Grunewaldstraße",
+      "addr:suburb": "Steglitz",
+      "name": "Ihr Haar-Schneider",
+      "shop": "hairdresser"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8122194421,
+    "lat": 52.4673576,
+    "lon": 13.3280089,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "92",
+      "addr:postcode": "12161",
+      "addr:street": "Bundesallee",
+      "addr:suburb": "Friedenau",
+      "name": "Gamash Schneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8143925998,
+    "lat": 52.4713678,
+    "lon": 13.3198111,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "44",
+      "addr:postcode": "14197",
+      "addr:street": "Laubacher Straße",
+      "addr:suburb": "Wilmersdorf",
+      "name": "Laubacher Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8176633043,
+    "lat": 52.4693801,
+    "lon": 13.3312374,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "65",
+      "addr:postcode": "12161",
+      "addr:street": "Handjerystraße",
+      "addr:suburb": "Friedenau",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 11:00-17:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8200085125,
+    "lat": 52.4671717,
+    "lon": 13.3079434,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "10",
+      "addr:postcode": "14195",
+      "addr:street": "Breitenbachplatz",
+      "addr:suburb": "Dahlem",
+      "craft": "shoe_repair",
+      "name": "Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8222417371,
+    "lat": 52.4671963,
+    "lon": 13.3190907,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "10",
+      "addr:postcode": "14197",
+      "addr:street": "Kreuznacher Straße",
+      "addr:suburb": "Wilmersdorf",
+      "name": "Änderungsatelier",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8307364245,
+    "lat": 52.5569881,
+    "lon": 13.3408996,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo,Tu,Th,Fr 09:30-19:00; We 10:30-19:00; Sa 09:30-18:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8328204037,
+    "lat": 52.5040110,
+    "lon": 13.3076969,
+    "tags": {
+      "name": "Änderungsatelier",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8378546960,
+    "lat": 52.4660013,
+    "lon": 13.3243198,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "9",
+      "addr:postcode": "12163",
+      "addr:street": "Bornstraße",
+      "addr:suburb": "Friedenau",
+      "dry_cleaning": "yes",
+      "name": "Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8423617308,
+    "lat": 52.4858081,
+    "lon": 13.3456816,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "7a",
+      "addr:postcode": "10823",
+      "addr:street": "Meininger Straße",
+      "addr:suburb": "Schöneberg",
+      "dry_cleaning": "yes",
+      "level": "0",
+      "name": "Änderungs-Schneiderei Aller Art",
+      "opening_hours": "Mo-Fr 10:00-18:00",
+      "shop": "tailor",
+      "tailor:alteration_service": "only",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8585855237,
+    "lat": 52.3727600,
+    "lon": 13.6162076,
+    "tags": {
+      "addr:city": "Eichwalde",
+      "addr:housenumber": "87",
+      "addr:postcode": "15732",
+      "addr:street": "Bahnhofstraße",
+      "brand": "Ammann;Austermann;bugatti;cito;cronert;hajo;maximo;pastunette;nina von c;schachenmayr;on line",
+      "clothes": "women;underwear;unisexs",
+      "contact:mobile": "+49 171 34 40 194",
+      "email": "Klatt.Annette@arcor.de",
+      "name": "Klatt - Wäsche, Änderungen, Reinigung",
+      "opening_hours": "Mo-Fr 10:30-17:00; Sa 10:00-13:00",
+      "operator": "Annette Klatt",
+      "payment:cash": "yes",
+      "payment:credit_cards": "yes",
+      "phone": "+49 30 675 6147",
+      "shop": "clothes",
+      "start_date": "1990-10-01",
+      "website": "http://waescheladen-in-eichwalde.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8625793638,
+    "lat": 52.4496255,
+    "lon": 13.2521712,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:postcode": "14169",
+      "addr:street": "Ladenstraße",
+      "name": "C&S Boutique Schneiderei",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+      "phone": "+49 30 -84719338",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8625793649,
+    "lat": 52.4498716,
+    "lon": 13.2535833,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "21",
+      "addr:postcode": "14169",
+      "addr:street": "Ladenstraße",
+      "name": "Zehlendorf Schneiderei",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "shop": "tailor",
+      "website": "https://onkeltomsladenstrasse.de/zehlendorf-schneiderei/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8626180833,
+    "lat": 52.5152717,
+    "lon": 13.3002537,
+    "tags": {
+      "name": "Renate Pawlik Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:00-15:30; Sa 09:00-11:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8708809197,
+    "lat": 52.5177747,
+    "lon": 13.4398413,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "87",
+      "addr:postcode": "10243",
+      "addr:street": "Karl-Marx-Allee",
+      "name": "Tex Schneiderei",
+      "phone": "+49 30 48622760",
+      "shop": "dry_cleaning",
+      "tailor:alteration_service": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8753926537,
+    "lat": 52.5672284,
+    "lon": 13.0997939,
+    "tags": {
+      "addr:city": "Falkensee",
+      "addr:housenumber": "40",
+      "addr:postcode": "14612",
+      "addr:street": "Freimuthstraße",
+      "name": "Änderungsschneiderei Falkensee",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8786783069,
+    "lat": 52.5349361,
+    "lon": 13.4953345,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "275",
+      "addr:postcode": "13055",
+      "addr:street": "Landsberger Allee",
+      "name": "Änderungsschneiderei Express",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8806284629,
+    "lat": 52.5377307,
+    "lon": 13.6060309,
+    "tags": {
+      "craft": "key_cutter;tailor",
+      "level": "0",
+      "name": "Bestor Änderungsschneiderei Schlüsseldienst",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8839649645,
+    "lat": 52.4991331,
+    "lon": 13.2960906,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "40",
+      "addr:postcode": "10711",
+      "addr:street": "Joachim-Friedrich-Straße",
+      "addr:suburb": "Halensee",
+      "fax": "+49 30 89540961",
+      "name": "Schneider-Ateilier Heide Speer",
+      "opening_hours": "Mo-Th 10:00-13:00,15:00-18:00; Fr off",
+      "phone": "+49 30 3233907",
+      "shop": "tailor",
+      "website": "https://www.heidispeer-schneider-atelier.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8960917293,
+    "lat": 52.5374489,
+    "lon": 13.2688393,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "25",
+      "addr:postcode": "13629",
+      "addr:street": "Quellweg",
+      "addr:suburb": "Siemensstadt",
+      "name": "Änderungsschneiderei Kim",
+      "shop": "tailor",
+      "tailor:alteration_service": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9011256402,
+    "lat": 52.4872777,
+    "lon": 13.3546343,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "25",
+      "addr:postcode": "10823",
+      "addr:street": "Akazienstraße",
+      "addr:suburb": "Schöneberg",
+      "name": "Atelier schneider",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "shop": "tailor",
+      "website": "http://www.atelierschneider.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9283750256,
+    "lat": 52.4573112,
+    "lon": 13.5082346,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "21",
+      "addr:postcode": "12439",
+      "addr:street": "Schnellerstraße",
+      "level": "0",
+      "name": "Expert Änderungsschneiderei",
+      "opening_hours": "Mo-Sa 10:00-20:00",
+      "opening_hours:covid19": "Mo-Sa 10:00-19:00",
+      "operator": "Kadir Arslan",
+      "phone": "+49 30 63904892",
+      "shop": "tailor",
+      "website": "https://www.zentrumschoeneweide.de/shops/expert-aenderungsschneiderei-und-reinigungsannahme/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9286730165,
+    "lat": 52.4326296,
+    "lon": 13.3914154,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9329903507,
+    "lat": 52.4804205,
+    "lon": 13.4349269,
+    "tags": {
+      "craft": "tailor",
+      "name": "Bildik Änderungsschneiderei",
+      "phone": "+493030342090",
+      "shop": "second_hand",
+      "start_date": "1994"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9423579630,
+    "lat": 52.5487944,
+    "lon": 13.4540068,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "60",
+      "addr:postcode": "13088",
+      "addr:street": "Berliner Allee",
+      "name": "La Mano (Schneider)",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+      "operator": "Alina Kramer-Studinski",
+      "phone": "+4930 92 37 46 11",
+      "shop": "tailor",
+      "website": "http://www.berlin-lamano.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9500966699,
+    "lat": 52.4599163,
+    "lon": 13.3255503,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "5",
+      "addr:postcode": "12163",
+      "addr:street": "Hubertusstraße",
+      "addr:suburb": "Steglitz",
+      "name": "Hot Peppers Schneiderei",
+      "shop": "tailor",
+      "website": "https://www.hotpeppers-berlin.com/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9625125528,
+    "lat": 52.5138910,
+    "lon": 13.3121594,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "22",
+      "addr:postcode": "10585",
+      "addr:street": "Zillestraße",
+      "addr:suburb": "Charlottenburg",
+      "name": "Änderungs-Schneiderei am Opern-Viertel",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+      "shop": "tailor",
+      "source": "survey",
+      "survey:date": "2022-03-02"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9633252371,
+    "lat": 52.5746359,
+    "lon": 13.3590378,
+    "tags": {
+      "name": "Mass- & Änderungsschneiderei",
+      "opening_hours": "Mo-Fr 09:30-18:00; Sa 10:00-14:00",
+      "shop": "tailor",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9723751305,
+    "lat": 52.5278261,
+    "lon": 13.1164772,
+    "tags": {
+      "addr:housenumber": "1a",
+      "addr:street": "Ausbau",
+      "contact:mobile": "+49 160 95290195",
+      "name": "Gärtnerei Baderschneider",
+      "opening_hours": "Mo-Fr 13:00-17:00; Sa 09:00-13:00",
+      "shop": "garden_centre"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9767433703,
+    "lat": 52.4880148,
+    "lon": 13.4270422,
+    "tags": {
+      "name": "Studio 14 Haarschneiderei",
+      "opening_hours": "Mo-Sa 11:00-20:00",
+      "shop": "hairdresser"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9787444675,
+    "lat": 52.5276377,
+    "lon": 13.3357380,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "3B",
+      "addr:postcode": "10551",
+      "addr:street": "Oldenburger Straße",
+      "addr:suburb": "Moabit",
+      "check_date:opening_hours": "2022-09-29",
+      "contact:phone": "+49 30 39887429",
+      "name": "Änderungsschneiderei Abdullah Yetisyigit",
+      "opening_hours": "Mo-Fr 08:30-18:30, Sa 08:30-15:00",
+      "operator": "Abdullah Yetisyigit",
+      "shop": "tailor",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9813420477,
+    "lat": 52.5105228,
+    "lon": 13.5884249,
+    "tags": {
+      "name": "Schneiderei König",
+      "opening_hours": "Tu 06:30-18:00; We 06:30-14:00; Fr 06:30-12:00; Sa 09:00-13:00; Mo,Th,Su,PH off",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10124884261,
+    "lat": 52.4889580,
+    "lon": 13.3537051,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:country": "DE",
+      "addr:housenumber": "14",
+      "addr:postcode": "10823",
+      "addr:street": "Akazienstraße",
+      "addr:suburb": "Schöneberg",
+      "clothes": "men",
+      "name": "Heiner Schneider",
+      "opening_hours": "Mo-Fr 10:00-19:00; Su 10:00-18:00",
+      "shop": "clothes",
+      "website": "https://www.heinerschneider.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10132369775,
+    "lat": 52.5525830,
+    "lon": 13.4152951,
+    "tags": {
+      "addr:street": "Kuglerstraße",
+      "name": "Änderungs Atelier Moda",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10248390432,
+    "lat": 52.4975920,
+    "lon": 13.3230656,
+    "tags": {
+      "name": "Änderungsschneiderei",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10310789143,
+    "lat": 52.4686706,
+    "lon": 13.4313212,
+    "tags": {
+      "addr:city": "Berlin",
+      "addr:housenumber": "36",
+      "addr:postcode": "12051",
+      "addr:street": "Emser Straße",
+      "email": "b.selami@yahoo.de",
+      "name": "Änderungsschneiderei: Reinigungs und Maßanfertigung",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-16:00",
+      "operator": "S. Bayram",
+      "payment:cash": "yes",
+      "phone": "+49 176 80 60 32 93",
+      "shop": "tailor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10400674082,
+    "lat": 52.5274769,
+    "lon": 13.3880227,
+    "tags": {
+      "addr:housenumber": "227",
+      "addr:street": "Torstraße",
+      "check_date": "2023-01-09",
+      "level": "0",
+      "name": "Änderungsatelier Kerstin",
+      "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-13:00",
+      "shop": "tailor",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10537010395,
+    "lat": 52.5141063,
+    "lon": 13.3050670,
+    "tags": {
+      "check_date": "2023-01-10",
+      "email": "beratung@betten-schneider-berlin.de",
+      "name": "Arnim Schneider",
+      "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-16:00; Su,PH off",
+      "phone": "+49 30 3413955",
+      "shop": "bed",
+      "website": "https://betten-schneider-berlin.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10565811988,
+    "lat": 52.4099946,
+    "lon": 13.0512588,
+    "tags": {
+      "craft": "tailor",
+      "name": "Änderungsschneiderei Asma",
+      "phone": "+49 1520 2171403",
+      "shop": "tailor"
+    }
+  }
+  
+    ]
+  }
+  

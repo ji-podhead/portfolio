@@ -1,0 +1,1563 @@
+{
+  "elements": [
+
+{
+  "type": "node",
+  "id": 635820518,
+  "lat": 52.4614204,
+  "lon": 13.3259279,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "111",
+    "addr:postcode": "12163",
+    "addr:street": "Schloßstraße",
+    "addr:suburb": "Steglitz",
+    "name": "SchuStar",
+    "shoes:repair": "yes",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 865943433,
+  "lat": 52.4999688,
+  "lon": 13.4178065,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "97",
+    "addr:postcode": "10999",
+    "addr:street": "Adalbertstraße",
+    "addr:suburb": "Kreuzberg",
+    "contact:email": "info@abgelaufen.com",
+    "contact:phone": "+49 30 615 77 22",
+    "craft": "shoemaker;key_cutter",
+    "name": "Abgelaufen",
+    "opening_hours": "Tu-Fr 11:00-19:00; Sa 11:00-16:00",
+    "repair": "yes",
+    "shop": "locksmith",
+    "website": "http://www.abgelaufen.com"
+  }
+},
+{
+  "type": "node",
+  "id": 1032978568,
+  "lat": 52.5356452,
+  "lon": 13.4963600,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "277",
+    "addr:postcode": "13055",
+    "addr:street": "Landsberger Allee",
+    "name": "Multi-Express",
+    "opening_hours": "Mo-Sa 09:30-19:00",
+    "shop": "locksmith",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1137671525,
+  "lat": 52.5184185,
+  "lon": 13.3011236,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "6",
+    "addr:postcode": "10587",
+    "addr:street": "Lohmeyerstraße",
+    "addr:suburb": "Charlottenburg",
+    "email": "info@schluesseldienst-berlin.de",
+    "name": "BSD Schlüsseldienst Berlin",
+    "opening_hours": "24/7",
+    "operator": "Dejan Iris",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+493099259098",
+    "shop": "locksmith",
+    "website": "https://www.schluesseldienst-berlin.de"
+  }
+},
+{
+  "type": "node",
+  "id": 1252285659,
+  "lat": 52.5284273,
+  "lon": 13.4493400,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "62",
+    "addr:postcode": "10407",
+    "addr:street": "Conrad-Blenkle-Straße",
+    "addr:suburb": "Prenzlauer Berg",
+    "name": "Schlüsseldienst J. Günther GmbH",
+    "opening_hours": "Mo,We,Fr 08:00-18:00; Tu,Th 08:00-16:00; PH,Sa,Su off",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 1333828122,
+  "lat": 52.4641087,
+  "lon": 13.3309705,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "11",
+    "addr:postcode": "12163",
+    "addr:street": "Schöneberger Straße",
+    "addr:suburb": "Steglitz",
+    "contact:phone": "+49 30 85077103",
+    "craft": "key_cutter;shoemaker",
+    "name": "Fidan Schuh- und Schlüsseldienst",
+    "opening_hours": "Mo-Fr 12:00-18:00; Sa 12:00-15:00",
+    "operator": "Dincer Fidan",
+    "payment:cash": "yes",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 1508434550,
+  "lat": 52.5408986,
+  "lon": 13.4227308,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "7",
+    "addr:postcode": "10437",
+    "addr:street": "Senefelderstraße",
+    "addr:suburb": "Prenzlauer Berg",
+    "contact:phone": "+49 30 44358917",
+    "contact:website": "http://www.schluesselmaier.com/",
+    "name": "Maier Schlüsseldienst",
+    "opening_hours": "Mo-Th 09:00-12:00, 13:00-18:00; Fr 09:00-14:00",
+    "shop": "locksmith",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1747879906,
+  "lat": 52.5502024,
+  "lon": 13.4168200,
+  "tags": {
+    "check_date:opening_hours": "2021-07-28",
+    "craft": "key_cutter",
+    "name": "Kettritz",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 1915666409,
+  "lat": 52.4994865,
+  "lon": 13.3456876,
+  "tags": {
+    "craft": "locksmith",
+    "name": "Marat Nebengaus Schuhdienst & Schlüsseldienst",
+    "phone": "+49 30 23627537",
+    "website": "https://www.autoschluessel-spezialist.de/fahrzeugschluessel-schleifen-lassen/"
+  }
+},
+{
+  "type": "node",
+  "id": 2102758896,
+  "lat": 52.5742733,
+  "lon": 13.3686807,
+  "tags": {
+    "craft": "locksmith",
+    "name": "TL Sicherheitstechnik"
+  }
+},
+{
+  "type": "node",
+  "id": 2623873666,
+  "lat": 52.4888764,
+  "lon": 13.4220454,
+  "tags": {
+    "name": "Zingler Bauschlosserei & Sicherheitstechnik",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 2729870622,
+  "lat": 52.5214357,
+  "lon": 13.6980034,
+  "tags": {
+    "name": "Sicherheitsservice",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 2821286111,
+  "lat": 52.4374911,
+  "lon": 13.4477488,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "179B",
+    "addr:postcode": "12359",
+    "addr:street": "Fritz-Reuter-Allee",
+    "addr:suburb": "Britz",
+    "check_date:opening_hours": "2022-09-13",
+    "craft": "shoemaker",
+    "name": "Schuh-Service Niche",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+    "operator": "Klaus Niche",
+    "shop": "locksmith",
+    "website": "https://www.schuster-niche.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 2867835311,
+  "lat": 52.5565597,
+  "lon": 13.2089289,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "9",
+    "addr:postcode": "13587",
+    "addr:street": "Streitstraße",
+    "addr:suburb": "Hakenfelde",
+    "name": "Schlüsseldienst hakenfelde",
+    "shop": "locksmith",
+    "source": "Geoportal Berlin / Hauskoordinaten"
+  }
+},
+{
+  "type": "node",
+  "id": 3050271803,
+  "lat": 52.5154129,
+  "lon": 13.3097246,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "4",
+    "addr:postcode": "10585",
+    "addr:street": "Krumme Straße",
+    "addr:suburb": "Charlottenburg",
+    "email": "info@schluesseldienst-haymov.de",
+    "name": "Schlüsseldienst Haymov",
+    "opening_hours": "24/7",
+    "operator": "Ofir Haymov",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:visa": "yes",
+    "phone": "+493058705701",
+    "shop": "locksmith",
+    "source": "Geoportal Berlin / Hauskoordinaten",
+    "website": "https://www.schluesseldienst-haymov.de"
+  }
+},
+{
+  "type": "node",
+  "id": 3488852924,
+  "lat": 52.4947854,
+  "lon": 13.3501254,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "10a",
+    "addr:postcode": "10781",
+    "addr:street": "Hohenstaufenstraße",
+    "addr:suburb": "Schöneberg",
+    "name": "Radwainski",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 3571089409,
+  "lat": 52.4690056,
+  "lon": 13.3321008,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "16",
+    "addr:postcode": "12161",
+    "addr:street": "Schmiljanstraße",
+    "addr:suburb": "Friedenau",
+    "check_date:opening_hours": "2022-07-24",
+    "name": "Rehbein Sicherheitstechnik",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00",
+    "operator": "Rehbein Sicherheitstechnik GmbH & Co. KG",
+    "phone": "+49 30 85965500",
+    "shop": "locksmith",
+    "website": "https://www.rehbein.berlin/"
+  }
+},
+{
+  "type": "node",
+  "id": 3574378617,
+  "lat": 52.3997961,
+  "lon": 13.0505139,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "9",
+    "addr:postcode": "14467",
+    "addr:street": "Brandenburger Straße",
+    "contact:email": "info@falke-sicherheitstechnik.de",
+    "contact:phone": "+49 30 689 15957",
+    "contact:website": "https://falke-sicherheitstechnik.de",
+    "craft": "locksmith",
+    "name": "Falke Sicherheitstechnik",
+    "operator": "Falke Sicherheitstechnik GmbH"
+  }
+},
+{
+  "type": "node",
+  "id": 3769091277,
+  "lat": 52.5603688,
+  "lon": 13.3718664,
+  "tags": {
+    "craft": "locksmith",
+    "name": "Schlüsselnotdienst Rosinki",
+    "phone": "+49 30 4318404",
+    "phone_1": "+49 175 5261445",
+    "website": "https://www.rosinski.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 3826014919,
+  "lat": 52.4980832,
+  "lon": 13.3496885,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "113",
+    "addr:postcode": "10777",
+    "addr:street": "Eisenacher Straße",
+    "addr:suburb": "Schöneberg",
+    "check_date:opening_hours": "2021-08-08",
+    "craft": "key_cutter",
+    "name": "Schuhe & Schlüsseldienst",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-13:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 3906183261,
+  "lat": 52.4638324,
+  "lon": 13.5139667,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "16",
+    "addr:postcode": "12459",
+    "addr:street": "Edisonstraße",
+    "addr:suburb": "Oberschöneweide",
+    "name": "Schlüsseldienst / Metallbau",
+    "phone": "+49 30 535 02 64",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 3907029679,
+  "lat": 52.5112064,
+  "lon": 13.4475269,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "2",
+    "addr:postcode": "10243",
+    "addr:street": "Torellstraße",
+    "addr:suburb": "Friedrichshain",
+    "check_date:opening_hours": "2022-01-31",
+    "contact:email": "info@alkuba.de",
+    "contact:fax": "+49 30 297 78220",
+    "contact:phone": "+49 30 297 7820",
+    "contact:website": "http://www.alkuba.de",
+    "craft": "locksmith",
+    "description": "Schließanlagen, Barrierefreies Bauen & Wohnen, Brandschutz, Sicherheitsglas, intelligente Gebäudetechnik",
+    "name": "Alkuba",
+    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-15:00; Sa,Su,PH off",
+    "operator": "Alkuba Vertriebs GmbH - Gf. Bernhard Kötter, Hildegard Siefker (Osnabrück)"
+  }
+},
+{
+  "type": "node",
+  "id": 3920453758,
+  "lat": 52.5412997,
+  "lon": 13.6068244,
+  "tags": {
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 3994238409,
+  "lat": 52.5617225,
+  "lon": 13.0932286,
+  "tags": {
+    "contact:phone": "+49 3322 206308",
+    "contact:website": "https://www.fliegender-schluesseldienst.de/",
+    "name": "Der fliegende Schlüsseldienst - Sicherheitstechnik Carow",
+    "opening_hours": "Mo-Fr 09:00-17:00; PH off",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 4152777691,
+  "lat": 52.5324216,
+  "lon": 13.4401551,
+  "tags": {
+    "addr:housenumber": "172",
+    "addr:street": "Danziger Straße",
+    "contact:phone": "+49 30 41 72 81 88",
+    "craft": "locksmith",
+    "name": "Bellack Schlüsseldienst",
+    "opening_hours": "Mo-Fr 10:00-18:00",
+    "website": "http://www.schluesseldienst-bellack-gmbh.de/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4174131469,
+  "lat": 52.5658435,
+  "lon": 13.4083880,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "40",
+    "addr:postcode": "13187",
+    "addr:street": "Florastraße",
+    "craft": "locksmith",
+    "name": "MSG Metall- und Sicherheitstechnik Goth",
+    "opening_hours": "Mo-Th 10:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4692675946,
+  "lat": 52.4461705,
+  "lon": 13.2941236,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "62",
+    "addr:postcode": "12203",
+    "addr:street": "Unter den Eichen",
+    "name": "Schlüsseldienst & Sicherheitsschlösser Frank",
+    "opening_hours": "Mo-Fr 10:00-18:00",
+    "phone": "+49 30 831 2200",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 4709612004,
+  "lat": 52.4375928,
+  "lon": 13.2615997,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "331",
+    "addr:postcode": "14169",
+    "addr:street": "Clayallee",
+    "name": "Clayallee Schlüsseldienst",
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 09:00-14:00",
+    "phone": "+49 30 801 67 14",
+    "shop": "locksmith",
+    "website": "https://www.clayallee-schluesseldienst.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 4759185253,
+  "lat": 52.4529266,
+  "lon": 13.5753965,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "58",
+    "addr:postcode": "12555",
+    "addr:street": "Friedrichshagener Straße",
+    "email": "team@safeyou.de",
+    "fax": "+49 30 6575039",
+    "name": "Safeyou Sicherheitstechnik Diessner",
+    "opening_hours": "Mo,Tu,Th 10:00-17:00, We 10:00-18:00, Fr 10:00-15:00; PH off",
+    "operator": "Winfried Diessner",
+    "phone": "+49 30 6571100",
+    "shop": "locksmith",
+    "website": "https://www.safeyou.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 4836116637,
+  "lat": 52.3868924,
+  "lon": 13.4000017,
+  "tags": {
+    "check_date:opening_hours": "2022-11-11",
+    "name": "Schlüsseldienst & Schuhreparaturen",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00; PH closed",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 4841539089,
+  "lat": 52.5634168,
+  "lon": 13.3962293,
+  "tags": {
+    "name": "GOSO Germany",
+    "shop": "locksmith",
+    "website": "http://www.goso-germany.de"
+  }
+},
+{
+  "type": "node",
+  "id": 4841807519,
+  "lat": 52.5657694,
+  "lon": 13.4017631,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "80",
+    "addr:postcode": "13187",
+    "addr:street": "Florastraße",
+    "name": "WIESE Sicherheitstechnik",
+    "opening_hours": "Mo-Th 10:00-18:00, Fr 10:00-16:00",
+    "phone": "+49 30 4854055",
+    "shop": "locksmith",
+    "website": "https://www.keydealer.de/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4858552403,
+  "lat": 52.5332513,
+  "lon": 13.4111738,
+  "tags": {
+    "craft": "locksmith",
+    "name": "Fair Schlüsseldienst Berlin",
+    "website": "https://www.fair-schluesseldienst.de"
+  }
+},
+{
+  "type": "node",
+  "id": 4866555316,
+  "lat": 52.3995312,
+  "lon": 13.0550040,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "101",
+    "addr:postcode": "14467",
+    "addr:street": "Charlottenstraße",
+    "check_date:opening_hours": "2021-07-28",
+    "contact:email": "info@sicherheitssysteme-potsdam.de",
+    "contact:phone": "+49 331 280 5555",
+    "contact:website": "http://www.sicherheitssysteme-potsdam.de/",
+    "craft": "locksmith",
+    "door": "hinged",
+    "entrance": "main",
+    "level": "0",
+    "name": "Niemeier Sicherheitssysteme",
+    "opening_hours": "Mo-Fr 09:00-18:00; PH off",
+    "operator": "Axel Buchal",
+    "operator:type": "business",
+    "step_count": "2",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4954919177,
+  "lat": 52.5026777,
+  "lon": 13.3081031,
+  "tags": {
+    "name": "Schuh-Klinik Gebrüder Korn",
+    "operator": "Fred Korn",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 5033938822,
+  "lat": 52.4869815,
+  "lon": 13.3553222,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:postcode": "10823",
+    "addr:street": "Akazienstraße",
+    "name": "Schmidt Fachgeschäft für Sicherheit",
+    "name:de": "Schmidt Fachgeschäft für Sicherheit",
+    "opening_hours": "Mo-Fr 08:30-18:00; Sa 10:00-13:00",
+    "shop": "locksmith",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5051041624,
+  "lat": 52.4980207,
+  "lon": 13.2949011,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "105",
+    "addr:postcode": "10711",
+    "addr:street": "Kurfürstendamm",
+    "addr:suburb": "Halensee",
+    "name": "J. Fagel GmbH - Sicherheitstechnik",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-14:00",
+    "shop": "locksmith",
+    "website": "https://fagel.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 5111531939,
+  "lat": 52.5079021,
+  "lon": 13.4976806,
+  "tags": {
+    "check_date:opening_hours": "2021-05-08",
+    "name": "Schlüsseldienst Nemitz",
+    "opening_hours": "Mo-Th 08:30-18:00; Fr 08:30-16:00",
+    "shop": "locksmith",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5171487823,
+  "lat": 52.5224946,
+  "lon": 13.4069836,
+  "tags": {
+    "craft": "locksmith",
+    "name": "Falke Sicherheitstechnik",
+    "shop": "locksmith",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5473339711,
+  "lat": 52.4538169,
+  "lon": 13.3172120,
+  "tags": {
+    "addr:housenumber": "67",
+    "addr:street": "Schloßstraße",
+    "name": "Schüle",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00; Su,PH off",
+    "operator": "Marcel Schüle",
+    "phone": "+49 30 8330011",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 5476667306,
+  "lat": 52.5145919,
+  "lon": 13.3050013,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "152A",
+    "addr:postcode": "10585",
+    "addr:street": "Wilmersdorfer Straße",
+    "addr:suburb": "Charlottenburg",
+    "check_date": "2022-10-23",
+    "craft": "locksmith",
+    "name": "Schlüssel-Service-Shop",
+    "opening_hours": "Mo-Fr 09:00-18:30, Sa 10:00-14:00",
+    "phone": "+49 30 3421992",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5658978529,
+  "lat": 52.5098939,
+  "lon": 13.4702253,
+  "tags": {
+    "addr:housenumber": "54",
+    "addr:street": "Jessnerstraße",
+    "name": "Schlüsseldienst Keso 2000s",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 5718697023,
+  "lat": 52.4975373,
+  "lon": 13.3616133,
+  "tags": {
+    "craft": "locksmith",
+    "name": "Schuh- und Schlüsseldienst"
+  }
+},
+{
+  "type": "node",
+  "id": 5761495705,
+  "lat": 52.5058667,
+  "lon": 13.5582621,
+  "tags": {
+    "name": "Mister Minit",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 5782596482,
+  "lat": 52.5158530,
+  "lon": 13.2620005,
+  "tags": {
+    "check_date:opening_hours": "2022-03-15",
+    "name": "Rehbein",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 5821385995,
+  "lat": 52.3867927,
+  "lon": 13.1035464,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "99",
+    "addr:postcode": "14482",
+    "addr:street": "Großbeerenstraße",
+    "addr:suburb": "Babelsberg",
+    "contact:phone": "+49 331 237 00327",
+    "craft": "locksmith",
+    "name": "A.D.M.S. Sicherheitstechnik",
+    "operator": "A.D.M.S. Sicherheitstechnik GbR",
+    "operator:type": "business"
+  }
+},
+{
+  "type": "node",
+  "id": 5875575290,
+  "lat": 52.5578765,
+  "lon": 13.1375168,
+  "tags": {
+    "name": "Schlüsseldienst Eschenbach",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 5929188711,
+  "lat": 52.4509558,
+  "lon": 13.3408397,
+  "tags": {
+    "craft": "locksmith",
+    "name": "Sicherheitstechnik und Einbruchsschutz"
+  }
+},
+{
+  "type": "node",
+  "id": 5996144705,
+  "lat": 52.5306464,
+  "lon": 13.0839880,
+  "tags": {
+    "level": "0",
+    "name": "Mister Minit",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 6073153145,
+  "lat": 52.5016499,
+  "lon": 13.4564554,
+  "tags": {
+    "craft": "locksmith",
+    "name": "Sicherheitstechnik Metallbau",
+    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-14:00"
+  }
+},
+{
+  "type": "node",
+  "id": 6123731648,
+  "lat": 52.4894053,
+  "lon": 13.3947112,
+  "tags": {
+    "contact:phone": "+49 30 6927815",
+    "craft": "shoemaker",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 6189303137,
+  "lat": 52.3892700,
+  "lon": 13.0925936,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "21",
+    "addr:postcode": "14482",
+    "addr:street": "Großbeerenstraße",
+    "addr:suburb": "Babelsberg",
+    "contact:email": "info@sicherheitstechnik-babelsberg.de",
+    "contact:phone": "+49 331 240 565",
+    "contact:website": "https://www.sicherheitstechnik-babelsberg.de/",
+    "craft": "locksmith",
+    "description": "Fachgeschäft für Sicherheitstechnik, Schließanlagen und Einbruchschutz.",
+    "door": "hinged",
+    "entrance": "main",
+    "level": "0",
+    "name": "Sicherheitstechnik Babelsberg",
+    "operator": "Sicherheitstechnik Babelsberg GmbH",
+    "operator:type": "business",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6328898243,
+  "lat": 52.5329312,
+  "lon": 13.1973018,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "3",
+    "addr:postcode": "13581",
+    "addr:street": "Brunsbütteler Damm",
+    "addr:suburb": "Spandau",
+    "name": "Ax system",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:30-13:00",
+    "operator": "Axel Fleischer",
+    "phone": "+49 30 35135513",
+    "shop": "locksmith",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6581421552,
+  "lat": 52.4808710,
+  "lon": 13.4342074,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "65",
+    "addr:postcode": "12053",
+    "addr:street": "Boddinstraße",
+    "addr:suburb": "Neukölln",
+    "contact:website": "https://www.jacks-schluesseldienst.de/schluesseldienst-berlin-neukoelln-boddinstr-tuernotoeffnung-schlossmontage-klingel-briefkastenanlage-transpondertechnik.html",
+    "craft": "locksmith;shoemaker",
+    "description": "Schlüsselnotdienst Türöffnung Schlossmontagen 24h Notdienst Schuhmacherei",
+    "name": "jack´s",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-16:00",
+    "phone": "+49 30 61743098",
+    "shop": "locksmith",
+    "source": "survey;website",
+    "website": "https://www.jacks-schluesseldienst.de/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 6594374469,
+  "lat": 52.4802063,
+  "lon": 13.4250166,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "37",
+    "addr:postcode": "12049",
+    "addr:street": "Hermannstraße",
+    "addr:suburb": "Neukölln",
+    "craft": "locksmith;shoemaker",
+    "opening_hours": "Mo-Fr 11:00-17:00; Sa 11:00-14:00; Su off",
+    "shop": "locksmith",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 6775303493,
+  "lat": 52.4783397,
+  "lon": 13.4256175,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "48",
+    "addr:postcode": "12049",
+    "addr:street": "Hermannstraße",
+    "craft": "locksmith;shoemaker",
+    "name": "Schlüsseldienst Absatz-Bar",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa,Su, PH off",
+    "phone": "+49306214987",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 6797596184,
+  "lat": 52.4756441,
+  "lon": 13.4394393,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "160",
+    "addr:postcode": "12043",
+    "addr:street": "Karl-Marx-Straße",
+    "addr:suburb": "Neukölln",
+    "contact:website": "https://www.jacks-schluesseldienst.de/",
+    "craft": "locksmith;shoemaker",
+    "description": "Schlüsselnotdienst Türöffnung Schlossmontagen 24h Notdienst Schuhmacherei",
+    "name": "jack´s",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-16:00",
+    "phone": "+49 30 61743098",
+    "shop": "locksmith",
+    "source": "survey;website",
+    "website": "https://www.jacks-schluesseldienst.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 6899045753,
+  "lat": 52.5095638,
+  "lon": 13.3097692,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "62",
+    "addr:postcode": "10627",
+    "addr:street": "Krumme Straße",
+    "contact:website": "https://www.ado-berlin.de",
+    "name": "Schlüsseldienst ADO GmbH",
+    "phone": "+49 30 3438300",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7066762914,
+  "lat": 52.4853601,
+  "lon": 13.3552453,
+  "tags": {
+    "check_date:opening_hours": "2021-07-05",
+    "name": "Jack‘s Schuh- & Schlüsseldienst",
+    "opening_hours": "Mo-Fr 10:00-18:00, Sa 10:00-16:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7095849478,
+  "lat": 52.5347423,
+  "lon": 13.4318265,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "43a",
+    "addr:postcode": "10405",
+    "addr:street": "Greifswalder Straße",
+    "check_date:opening_hours": "2022-10-06",
+    "name": "Schlüsseldienst und Metallbau Burkhard Andersch",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00",
+    "shop": "locksmith",
+    "website": "https://www.andersch-gmbh.de/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7169300371,
+  "lat": 52.5333051,
+  "lon": 13.4398326,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "165",
+    "addr:postcode": "10407",
+    "addr:street": "Danziger Straße",
+    "addr:suburb": "Prenzlauer Berg",
+    "contact:phone": "+49 30 4441111",
+    "contact:website": "https://kiowski.de/",
+    "name": "Kiowski",
+    "opening_hours": "Mo-Th 09:30-18:00; Fr 09:30-15:00",
+    "shop": "locksmith",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7233554328,
+  "lat": 52.5435617,
+  "lon": 13.4429945,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "90",
+    "addr:postcode": "10409",
+    "addr:street": "Greifswalder Straße",
+    "addr:suburb": "Prenzlauer Berg",
+    "level": "0",
+    "name": "Maxi Express",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7598149824,
+  "lat": 52.4747989,
+  "lon": 13.3287763,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "135",
+    "addr:postcode": "12161",
+    "addr:street": "Bundesallee",
+    "addr:suburb": "Friedenau",
+    "name": "Sicherheitstechnik Wolfram Weiß",
+    "opening_hours": "Mo-Th 09:30-18:00; Fr 09:00-16:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7619972076,
+  "lat": 52.4914414,
+  "lon": 13.4233616,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "79",
+    "addr:postcode": "10967",
+    "addr:street": "Kottbusser Damm",
+    "addr:suburb": "Neukölln",
+    "craft": "locksmith",
+    "mapillary": "947383329350378",
+    "name": "Schlossmann"
+  }
+},
+{
+  "type": "node",
+  "id": 7640877829,
+  "lat": 52.4716264,
+  "lon": 13.3363317,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "17",
+    "addr:postcode": "12159",
+    "addr:street": "Hedwigstraße",
+    "addr:suburb": "Friedenau",
+    "check_date:opening_hours": "2021-08-31",
+    "name": "Knorr",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "shop": "locksmith",
+    "website": "http://www.knorr-sicherheit.de",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7680987926,
+  "lat": 52.4800885,
+  "lon": 13.3277967,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "2",
+    "addr:postcode": "10715",
+    "addr:street": "Bundesplatz",
+    "addr:suburb": "Wilmersdorf",
+    "name": "Schloss Schlüssel",
+    "opening_hours": "Mo-Fr 09:00-13:00,14:00-18:00; Sa 10:00-13:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7804846345,
+  "lat": 52.4863062,
+  "lon": 13.3235837,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "138",
+    "addr:postcode": "10715",
+    "addr:street": "Berliner Straße",
+    "addr:suburb": "Wilmersdorf",
+    "craft": "shoemaker",
+    "description": "Schuh-& Schlüsseldienst",
+    "name": "Service-Center Stella",
+    "shop": "locksmith",
+    "website": "https://service-center-stella.de/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7821126106,
+  "lat": 52.4866510,
+  "lon": 13.3259203,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "23",
+    "addr:postcode": "10715",
+    "addr:street": "Berliner Straße",
+    "addr:suburb": "Wilmersdorf",
+    "craft": "shoe_repair",
+    "description": "Schuhe - Schlüssel - Stempel - Gravuren u.v.m.",
+    "name": "Express",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7836030434,
+  "lat": 52.3139181,
+  "lon": 13.6112481,
+  "tags": {
+    "addr:city": "Wildau",
+    "addr:housenumber": "1",
+    "addr:postcode": "15745",
+    "addr:street": "Chausseestraße",
+    "name": "Schuh- und Schlüsseldienst",
+    "opening_hours": "Mo-Th 10:00-20:00; Fr,Sa 10:00-21:00; PH off",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 8043091722,
+  "lat": 52.5188055,
+  "lon": 13.4107209,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "5",
+    "addr:postcode": "10179",
+    "addr:street": "Grunerstraße",
+    "addr:suburb": "Mitte",
+    "contact:website": "http://www.schlossmeister.de/",
+    "craft": "locksmith",
+    "name": "Schlossmeister"
+  }
+},
+{
+  "type": "node",
+  "id": 8120989354,
+  "lat": 52.4577909,
+  "lon": 13.3207271,
+  "tags": {
+    "check_date:opening_hours": "2022-11-01",
+    "craft": "shoe_repair",
+    "level": "-1",
+    "name": "Service Punkt",
+    "opening_hours": "Mo-Sa 10:00-20:00; PH,Su off",
+    "opening_hours:signed": "no",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 8232955142,
+  "lat": 52.4616658,
+  "lon": 13.5217930,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "32",
+    "addr:postcode": "12459",
+    "addr:street": "Firlstraße",
+    "check_date:opening_hours": "2022-02-23",
+    "contact:phone": "+49 30 64197930",
+    "contact:website": "http://www.sfg-fuchs.de/",
+    "name": "Sicherheitsfachgeschäft Fuchs&Fuchs GbR",
+    "note": "Notdienst Tag & Nacht Raum Berlin-Köpenick:\n+49 30 5350956",
+    "opening_hours": "Mo 12:00-18:00; Tu,Th 10:00-16:00; Fr 10:00-14:00",
+    "shop": "locksmith",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8257529756,
+  "lat": 52.4861104,
+  "lon": 13.3340145,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "15",
+    "addr:postcode": "10715",
+    "addr:street": "Badensche Straße",
+    "addr:suburb": "Wilmersdorf",
+    "craft": "tailor",
+    "dry_cleaning": "yes",
+    "laundry_service": "yes",
+    "name": "Badensche Service",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+    "shoes:repair": "yes",
+    "shop": "locksmith",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8348192568,
+  "lat": 52.4940433,
+  "lon": 13.3644078,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "20",
+    "addr:postcode": "10783",
+    "addr:street": "Goebenstraße",
+    "email": "info@schluesseldienst-westphal.de",
+    "fax": "+49 30 2151237",
+    "name": "W. Westphal GmbH & Co. Schlüsseldienst KG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "phone": "+49 30 2163176",
+    "shop": "locksmith",
+    "website": "http://www.schluesseldienst-westphal.de",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8378546959,
+  "lat": 52.4657327,
+  "lon": 13.3240680,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "7",
+    "addr:postcode": "12163",
+    "addr:street": "Hackerstraße",
+    "addr:suburb": "Steglitz",
+    "name": "H. Schroeder",
+    "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-13:00",
+    "shop": "locksmith",
+    "website": "http://schluesseldienst-schroeder.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 8423496192,
+  "lat": 52.4888392,
+  "lon": 13.3416878,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "44",
+    "addr:postcode": "10825",
+    "addr:street": "Grunewaldstraße",
+    "addr:suburb": "Schöneberg",
+    "name": "Apelt Anlagenbau",
+    "shop": "locksmith",
+    "website": "http://www.apelt-anlagenbau.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 8621664470,
+  "lat": 52.5367841,
+  "lon": 13.4223877,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "209",
+    "addr:postcode": "10405",
+    "addr:street": "Prenzlauer Allee",
+    "addr:suburb": "Prenzlauer Berg",
+    "alt_name": "Schlüssel Sofort",
+    "craft": "locksmith",
+    "name": "Schlüsseldienst G. Rogawski",
+    "opening_hours": "Mo-Fr 10:00-13:00,15:00-18:00",
+    "phone": "+49 30 4423738",
+    "shop": "locksmith",
+    "website": "https://schlusseldienst-g-rogawski.business.site"
+  }
+},
+{
+  "type": "node",
+  "id": 8932851879,
+  "lat": 52.5078150,
+  "lon": 13.3040027,
+  "tags": {
+    "craft": "locksmith",
+    "name": "picobello"
+  }
+},
+{
+  "type": "node",
+  "id": 9237900834,
+  "lat": 52.5152067,
+  "lon": 13.4647585,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "2",
+    "addr:postcode": "10247",
+    "addr:street": "Samariterstraße",
+    "addr:suburb": "Friedrichshain",
+    "contact:phone": "+49 30 4267972",
+    "contact:website": "http://www.argus-berlin.de/",
+    "name": "Argus Sicherheitstechnik",
+    "opening_hours": "Mo-Fr 09:00-13:00, 14:00-18:00",
+    "operator": "Masch.-Ing. Bernd Kannengießer",
+    "shop": "locksmith",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9420865804,
+  "lat": 52.4892393,
+  "lon": 13.3486318,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "71",
+    "addr:postcode": "10823",
+    "addr:street": "Grunewaldstraße",
+    "addr:suburb": "Schöneberg",
+    "craft": "locksmith",
+    "name": "Reich Schuh- und Schlüsselservice",
+    "shoes:repair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9423610072,
+  "lat": 52.4535525,
+  "lon": 13.4385119,
+  "tags": {
+    "name": "Pi-colo",
+    "opening_hours": "Mo-Fr 10:00-18:00",
+    "phone": "+4917664464669",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9434733171,
+  "lat": 52.5675834,
+  "lon": 13.3149683,
+  "tags": {
+    "contact:phone": "+49151 55621525",
+    "craft": "locksmith",
+    "name": "Schuhmacherei",
+    "opening_hours": "Mo-Fr 09:00-13:00; Tu-Fr 15:00-18:00; Sa 09:00-12:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9461862565,
+  "lat": 52.5675537,
+  "lon": 13.3626824,
+  "tags": {
+    "name": "Schlossservice in Reinickendorf",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9712104829,
+  "lat": 52.4492950,
+  "lon": 13.4367570,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "151",
+    "addr:postcode": "12347",
+    "addr:street": "Britzer Damm",
+    "name": "SOS Schloss Service",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+49306064080",
+    "shop": "locksmith",
+    "website": "http://www.sos-schloss-service.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 9725270639,
+  "lat": 52.5696379,
+  "lon": 13.3591363,
+  "tags": {
+    "craft": "shoemaker",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9794512265,
+  "lat": 52.4640180,
+  "lon": 13.3178043,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "20",
+    "addr:postcode": "12163",
+    "addr:street": "Schildhornstraße",
+    "addr:suburb": "Steglitz",
+    "name": "Schlüsseldienst Steglitz",
+    "operator": "R. Setzermann",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9801981349,
+  "lat": 52.4998429,
+  "lon": 13.3068618,
+  "tags": {
+    "craft": "key_cutter",
+    "layer": "-1",
+    "level": "-1",
+    "name": "Service Time",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9816599391,
+  "lat": 52.5045212,
+  "lon": 13.3143612,
+  "tags": {
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9867968774,
+  "lat": 52.3874596,
+  "lon": 13.0690516,
+  "tags": {
+    "check_date": "2022-07-05",
+    "name": "Tresor & Schlüssel Service Bergk",
+    "opening_hours": "Mo-Fr 09:00-18:00; PH off",
+    "phone": "+49 331 2800218; +49 172 8984557",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9915108114,
+  "lat": 52.5495822,
+  "lon": 13.4560317,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "81",
+    "addr:postcode": "13088",
+    "addr:street": "Berliner Allee",
+    "name": "Schliessanlagenbau Banser e.K.",
+    "opening_hours": "Mo-Fr 09:30-18:00",
+    "phone": "+49309253080",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9967776931,
+  "lat": 52.5091878,
+  "lon": 13.5000854,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "5",
+    "addr:postcode": "10317",
+    "addr:street": "Irenenstraße",
+    "email": "info@schluesseldienst-seilz.de",
+    "name": "Schlüsseldienst & Schlosserei Frank Seilz",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "operator": "Frank Seilz",
+    "phone": "+49 30 5260214",
+    "shop": "locksmith",
+    "website": "https://www.schluesseldienst-seilz.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 10000523958,
+  "lat": 52.5104526,
+  "lon": 13.2820490,
+  "tags": {
+    "check_date": "2022-09-06",
+    "opening_hours": "09:00-18:30",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 10034883094,
+  "lat": 52.5340736,
+  "lon": 13.4270064,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "32a",
+    "addr:postcode": "10405",
+    "addr:street": "Marienburger Straße",
+    "name": "Schlüsseldienst Lisowski",
+    "opening_hours": "24/7",
+    "phone": "+49 30 247200-23",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 10089306590,
+  "lat": 52.5103361,
+  "lon": 13.4711411,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "7",
+    "addr:postcode": "10247",
+    "addr:street": "Oderstraße",
+    "email": "info@sd-th-schulz.de",
+    "fax": "+49 30 42016900",
+    "name": "Schlüsseldienst Th. Schulz",
+    "opening_hours": "Mo-Th 09:00-12:00,12:30-18:30; Fr 09:00-12:00,12:30-16:30",
+    "operator": "Schlüsseldienst Th. Schulz GmbH",
+    "phone": "+49 30 4273613",
+    "shop": "locksmith",
+    "website": "https://www.sd-th-schulz.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 10089396325,
+  "lat": 52.5189066,
+  "lon": 13.2857310,
+  "tags": {
+    "name": "Schloß-Schlüsseldienst",
+    "phone": "+49 325 8989",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 10091516172,
+  "lat": 52.5317727,
+  "lon": 13.4267488,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "20",
+    "addr:postcode": "10405",
+    "addr:street": "Immanuelkirchstraße",
+    "level": "0",
+    "name": "Zingler Bauschlosserei",
+    "shop": "locksmith",
+    "website": "www.zingler.gmbh",
+    "wheelchair": "limited"
+  }
+}
+
+  ]
+}

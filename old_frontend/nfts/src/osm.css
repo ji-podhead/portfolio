@@ -1,0 +1,39 @@
+path {
+  fill: #fc0;
+  fill-opacity: 1;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+path:hover {
+  fill: #0cf;
+  fill-opacity: .7;
+  cursor:pointer;
+  cursor:hand;
+}
+#canvas-container{
+  position: relative;
+}
+.canvas-leaflet-zoom-hide{
+  position:relative;
+}
+.canvas-point-item{
+  position:absolute;
+  width:10px;
+  height:10px;
+  margin-left:-5px;
+  margin-top:-5px;
+  border-radius: 50%;
+  background-color: #a4c1e7;
+  background-color: #347dc2;
+  background-color: #2a5d8d;
+  border:1px solid #32628f;
+  opacity:.5;
+}
+.canvas-point-item:hover{
+  background-color: #fc0;
+  z-index:999999;
+  cursor:pointer;
+  cursor:hand;
+  opacity:1;
+}	  

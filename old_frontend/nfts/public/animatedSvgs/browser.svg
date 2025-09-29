@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 1" viewBox="0 0 549.23 475.22">
+<defs><linearGradient id="a" x1="468.24" x2="472.06" y1="16.61" y2="159.14" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset=".06" stop-color="#000" stop-opacity=".13"/><stop offset=".16" stop-color="#000" stop-opacity=".33"/><stop offset=".26" stop-color="#000" stop-opacity=".51"/><stop offset=".37" stop-color="#000" stop-opacity=".66"/><stop offset=".48" stop-color="#000" stop-opacity=".79"/><stop offset=".59" stop-color="#000" stop-opacity=".88"/><stop offset=".71" stop-color="#000" stop-opacity=".95"/><stop offset=".84" stop-color="#000" stop-opacity=".99"/><stop offset="1" stop-color="#000"/></linearGradient>
+</defs>
+<rect width="545.05" height="375" x="60.12" y="35.01" fill="#FFFFFF" rx="24.86"/>
+<path fill="#000" d="M742 59.71v8.09H197v-8.09a24.88 24.88 0 0 1 24.87-24.87h495.29A24.87 24.87 0 0 1 742 59.71Z" transform="translate(-136.86 -3)"/>
+<circle cx="83.38" cy="52.5" r="5.64" fill="white"/>
+<circle cx="104.06" cy="52.5" r="5.64" fill="white"/>
+<circle cx="124.74" cy="52.5" r="5.64" fill="white"/>
+
+</svg>

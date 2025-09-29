@@ -1,0 +1,2326 @@
+{
+  "elements": [
+{
+  "type": "node",
+  "id": 302848535,
+  "lat": 52.5595835,
+  "lon": 13.0756609,
+  "tags": {
+    "craft": "shoemaker",
+    "description": "Orthopädie Schuhmacher",
+    "name": "Schuh-Tech",
+    "opening_hours": "Mo-Th 09:00-18:00; We,Fr 09:00-13:00; PH off"
+  }
+},
+{
+  "type": "node",
+  "id": 304034414,
+  "lat": 52.3859095,
+  "lon": 13.1079991,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "123-135",
+    "addr:postcode": "14482",
+    "addr:street": "Großbeerenstraße",
+    "addr:suburb": "Babelsberg",
+    "entrance": "main",
+    "name": "Schuhladen",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00; PH,Su off",
+    "operator:type": "business",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 324789482,
+  "lat": 52.4124620,
+  "lon": 13.3630207,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "147-155",
+    "addr:postcode": "12279",
+    "addr:street": "Marienfelder Allee",
+    "addr:suburb": "Marienfelde",
+    "contact:phone": "+49 30 72016232",
+    "contact:website": "https://www.schuhcenter.de/siemes-schuhcenter-berlin-marienfelde-marienfelder-allee-147.html",
+    "name": "SchuhCenter",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 410481762,
+  "lat": 52.5342384,
+  "lon": 13.3495022,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "17a",
+    "addr:postcode": "10559",
+    "addr:street": "Stephanstraße",
+    "addr:suburb": "Moabit",
+    "check_date:opening_hours": "2022-02-09",
+    "craft": "shoemaker",
+    "noname": "yes",
+    "opening_hours": "Mo 13:00-18:00; Tu-Fr 09:00-18:00; Sa 09:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 442715447,
+  "lat": 52.4332075,
+  "lon": 13.5361796,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "12",
+    "addr:postcode": "12489",
+    "addr:street": "Rudower Chaussee",
+    "addr:suburb": "Adlershof",
+    "brand": "K+K Schuh-Center",
+    "brand:wikidata": "Q100272258",
+    "level": "0",
+    "name": "K+K Schuh-Center",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "phone": "+493051653170",
+    "shop": "shoes",
+    "website": "https://www.k-und-k-schuhcenter.de/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 507287228,
+  "lat": 52.5209349,
+  "lon": 13.6990132,
+  "tags": {
+    "level": "0",
+    "name": "City-Schuhe",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 652846220,
+  "lat": 52.4000333,
+  "lon": 13.0524079,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "15",
+    "addr:postcode": "14467",
+    "addr:street": "Brandenburger Straße",
+    "name": "Schuh Baar",
+    "opening_hours": "Mo-Fr 09:30-19:30, Sa 09:30-18:30",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 685782412,
+  "lat": 52.3998374,
+  "lon": 13.0497754,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "13",
+    "addr:postcode": "14467",
+    "addr:street": "Hermann-Elflein-Straße",
+    "addr:suburb": "Nördliche Innenstadt",
+    "check_date:opening_hours": "2021-05-11",
+    "contact:email": "info@schuhhauswittstock.de",
+    "contact:phone": "+49 331 270 5623",
+    "contact:website": "https://www.schuhhauswittstock.de/filiale.asp?shoid=241",
+    "entrance": "main",
+    "name": "Schuhhaus Wittstock",
+    "opening_hours": "Mo-Sa 09:30-19:00; PH,Su off",
+    "operator": "Schuhhaus Horst Wittstock GmbH & Co.KG",
+    "operator:type": "business",
+    "payment:cash": "yes",
+    "payment:girocard": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shoes:repair": "yes",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 700775303,
+  "lat": 52.5077931,
+  "lon": 13.4971218,
+  "tags": {
+    "check_date:opening_hours": "2021-10-30",
+    "name": "Ortopädie Schuhtechnik",
+    "opening_hours": "Mo 07:00-18:00, Tu-Th 09:00-18:00",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 753361467,
+  "lat": 52.5700856,
+  "lon": 13.4105226,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "3",
+    "addr:postcode": "13187",
+    "addr:street": "Berliner Straße",
+    "addr:suburb": "Pankow",
+    "check_date:opening_hours": "2021-07-13",
+    "name": "Schuhhaus Pankow",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 982839401,
+  "lat": 52.3928458,
+  "lon": 13.0921597,
+  "tags": {
+    "name": "Chandi Schuhe",
+    "opening_hours": "Mo-Fr 09:30-18:00; Sa 09:30-16:00",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1067857140,
+  "lat": 52.3976285,
+  "lon": 13.0946872,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Schuhmacherei Kätow",
+    "opening_hours": "Tu,Th 09:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 1188954532,
+  "lat": 52.5006671,
+  "lon": 13.3112383,
+  "tags": {
+    "name": "Soana Exclusive Schuhe",
+    "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-19:30",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 1212599364,
+  "lat": 52.5089582,
+  "lon": 13.3771335,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "8",
+    "addr:postcode": "10117",
+    "addr:street": "Potsdamer Platz",
+    "name": "as - Aktiv Schuh",
+    "operator": "Aktiv Schuh",
+    "phone": "+49 30 39 50 74 46",
+    "shop": "shoes",
+    "website": "http://www.aktiv-schuh.de/index.php?id=30&tx_browser_pi1%5BshowUid%5D=35&cHash=0e23d54554",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1245676050,
+  "lat": 52.4972192,
+  "lon": 13.4449224,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "65",
+    "addr:postcode": "10997",
+    "addr:street": "Wrangelstraße",
+    "addr:suburb": "Kreuzberg",
+    "contact:phone": "+49-30-6183748",
+    "craft": "shoemaker",
+    "name": "Schuhmacher",
+    "opening_hours": "Mo - Fr 10:00 - 18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 1256839549,
+  "lat": 52.5008673,
+  "lon": 13.3191362,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "24",
+    "addr:postcode": "10707",
+    "addr:street": "Bleibtreustraße",
+    "addr:suburb": "Charlottenburg",
+    "name": "Schuh Konzept",
+    "shop": "shoes",
+    "website": "http://www.schuhkonzept.de/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1286549536,
+  "lat": 52.5499270,
+  "lon": 13.4164228,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Wichertstraße",
+    "check_date": "2023-01-14",
+    "check_date:opening_hours": "2022-06-25",
+    "craft": "shoemaker",
+    "level": "0",
+    "name": "Schuh-Service",
+    "opening_hours": "Mo-Fr 12:00-18:00",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1289561258,
+  "lat": 52.4765725,
+  "lon": 13.2891663,
+  "tags": {
+    "check_date:opening_hours": "2022-08-07",
+    "name": "Tivola Schuhe",
+    "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:00-14:00",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1333828122,
+  "lat": 52.4641087,
+  "lon": 13.3309705,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "11",
+    "addr:postcode": "12163",
+    "addr:street": "Schöneberger Straße",
+    "addr:suburb": "Steglitz",
+    "contact:phone": "+49 30 85077103",
+    "craft": "key_cutter;shoemaker",
+    "name": "Fidan Schuh- und Schlüsseldienst",
+    "opening_hours": "Mo-Fr 12:00-18:00; Sa 12:00-15:00",
+    "operator": "Dincer Fidan",
+    "payment:cash": "yes",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 1336698265,
+  "lat": 52.5369248,
+  "lon": 13.2036407,
+  "tags": {
+    "name": "Abis Schuhmode",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1365431663,
+  "lat": 52.5427679,
+  "lon": 13.2397670,
+  "tags": {
+    "name": "Schuhmacher Uhren & Schmuck",
+    "shop": "jewelry",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1371304694,
+  "lat": 52.5037071,
+  "lon": 13.3048700,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "37",
+    "addr:postcode": "10629",
+    "addr:street": "Mommsenstraße",
+    "addr:suburb": "Charlottenburg",
+    "craft": "shoemaker",
+    "name": "Schuh-Express",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1417258261,
+  "lat": 52.4666179,
+  "lon": 13.0145473,
+  "tags": {
+    "name": "Schuhexpress",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1661631198,
+  "lat": 52.5277023,
+  "lon": 13.4911700,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "128 - 139",
+    "addr:postcode": "10365",
+    "addr:street": "Herzbergstraße",
+    "addr:suburb": "Lichtenberg",
+    "contact:phone": "+49 176 22314803",
+    "name": "CKK Schuhgroßhandel",
+    "name:en": "CKK shoe wholesaler",
+    "opening_hours": "Mo-Su 10:30-20:00; Tu off",
+    "operator": "V. Salman",
+    "shop": "shoes",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "no",
+    "wholesale": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1702699769,
+  "lat": 52.4650722,
+  "lon": 13.4867334,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housename": "Schuhhaus Kramer",
+    "addr:housenumber": "22",
+    "addr:postcode": "12437",
+    "addr:street": "Baumschulenstraße",
+    "addr:suburb": "Baumschulenweg",
+    "name": "Schuhhaus Kramer",
+    "opening_hours": "Dec-Oct Mo-Fr 09:30-18:00; Dec-Oct Sa 09:30-12:00; Nov Mo-Fr 09:30-18:00",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1753761720,
+  "lat": 52.5429655,
+  "lon": 13.4209377,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "80a",
+    "addr:postcode": "10437",
+    "addr:street": "Dunckerstraße",
+    "addr:suburb": "Prenzlauer Berg",
+    "craft": "shoemaker",
+    "email": "schuh-falk@t-online.de",
+    "name": "Neue Schuhe",
+    "opening_hours": "Mo-We 09:00-18:00; Th 13:00-18:00",
+    "operator": "Falk Neue",
+    "phone": "+49 30 4455396"
+  }
+},
+{
+  "type": "node",
+  "id": 1827049069,
+  "lat": 52.5040755,
+  "lon": 13.3137649,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Schuh-Service"
+  }
+},
+{
+  "type": "node",
+  "id": 1895334631,
+  "lat": 52.4973094,
+  "lon": 13.2974012,
+  "tags": {
+    "check_date:opening_hours": "2022-10-22",
+    "contact:phone": "+49 30 88702294",
+    "contact:website": "https://www.achilles-massschuhe.de",
+    "craft": "shoemaker",
+    "name": "Achilles Maßschuhe",
+    "opening_hours": "Mo,Tu,Th,Fr 09:00-12:30,14:00-17:00",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1915596924,
+  "lat": 52.4976245,
+  "lon": 13.3546746,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "11",
+    "addr:postcode": "10777",
+    "addr:street": "Maaßenstraße",
+    "addr:suburb": "Schöneberg",
+    "name": "Schuhbidu",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2073204015,
+  "lat": 52.4006832,
+  "lon": 13.0534019,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "14",
+    "addr:postcode": "14467",
+    "addr:street": "Dortustraße",
+    "addr:suburb": "Nördliche Innenstadt",
+    "contact:facebook": "https://www.facebook.com/deineneuenschuhe/",
+    "door": "hinged",
+    "entrance": "main",
+    "level": "0",
+    "name": "DNS Deine neuen Schuhe",
+    "opening_hours": "Mo-Sa 11:00-18:30",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2125049422,
+  "lat": 52.5487616,
+  "lon": 13.3634425,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "19",
+    "addr:postcode": "13347",
+    "addr:street": "Schulstraße",
+    "addr:suburb": "Wedding",
+    "check_date:opening_hours": "2022-04-08",
+    "contact:phone": "+49 30 4659692",
+    "name": "Orthopädie - Schuhtechnik Greifendorf",
+    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-16:00",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "shop": "medical_supply",
+    "website": "http://orthopaedie-schuhtechnik-greifendorf.de",
+    "wheelchair": "yes",
+    "wheelchair:description": "Rampe vorhanden, einfach nachfragen"
+  }
+},
+{
+  "type": "node",
+  "id": 2154964448,
+  "lat": 52.4889464,
+  "lon": 13.4520198,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "9",
+    "addr:postcode": "12435",
+    "addr:street": "Plesser Straße",
+    "addr:suburb": "Alt-Treptow",
+    "craft": "shoemaker",
+    "name": "Mike Model Maßschuhmacher",
+    "opening_hours": "Mo 11:00-18:00; Tu,We 09:00-18:00; Th 13:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2344866381,
+  "lat": 52.4951809,
+  "lon": 13.3953586,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "55-58",
+    "addr:postcode": "10961",
+    "addr:street": "Zossener Straße",
+    "name": "Strandsandale.de - Schuhe",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 2382120409,
+  "lat": 52.5418113,
+  "lon": 13.4129079,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "89",
+    "addr:postcode": "10437",
+    "addr:street": "Pappelallee",
+    "addr:suburb": "Prenzlauer Berg",
+    "check_date": "2022-12-20",
+    "check_date:opening_hours": "2022-01-15",
+    "craft": "shoemaker",
+    "email": "info@schuhmacherei-alexander.de",
+    "level": "0",
+    "name": "Schuhmacherei J. Alexander",
+    "opening_hours": "Fr 09:00-18:00",
+    "operator": "J. Alexander",
+    "phone": "+49 30 4427756",
+    "website": "http://www.schuhmacherei-alexander.de",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2420056942,
+  "lat": 52.5063742,
+  "lon": 13.2943406,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "19",
+    "addr:postcode": "14057",
+    "addr:street": "Suarezstraße",
+    "addr:suburb": "Charlottenburg",
+    "craft": "shoemaker",
+    "name": "Schuhmacherei Karin Littwin"
+  }
+},
+{
+  "type": "node",
+  "id": 2451526493,
+  "lat": 52.5500261,
+  "lon": 13.4580680,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "97",
+    "addr:postcode": "13088",
+    "addr:street": "Berliner Allee",
+    "addr:suburb": "Weißensee",
+    "brand": "Wilhelm",
+    "name": "Wilhelm Schuhe",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 2541187097,
+  "lat": 52.4755510,
+  "lon": 13.4394750,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "160",
+    "addr:postcode": "12043",
+    "addr:street": "Karl-Marx-Straße",
+    "addr:suburb": "Neukölln",
+    "name": "Schuhreich",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "shop": "shoes",
+    "wheelchair": "no",
+    "wheelchair:description": "Treppe 16cm"
+  }
+},
+{
+  "type": "node",
+  "id": 2645364449,
+  "lat": 52.4231502,
+  "lon": 13.4759465,
+  "tags": {
+    "check_date:opening_hours": "2021-04-19",
+    "craft": "shoemaker",
+    "name": "Redzi's Schuh Express",
+    "opening_hours": "Mo-Fr 09:30-18:00, Sa 09:30-14:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2821286111,
+  "lat": 52.4374911,
+  "lon": 13.4477488,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "179B",
+    "addr:postcode": "12359",
+    "addr:street": "Fritz-Reuter-Allee",
+    "addr:suburb": "Britz",
+    "check_date:opening_hours": "2022-09-13",
+    "craft": "shoemaker",
+    "name": "Schuh-Service Niche",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+    "operator": "Klaus Niche",
+    "shop": "locksmith",
+    "website": "https://www.schuster-niche.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 2833879039,
+  "lat": 52.4595212,
+  "lon": 13.5045115,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "20A",
+    "addr:postcode": "12439",
+    "addr:street": "Schnellerstraße",
+    "brand": "Siemes Schuhcenter",
+    "brand:wikidata": "Q2800720",
+    "brand:wikipedia": "de:Siemes (Unternehmen)",
+    "name": "Siemes Schuhcenter",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "phone": "+49 30 632 29 669",
+    "shop": "shoes",
+    "website": "https://www.schuhcenter.de/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2901476838,
+  "lat": 52.4887633,
+  "lon": 13.3964923,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "30",
+    "addr:postcode": "10961",
+    "addr:street": "Bergmannstraße",
+    "addr:suburb": "Kreuzberg",
+    "check_date:opening_hours": "2022-11-17",
+    "craft": "shoemaker",
+    "description": "Schuhmacherei am Marheineckeplatz",
+    "name": "Schuh-Sumer",
+    "opening_hours": "Mo-Fr 09:00-19:00, Sa 09:00-16:00",
+    "phone": "+4915147365809",
+    "shop": "shoe_repair",
+    "website": "http://www.schuhsumer.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 3082324868,
+  "lat": 52.4292881,
+  "lon": 13.2568395,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "19A",
+    "addr:inclusion": "actual",
+    "addr:postcode": "14165",
+    "addr:street": "Machnower Straße",
+    "addr:suburb": "Zehlendorf",
+    "craft": "shoemaker",
+    "name": "Grimm's Schuhe",
+    "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-13:00",
+    "phone": "+49 30 27019673",
+    "shop": "shoes",
+    "website": "https://www.grimms-schuhe.de/schuhmacher-berlin/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3291896581,
+  "lat": 52.3077034,
+  "lon": 13.2486864,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Schuhmacher",
+    "opening_hours": "Th 09:00-12:00,14:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 3530877831,
+  "lat": 52.5051596,
+  "lon": 13.3205698,
+  "tags": {
+    "name": "Think! Schuhladen",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 3550917595,
+  "lat": 52.5151214,
+  "lon": 13.3049227,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "154",
+    "addr:postcode": "10585",
+    "addr:street": "Wilmersdorfer Straße",
+    "addr:suburb": "Charlottenburg",
+    "contact:phone": "+49 30 3428954",
+    "craft": "shoemaker",
+    "name": "Absatz-Bar",
+    "old_name": "Darkline Tattoo",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3574378595,
+  "lat": 52.4003514,
+  "lon": 13.0550840,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "24",
+    "addr:postcode": "14467",
+    "addr:street": "Brandenburger Straße",
+    "name": "Schuh Baar",
+    "opening_hours": "Mo-Sa 10:00-18:30",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3632641120,
+  "lat": 52.4868777,
+  "lon": 13.3583798,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "3-4",
+    "addr:postcode": "10827",
+    "addr:street": "Crellestraße",
+    "addr:suburb": "Schöneberg",
+    "check_date:opening_hours": "2021-10-15",
+    "craft": "shoemaker",
+    "name": "Der Schuhmachermeister",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00",
+    "shop": "shoes",
+    "wheelchair": "no",
+    "wheelchair:description": "Eine Stufe, Tür recht schmal."
+  }
+},
+{
+  "type": "node",
+  "id": 3675747144,
+  "lat": 52.5014803,
+  "lon": 13.3350010,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "OFZ Schuhmanufaktur"
+  }
+},
+{
+  "type": "node",
+  "id": 3737222083,
+  "lat": 52.5141069,
+  "lon": 13.4541391,
+  "tags": {
+    "addr:housenumber": "122",
+    "addr:street": "Boxhagener Straße",
+    "amenity": "restaurant",
+    "craft": "shoemaker",
+    "cuisine": "mexican",
+    "name": "Schuh- und Schlüsseldienst",
+    "name:en": "Taquito Mío",
+    "opening_hours": "Tu-Fr 12:00-21:30; Sa 14:00-22:00; Su 14:00-21:00",
+    "operator": "Baris Sen"
+  }
+},
+{
+  "type": "node",
+  "id": 3766528284,
+  "lat": 52.4975127,
+  "lon": 13.5215220,
+  "tags": {
+    "craft": "shoemaker",
+    "level": "0",
+    "name": "Schuhmacher Ei",
+    "opening_hours": "Mo,Th 09:30-20:00; Tu,We,Fr 10:00-18:00; Sa 09:30-15:00",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3772667663,
+  "lat": 52.5644156,
+  "lon": 13.5056339,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "1",
+    "addr:postcode": "13051",
+    "addr:street": "Prerower Platz",
+    "level": "0",
+    "name": "Schuh Bode",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3811246406,
+  "lat": 52.4655979,
+  "lon": 13.3207054,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "23",
+    "addr:postcode": "12163",
+    "addr:street": "Markelstraße",
+    "addr:suburb": "Steglitz",
+    "medical_supply": "orthopedic",
+    "name": "Orthopädie Schuh und Technik Paesler",
+    "opening_hours": "Mo-Fr 08:17-17:00; PH,Sa,Su off",
+    "shoes:repair": "yes",
+    "shop": "medical_supply",
+    "website": "http://www.paesler-berlin.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 3826014919,
+  "lat": 52.4980832,
+  "lon": 13.3496885,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "113",
+    "addr:postcode": "10777",
+    "addr:street": "Eisenacher Straße",
+    "addr:suburb": "Schöneberg",
+    "check_date:opening_hours": "2021-08-08",
+    "craft": "key_cutter",
+    "name": "Schuhe & Schlüsseldienst",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-13:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 3861761551,
+  "lat": 52.5020175,
+  "lon": 13.3204759,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:postcode": "10719",
+    "addr:street": "Kurfürstendamm",
+    "name": "Budapester Schuhe",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3883455008,
+  "lat": 52.4713942,
+  "lon": 13.1042167,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "26a",
+    "addr:postcode": "14476",
+    "addr:street": "Potsdamer Chaussee",
+    "addr:suburb": "Groß Glienicke",
+    "contact:facebook": "https://de-de.facebook.com/kkSchuhcenter",
+    "contact:phone": "+49 33201 503 742",
+    "contact:website": "https://www.k-und-k-schuhcenter.de/",
+    "entrance": "main",
+    "name": "K+K Schuhcenter",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; PH,Su off",
+    "operator": "Kienast Schuhhandels GmbH & Co. KG",
+    "operator:type": "business",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 3900932438,
+  "lat": 52.5381907,
+  "lon": 13.4178086,
+  "tags": {
+    "name": "Kleid und Schuh",
+    "opening_hours": "Mo-Sa 11:00-19:30",
+    "operator": "Ulrike Junge",
+    "shop": "clothes",
+    "website": "https://www.kleidundschuh.de/index.htm",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3978727091,
+  "lat": 52.5060478,
+  "lon": 13.5597618,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "108",
+    "addr:postcode": "12683",
+    "addr:street": "Weißenhöher Straße",
+    "brand": "K+K Schuh-Center",
+    "brand:wikidata": "Q100272258",
+    "name": "K+K Schuh-Center",
+    "shop": "shoes",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3982921776,
+  "lat": 52.5439449,
+  "lon": 13.5436370,
+  "tags": {
+    "name": "Schuh Bode",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 4163695386,
+  "lat": 52.5604390,
+  "lon": 13.0938792,
+  "tags": {
+    "addr:city": "Falkensee",
+    "addr:country": "DE",
+    "addr:housenumber": "70a",
+    "addr:postcode": "14612",
+    "addr:street": "Bahnhofstraße",
+    "brand": "K+K Schuh-Center",
+    "brand:wikidata": "Q100272258",
+    "contact:website": "https://www.k-und-k-schuhcenter.de/",
+    "name": "K+K Schuh-Center",
+    "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-16:00; PH off",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4234162692,
+  "lat": 52.5486320,
+  "lon": 13.3546496,
+  "tags": {
+    "name": "Schuh-World",
+    "opening_hours:signed": "no",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4379226492,
+  "lat": 52.4431614,
+  "lon": 13.3859245,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "51",
+    "addr:postcode": "12105",
+    "addr:street": "Prühßstraße",
+    "name": "Schuh-Schlüssel-Dienst",
+    "opening_hours": "Mo-Fr 09:00-13:00,14:30-18:00, Sa 09:30-13:00",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4379742137,
+  "lat": 52.5087141,
+  "lon": 13.3218103,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "82",
+    "addr:postcode": "10623",
+    "addr:street": "Goethestraße",
+    "craft": "shoemaker",
+    "level": "0",
+    "name": "Schuhmachermeister Stephan Pöschk",
+    "opening_hours": "Mo off; Tu-Fr 08:00-18:00; Sa 10:00-14:00",
+    "operator": "Stephan Pöschk",
+    "phone": "+49 30 313 89 39",
+    "website": "https://massschuhe-berlin.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 4383715442,
+  "lat": 52.4902439,
+  "lon": 13.3557300,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "9A",
+    "addr:postcode": "10823",
+    "addr:street": "Grunewaldstraße",
+    "addr:suburb": "Schöneberg",
+    "contact:email": "info@kleinesschuhwerk.de",
+    "contact:phone": "+49 30 55526461",
+    "contact:website": "https://kleinesschuhwerk.de/",
+    "name": "Kleines Schuhwerk",
+    "opening_hours": "Mo off; Tu-Fr 10:00-18:00; Sa 10:00-16:00",
+    "shoes": "children",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4404084984,
+  "lat": 52.4143828,
+  "lon": 13.0369215,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "4",
+    "addr:postcode": "14469",
+    "addr:street": "David-Gilly-Straße",
+    "check_date:opening_hours": "2022-07-06",
+    "contact:facebook": "https://de-de.facebook.com/kkSchuhcenter",
+    "contact:phone": "+49 331 24340093",
+    "contact:website": "https://www.k-und-k-schuhcenter.de/",
+    "entrance": "main",
+    "name": "K+K Schuh-Center",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; PH,Su off",
+    "operator": "Kienast Schuhhandels GmbH & Co. KG",
+    "operator:type": "business",
+    "ref:vatin": "DE814939914",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 4411197330,
+  "lat": 52.4020507,
+  "lon": 13.0576432,
+  "tags": {
+    "name": "Schuhhaus Clara",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4530140050,
+  "lat": 52.3024726,
+  "lon": 13.2589364,
+  "tags": {
+    "name": "K + K Schuh-Markt",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 4538137431,
+  "lat": 52.3999361,
+  "lon": 13.0638030,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "61",
+    "addr:postcode": "14467",
+    "addr:street": "Charlottenstraße",
+    "contact:email": "info@schuhwa.de",
+    "contact:fax": "+49 331 292 440",
+    "contact:phone": "+49 331 292 387",
+    "contact:website": "https://www.schuhwa.de/filialen/filiale-charlottenstrasse-61/",
+    "craft": "shoemaker",
+    "medical_supply": "orthopedic",
+    "name": "Schuhwa e.G.",
+    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-16:00; Sa 09:30-12:30",
+    "operator": "Schuhwa e.G. Potsdam",
+    "operator:type": "business",
+    "repair": "yes",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4547089197,
+  "lat": 52.5094930,
+  "lon": 13.3049714,
+  "tags": {
+    "name": "Schuh Bode",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4736286824,
+  "lat": 52.5021187,
+  "lon": 13.3304521,
+  "tags": {
+    "name": "Nizario Schuh- & Schlüsseldienst",
+    "shop": "shoe_repair"
+  }
+},
+{
+  "type": "node",
+  "id": 4787021746,
+  "lat": 52.5262707,
+  "lon": 13.4076185,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "42",
+    "addr:postcode": "10119",
+    "addr:street": "Alte Schönhauser Straße",
+    "addr:suburb": "Mitte",
+    "contact:website": "https://www.haarwerkstatt.de/filialen/?salon=25",
+    "craft": "shoemaker",
+    "level": "0",
+    "name": "Veja",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-18:00; Su,PH off",
+    "website": "https://veja-store.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4836116637,
+  "lat": 52.3868924,
+  "lon": 13.4000017,
+  "tags": {
+    "check_date:opening_hours": "2022-11-11",
+    "name": "Schlüsseldienst & Schuhreparaturen",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00; PH closed",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 4840984953,
+  "lat": 52.5212535,
+  "lon": 13.4064128,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "9",
+    "addr:postcode": "10178",
+    "addr:street": "Karl-Liebknecht-Straße",
+    "addr:suburb": "Mitte",
+    "name": "Hammer Schuh",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su,PH off",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4939197696,
+  "lat": 52.4574992,
+  "lon": 13.3204961,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "34",
+    "addr:postcode": "12163",
+    "addr:street": "Schloßstraße",
+    "addr:suburb": "Steglitz",
+    "level": "-1",
+    "name": "Schuh Bode",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 4954919177,
+  "lat": 52.5026777,
+  "lon": 13.3081031,
+  "tags": {
+    "name": "Schuh-Klinik Gebrüder Korn",
+    "operator": "Fred Korn",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 4970452922,
+  "lat": 52.5005109,
+  "lon": 13.3299628,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "54",
+    "addr:postcode": "10719",
+    "addr:street": "Lietzenburger Straße",
+    "name": "Schuhmacherei & Sattlerei",
+    "opening_hours": "Mo-Fr 10:00-18:00, Sa 10:00-14:00",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4986793800,
+  "lat": 52.5127364,
+  "lon": 13.4175958,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Jacob Böhme",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 5080748558,
+  "lat": 52.4864176,
+  "lon": 13.3554038,
+  "tags": {
+    "name": "Luchs Schuhe",
+    "second_hand": "no",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 5181297164,
+  "lat": 52.4963489,
+  "lon": 13.4209540,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "44",
+    "addr:postcode": "10999",
+    "addr:street": "Paul-Lincke-Ufer",
+    "addr:suburb": "Kreuzberg",
+    "check_date:opening_hours": "2021-09-10",
+    "contact:website": "http://www.schuhtanten.de/",
+    "name": "Schuhtanten",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-18:00; PH,Su off",
+    "payment:coins": "yes",
+    "payment:girocard": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "shop": "shoes",
+    "wheelchair": "limited",
+    "wheelchair:step_height": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 5281525574,
+  "lat": 52.5192187,
+  "lon": 13.4330491,
+  "tags": {
+    "addr:housenumber": "13",
+    "addr:street": "Lebuser Straße",
+    "craft": "shoemaker",
+    "name": "John O'hara",
+    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-15:00",
+    "phone": "+49 30 4298949"
+  }
+},
+{
+  "type": "node",
+  "id": 5299559846,
+  "lat": 52.5021638,
+  "lon": 13.3385482,
+  "tags": {
+    "name": "Schuhbidu",
+    "shop": "shoes",
+    "website": "https://www.arche-schuhe.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5527712941,
+  "lat": 52.4643181,
+  "lon": 13.3243467,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "11",
+    "addr:postcode": "12163",
+    "addr:street": "Markelstraße",
+    "check_date:opening_hours": "2022-04-12",
+    "contact:email": "Lamprecht-B@alice.de",
+    "contact:fax": "+49 30 7931814",
+    "contact:phone": "+49 30 7912802",
+    "contact:website": "http://www.lamprecht-berlin.de/",
+    "email": "Lamprecht-B@alice.de",
+    "fax": "+49 30 7931814",
+    "level": "0",
+    "medical_supply": "orthopedic",
+    "name": "Lamprecht Orthopädie-Schuhtechnik GmbH",
+    "opening_hours": "Mo-Tu 09:00-17:30; Th 10:00-19:00; We off; Fr 09:00-16:00",
+    "operator": "Christian & Klemens Lamprecht",
+    "phone": "+49 30 7912802",
+    "shop": "medical_supply",
+    "source": "local knowledge",
+    "website": "http://www.lamprecht-berlin.de/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5613780521,
+  "lat": 52.4384552,
+  "lon": 13.5492667,
+  "tags": {
+    "addr:housenumber": "50",
+    "addr:postcode": "12489",
+    "addr:street": "Dörpfeldstraße",
+    "description:en": "clothing & shoe repair",
+    "name": "Änderungsschneiderei & Schuhreparatur",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-15:00",
+    "shop": "shoe_repair",
+    "tailor:alteration_service": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5618094692,
+  "lat": 52.5096814,
+  "lon": 13.4621887,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Seumestraße",
+    "name": "Kleiner Schuhbladen",
+    "opening_hours:signed": "no",
+    "shop": "shoes",
+    "website": "http://kleiner-schuhbladen.berlin",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5664563394,
+  "lat": 52.5100328,
+  "lon": 13.3802580,
+  "tags": {
+    "level": "2",
+    "name": "Schuhbode",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5732104362,
+  "lat": 52.4882735,
+  "lon": 13.3387317,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "56",
+    "addr:postcode": "10825",
+    "addr:street": "Grunewaldstraße",
+    "addr:suburb": "Schöneberg",
+    "craft": "shoemaker",
+    "name": "Schuhpflege des Westens"
+  }
+},
+{
+  "type": "node",
+  "id": 5754169432,
+  "lat": 52.5896696,
+  "lon": 13.3332727,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "85",
+    "addr:postcode": "13437",
+    "addr:street": "Alt-Wittenau",
+    "addr:suburb": "Wittenau",
+    "name": "Weser Schuhe",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 5835803814,
+  "lat": 52.5412498,
+  "lon": 13.5638211,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "194",
+    "addr:postcode": "12685",
+    "addr:street": "Allee der Kosmonauten",
+    "addr:suburb": "Marzahn",
+    "brand": "Siemes Schuhcenter",
+    "brand:wikidata": "Q2800720",
+    "brand:wikipedia": "de:Siemes (Unternehmen)",
+    "name": "Siemes Schuhcenter",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "shop": "shoes",
+    "source": "Geoportal Berlin / Hauskoordinaten",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5938458098,
+  "lat": 52.4712460,
+  "lon": 13.3346272,
+  "tags": {
+    "check_date:opening_hours": "2022-07-24",
+    "craft": "shoemaker",
+    "name": "Schuh Gate",
+    "opening_hours": "Tu-Th 09:00-18:00; Fr 09:00-14:00; Sa 09:00-13:00",
+    "operator": "Serpil Arslan",
+    "website": "http://schuh-gate.de/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6123731648,
+  "lat": 52.4894053,
+  "lon": 13.3947112,
+  "tags": {
+    "contact:phone": "+49 30 6927815",
+    "craft": "shoemaker",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 6355013138,
+  "lat": 52.5270718,
+  "lon": 13.3393425,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "3",
+    "addr:postcode": "10551",
+    "addr:street": "Jonasstraße",
+    "addr:suburb": "Moabit",
+    "contact:mobile": "+49 176 24800882",
+    "contact:phone": "+49 30 28600865",
+    "craft": "shoemaker;tailor",
+    "name": "Schuhservice Schneiderei & Reinigung",
+    "opening_hours": "Mo-Fr 08:30-13:00,14:00-18:00; Sa 09:30-13:00",
+    "shop": "dry_cleaning"
+  }
+},
+{
+  "type": "node",
+  "id": 6409922041,
+  "lat": 52.5065827,
+  "lon": 13.3049856,
+  "tags": {
+    "name": "Goldschmiede Schuhmann",
+    "shop": "jewelry",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6417937520,
+  "lat": 52.5222569,
+  "lon": 13.5868244,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "77-83",
+    "addr:postcode": "12619",
+    "addr:street": "Hellersdorfer Straße",
+    "craft": "shoemaker",
+    "name": "Spree Sofortservice Schuh- & Schlüsseldienst",
+    "opening_hours": "Mo-Fr 09:00-19:30, Sa 09:00-16:00; PH off",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6467654769,
+  "lat": 52.5592137,
+  "lon": 13.2099524,
+  "tags": {
+    "brand": "Siemes Schuhcenter",
+    "brand:wikidata": "Q2800720",
+    "brand:wikipedia": "de:Siemes (Unternehmen)",
+    "name": "Siemes Schuhcenter",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6825400867,
+  "lat": 52.4650232,
+  "lon": 13.3270277,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "2",
+    "addr:postcode": "12163",
+    "addr:street": "Bornstraße",
+    "craft": "shoemaker",
+    "name": "Franko's Schuhexpress",
+    "opening_hours": "Mo,Tu,Th,Fr 10:00-18:00; We,Sa 09:00-14:00; PH,Su off",
+    "phone": "+49 30 7912106",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7025879068,
+  "lat": 52.5342976,
+  "lon": 13.4362720,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "146",
+    "addr:postcode": "10407",
+    "addr:street": "Danziger Straße",
+    "craft": "shoemaker",
+    "name": "Schuhreparaturen Wolfgang Haring",
+    "opening_hours": "Tu, Th 10:00-12:00; We, Fr 14:30-18:30; Sa 10:00-13:00",
+    "phone": "+49 176 31654076;+49 30 4250963"
+  }
+},
+{
+  "type": "node",
+  "id": 7066762914,
+  "lat": 52.4853601,
+  "lon": 13.3552453,
+  "tags": {
+    "check_date:opening_hours": "2021-07-05",
+    "name": "Jack‘s Schuh- & Schlüsseldienst",
+    "opening_hours": "Mo-Fr 10:00-18:00, Sa 10:00-16:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7126862307,
+  "lat": 52.5670938,
+  "lon": 13.3616366,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Schumacher",
+    "opening_hours": "Mo-Fr 09:00-15:00; Sa 09:00-12:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7176833569,
+  "lat": 52.5701516,
+  "lon": 13.4045695,
+  "tags": {
+    "level": "1",
+    "name": "Aktiv Schuh",
+    "operator": "Aktiv-Schuh Handelsgesellschaft mbH",
+    "shop": "shoes",
+    "website": "https://aktiv-schuh.de/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7233554333,
+  "lat": 52.5433738,
+  "lon": 13.4427004,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "90",
+    "addr:postcode": "10409",
+    "addr:street": "Greifswalder Straße",
+    "addr:suburb": "Prenzlauer Berg",
+    "level": "0",
+    "name": "T&B Schuhe und Geschenkartikel",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 7274999617,
+  "lat": 52.5434657,
+  "lon": 13.4213783,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "78",
+    "addr:postcode": "10437",
+    "addr:street": "Dunckerstraße",
+    "addr:suburb": "Prenzlauer Berg",
+    "contact:phone": "+49 30 24174110",
+    "contact:website": "http://www.lilalaemmchen.de/",
+    "name": "Lila Lämmchen Schuhe",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-16:00",
+    "organic": "yes",
+    "shoes": "children",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 7289652228,
+  "lat": 52.5404260,
+  "lon": 13.4220157,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "32",
+    "addr:postcode": "10437",
+    "addr:street": "Senefelderstraße",
+    "addr:suburb": "Prenzlauer Berg",
+    "contact:phone": "+49 30 40042861",
+    "contact:website": "https://www.massschuhmacherei.de/",
+    "craft": "shoemaker",
+    "name": "Hennemann & Braun",
+    "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-15:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7310087973,
+  "lat": 52.5425706,
+  "lon": 13.4257986,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "184",
+    "addr:postcode": "10405",
+    "addr:street": "Prenzlauer Allee",
+    "addr:suburb": "Prenzlauer Berg",
+    "contact:website": "http://sandeck-schuhe.de/",
+    "name": "Sandeck Schuhe",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-15:00",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7342719567,
+  "lat": 52.4961018,
+  "lon": 13.2943438,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:postcode": "10711",
+    "addr:street": "Westfälische Straße",
+    "addr:suburb": "Halensee",
+    "craft": "shoemaker",
+    "name": "Schuhmacherei Luschanski",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7376750795,
+  "lat": 52.4889257,
+  "lon": 13.4044281,
+  "tags": {
+    "craft": "shoemaker"
+  }
+},
+{
+  "type": "node",
+  "id": 7475632256,
+  "lat": 52.5361579,
+  "lon": 13.3567220,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "2",
+    "addr:postcode": "10559",
+    "addr:street": "Ellen-Epstein-Straße",
+    "addr:suburb": "Moabit",
+    "brand": "Siemes Schuhcenter",
+    "brand:wikidata": "Q2800720",
+    "brand:wikipedia": "de:Siemes (Unternehmen)",
+    "contact:phone": "+49 30 39407673",
+    "contact:website": "https://www.schuhcenter.de/siemes-schuhcenter-berlin-moabit-ellen-epstein-strasse-2.html",
+    "name": "Siemes Schuhcenter",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "shop": "shoes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7598895265,
+  "lat": 52.4701312,
+  "lon": 13.3309390,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "23",
+    "addr:postcode": "12161",
+    "addr:street": "Schmiljanstraße",
+    "addr:suburb": "Friedenau",
+    "craft": "shoemaker",
+    "name": "Schuhmacherei ByksBerlin",
+    "opening_hours": "We-Fr 12:00-19:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7653166469,
+  "lat": 52.5388690,
+  "lon": 13.5494860,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Wojtzik Dieter Schuhmacherei",
+    "source": "Geoportal Berlin / Hauskoordinaten"
+  }
+},
+{
+  "type": "node",
+  "id": 7705210641,
+  "lat": 52.4667940,
+  "lon": 13.3299859,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "31",
+    "addr:postcode": "12161",
+    "addr:street": "Rheinstraße",
+    "addr:suburb": "Friedenau",
+    "craft": "shoemaker",
+    "name": "Reinigung Jupol",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-14:00",
+    "shop": "dry_cleaning",
+    "website": "http://www.trockenreinigung-berlin.de"
+  }
+},
+{
+  "type": "node",
+  "id": 7720860986,
+  "lat": 52.5010402,
+  "lon": 13.3006829,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Der Schuster",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7749923393,
+  "lat": 52.4750759,
+  "lon": 13.3244080,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "34",
+    "addr:postcode": "12161",
+    "addr:street": "Stubenrauchstraße",
+    "addr:suburb": "Friedenau",
+    "craft": "shoemaker",
+    "dry_cleaning": "yes",
+    "laundry_service": "yes",
+    "name": "Schuhservice - Schuhbedarf - Änderungsschneiderei",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:00",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7804846345,
+  "lat": 52.4863062,
+  "lon": 13.3235837,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "138",
+    "addr:postcode": "10715",
+    "addr:street": "Berliner Straße",
+    "addr:suburb": "Wilmersdorf",
+    "craft": "shoemaker",
+    "description": "Schuh-& Schlüsseldienst",
+    "name": "Service-Center Stella",
+    "shop": "locksmith",
+    "website": "https://service-center-stella.de/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7836030434,
+  "lat": 52.3139181,
+  "lon": 13.6112481,
+  "tags": {
+    "addr:city": "Wildau",
+    "addr:housenumber": "1",
+    "addr:postcode": "15745",
+    "addr:street": "Chausseestraße",
+    "name": "Schuh- und Schlüsseldienst",
+    "opening_hours": "Mo-Th 10:00-20:00; Fr,Sa 10:00-21:00; PH off",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 7887845868,
+  "lat": 52.5140676,
+  "lon": 13.4741174,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "111",
+    "addr:postcode": "10247",
+    "addr:street": "Frankfurter Allee",
+    "level": "1",
+    "name": "Aktiv Schuh",
+    "opening_hours": "Mo-Sa 10:00-20:00; PH off",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 7942858204,
+  "lat": 52.4171988,
+  "lon": 13.4965791,
+  "tags": {
+    "name": "Schuhe für die ganze Familie",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 8459175732,
+  "lat": 52.4415874,
+  "lon": 13.5874439,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "2-4",
+    "addr:postcode": "12559",
+    "addr:street": "Pablo-Neruda-Straße",
+    "name": "Pepe Schuhmoden",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 8459383473,
+  "lat": 52.4585111,
+  "lon": 13.5779402,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "33-38",
+    "addr:postcode": "12555",
+    "addr:street": "Bahnhofstraße",
+    "level": "0",
+    "name": "Aktiv Schuh",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 8625793637,
+  "lat": 52.4498435,
+  "lon": 13.2534807,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "19-21",
+    "addr:postcode": "14169",
+    "addr:street": "Ladenstraße",
+    "name": "Schuhmode Schmiedling",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-15:00",
+    "phone": "+49 30 810 516 09",
+    "shop": "shoes",
+    "website": "https://www.schuhmode-schmiedling.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 8625793644,
+  "lat": 52.4501826,
+  "lon": 13.2539263,
+  "tags": {
+    "name": "Schuh- und Schlüssel-Service",
+    "shop": "shoe_repair",
+    "website": "https://onkeltomsladenstrasse.de/schuh-service/"
+  }
+},
+{
+  "type": "node",
+  "id": 8688609006,
+  "lat": 52.4471092,
+  "lon": 13.3256838,
+  "tags": {
+    "name": "Schuhmacherei Scherler",
+    "opening_hours": "Mo-Fr 09:00-13:00",
+    "shop": "shoe_repair"
+  }
+},
+{
+  "type": "node",
+  "id": 8778865264,
+  "lat": 52.4467108,
+  "lon": 13.3071753,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Schuhmacher",
+    "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-13:00",
+    "phone": "+49 30 28458678",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8839649650,
+  "lat": 52.4997255,
+  "lon": 13.2961499,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "37",
+    "addr:postcode": "10711",
+    "addr:street": "Joachim-Friedrich-Straße",
+    "addr:suburb": "Halensee",
+    "craft": "shoemaker",
+    "name": "Schuhmacherei Meiners",
+    "opening_hours": "Tu-Fr 09:00-18:00; Sa 09:30-13:00",
+    "phone": "+49 30 8925783",
+    "website": "https://schuhmacherei-meiners.business.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 9279662351,
+  "lat": 52.5491088,
+  "lon": 13.4555407,
+  "tags": {
+    "name": "Sandeck-Schuhe",
+    "opening_hours": "Mo-Fr 10:00-19:00,10:00-15:00",
+    "operator": "Sandeck Schuhe",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 9383680786,
+  "lat": 52.4448753,
+  "lon": 13.5749168,
+  "tags": {
+    "addr:housenumber": "23",
+    "addr:street": "Grünstraße",
+    "craft": "shoemaker",
+    "description": "Orthopädische Maßschuhe",
+    "email": "info@jacob-boehme.de",
+    "fax": "+49 30 2792761",
+    "name": "Jacob Böhme",
+    "opening_hours": "Mo,We 10:00-18:00, Tu,Th 09:00-18:00, Fr 10:00-17:00, Sa 10:00+; PH off",
+    "operator": "Jacob Böhme GmbH",
+    "phone": "+49 30 6557358",
+    "website": "http://www.jacob-boehme.de"
+  }
+},
+{
+  "type": "node",
+  "id": 9420743647,
+  "lat": 52.5488002,
+  "lon": 13.4557457,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "6",
+    "addr:postcode": "13088",
+    "addr:street": "Herbert-Baum-Straße",
+    "addr:suburb": "Weißensee",
+    "contact:website": "https://jacob-boehme.de/",
+    "level": "0",
+    "name": "Gesunde Schuhe Jacob Böhme",
+    "opening_hours": "Mo-Tu 10:00-16:00; We-Th 10:00-13:00,13:30-18:00",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9434733171,
+  "lat": 52.5675834,
+  "lon": 13.3149683,
+  "tags": {
+    "contact:phone": "+49151 55621525",
+    "craft": "locksmith",
+    "name": "Schuhmacherei",
+    "opening_hours": "Mo-Fr 09:00-13:00; Tu-Fr 15:00-18:00; Sa 09:00-12:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9487148766,
+  "lat": 52.5421948,
+  "lon": 13.3935375,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "74",
+    "addr:postcode": "13355",
+    "addr:street": "Brunnenstraße",
+    "name": "Schuh + Schlüsseldienst",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "payment:cash": "yes",
+    "phone": "+491799675025",
+    "shop": "shoe_repair"
+  }
+},
+{
+  "type": "node",
+  "id": 9495333116,
+  "lat": 52.4969715,
+  "lon": 13.3132667,
+  "tags": {
+    "craft": "shoemaker",
+    "name": "Schuh-Service",
+    "opening_hours": "Tu-Fr 09:00-18:00; Sa 09:00-12:00",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9558016971,
+  "lat": 52.4556115,
+  "lon": 13.3248233,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "10",
+    "addr:postcode": "12165",
+    "addr:street": "Albrechtstraße",
+    "addr:suburb": "Steglitz",
+    "craft": "shoemaker",
+    "description": "Schuhmacherei;Schneiderei;Schlüsseldienst",
+    "noname": "yes",
+    "opening_hours": "Mo 12:00-18:00; Tu-Fr 10:00-13:00, 14:00-18:00; Sa 10:00-12:30",
+    "shoes:repair": "yes",
+    "shop": "shoe_repair",
+    "tailor:alteration_service": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9696079093,
+  "lat": 52.5130350,
+  "lon": 13.5895846,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "12",
+    "addr:postcode": "12621",
+    "addr:street": "Heinrich-Grüber-Straße",
+    "name": "Radewagen Orthopädie-Schuhtechnik",
+    "opening_hours": "Mo,Tu 08:00-13:00,15:00-17:30, Fr 08:00-13:00,15:00-17:30; PH off",
+    "phone": "+49 30 5 62 70 01",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 9699879639,
+  "lat": 52.5122836,
+  "lon": 13.2911161,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "30",
+    "addr:postcode": "14059",
+    "addr:street": "Horstweg",
+    "addr:suburb": "Charlottenburg",
+    "contact:website": "http://www.ortho-schuhmacherei-berlin.de",
+    "craft": "shoemaker",
+    "name": "Bergemann",
+    "opening_hours": "Mo-Fr 10:00-13:00, Sa 10:00-12:00, Mo-We 15:00-18:00, Th 15:00-19:00",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9725270639,
+  "lat": 52.5696379,
+  "lon": 13.3591363,
+  "tags": {
+    "craft": "shoemaker",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "shop": "locksmith"
+  }
+},
+{
+  "type": "node",
+  "id": 9798306520,
+  "lat": 52.5128774,
+  "lon": 13.3904277,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "67",
+    "addr:postcode": "10117",
+    "addr:street": "Friedrichstraße",
+    "name": "Creative Schuhmoden",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 9975097117,
+  "lat": 52.5353858,
+  "lon": 13.4231521,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:country": "DE",
+    "addr:housenumber": "48",
+    "addr:postcode": "10405",
+    "addr:street": "Marienburger Straße",
+    "addr:suburb": "Prenzlauer Berg",
+    "check_date": "2022-09-28",
+    "craft": "shoemaker",
+    "name": "Schuster im Kiez",
+    "payment:cards": "no",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10040744608,
+  "lat": 52.5275896,
+  "lon": 13.3441150,
+  "tags": {
+    "name": "Schuh-Bode-Outlet",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 10101800093,
+  "lat": 52.3999593,
+  "lon": 13.0583391,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "88",
+    "addr:postcode": "14467",
+    "addr:street": "Charlottenstraße",
+    "contact:email": "info@schuhwa.de",
+    "contact:phone": "+49 331 291 903",
+    "contact:website": "https://www.schuhwa.de/filialen/filiale-charlottenstrasse-100/",
+    "door": "hinged",
+    "handrail:left": "yes",
+    "level": "0",
+    "medical_supply": "orthopedic",
+    "name": "Schuhwa e.G.",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:30-12:30; PH off",
+    "operator": "Schuhwa e.G. Potsdam",
+    "operator:type": "business",
+    "shoes:repair": "yes",
+    "shop": "shoes",
+    "step_count": "2",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10130657651,
+  "lat": 52.4024081,
+  "lon": 13.2473854,
+  "tags": {
+    "addr:city": "Teltow",
+    "addr:housenumber": "35",
+    "addr:postcode": "14513",
+    "addr:street": "Oderstraße",
+    "brand": "Siemes Schuhcenter",
+    "brand:wikidata": "Q2800720",
+    "name": "Siemes Schuhcenter",
+    "operator": "Siemes",
+    "phone": "+49 3328 305804",
+    "shop": "shoes",
+    "website": "https://www.schuhcenter.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 10141301379,
+  "lat": 52.5225833,
+  "lon": 13.1979274,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "90",
+    "addr:postcode": "13595",
+    "addr:street": "Pichelsdorfer Straße",
+    "addr:suburb": "Wilhelmstadt",
+    "contact:email": "schuhhaus@hartmann-orthopaedie.de",
+    "contact:fax": "+49 30 35 17 18 10",
+    "contact:phone": "+49 30 35 17 18 0",
+    "contact:website": "https://hartmann-orthopaedie.de/",
+    "craft": "shoemaker",
+    "name": "Hartmann-Schuhhaus Orthopädie",
+    "opening_hours": "Mo-Fr 9:30-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10272089640,
+  "lat": 52.5319550,
+  "lon": 13.1972446,
+  "tags": {
+    "addr:city": "Berlin",
+    "addr:housenumber": "8-9",
+    "addr:postcode": "13581",
+    "addr:street": "Klosterstraße",
+    "addr:suburb": "Spandau",
+    "contact:email": "info@sanitaetshaus-owb.de",
+    "contact:fax": "+49 30 337 746 99",
+    "contact:phone": "+49 30 331 24 53",
+    "contact:website": "http://www.sanitaetshaus-owb.de/",
+    "craft": "shoemaker",
+    "name": "Sanitätshaus OWB",
+    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-15:00",
+    "shop": "medical_supply"
+  }
+},
+{
+  "type": "node",
+  "id": 10272822502,
+  "lat": 52.5697505,
+  "lon": 13.0959197,
+  "tags": {
+    "craft": "shoemaker",
+    "opening_hours": "Mo, Tu, Fr 09:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10291358968,
+  "lat": 52.4682188,
+  "lon": 13.3859897,
+  "tags": {
+    "name": "Petters Orthopädie Schuh Macher",
+    "opening_hours": "Mo,Tu,Th 10:00-18:00; We,Fr 10:00-13:00",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 10369375951,
+  "lat": 52.4907832,
+  "lon": 13.3233531,
+  "tags": {
+    "addr:housenumber": "125",
+    "addr:street": "Uhlandstraße",
+    "check_date": "2023-01-09",
+    "level": "0",
+    "name": "Orthopädie Schuhtechnik Gutschmidt",
+    "shop": "medical_supply"
+  }
+}
+
+  ]
+}
