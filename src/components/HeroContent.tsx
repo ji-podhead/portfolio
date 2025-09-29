@@ -4,6 +4,7 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Text } from '@react-three/drei';
 import { Animator } from '@/lib/kooljs/animator';
 import { Particles } from '@/lib/particles/engine';
+import { ParticleWorkerManager } from '@/lib/particles/worker-helper';
 import * as THREE from 'three';
 
 // A component to render the animated 3D text
@@ -64,6 +65,7 @@ const HeroContent = () => {
     const [particleMesh, setParticleMesh] = useState<THREE.Mesh | null>(null);
     const nameRef = useRef<THREE.Mesh | null>(null);
     const titleRef = useRef<THREE.Mesh | null>(null);
+    const workerManagerRef = useRef<ParticleWorkerManager | null>(null);
 
     const particleSystem = useMemo(() => new Particles(), []);
 
@@ -71,8 +73,16 @@ const HeroContent = () => {
         const geometry = new THREE.SphereGeometry(0.02, 8, 8);
         const material = new THREE.MeshStandardMaterial({ color: 'white', emissive: '#00ff41', emissiveIntensity: 1 });
         const mesh = new THREE.Mesh(geometry, material);
-        const pMesh = particleSystem.InitializeParticles(new THREE.Scene(), mesh, 5000);
+        const pMesh = particleSystem.InitializeParticles(mesh, 5000);
         setParticleMesh(pMesh);
+
+        // Initialize the worker manager
+        const manager = new ParticleWorkerManager(particleSystem, 0);
+        workerManagerRef.current = manager;
+
+        return () => {
+            manager.terminate();
+        }
     }, [particleSystem]);
 
     const textReady = useRef({ name: false, title: false });
@@ -103,6 +113,10 @@ const HeroContent = () => {
             particleSystem.setMaxLifeTime(3, true, 2, 4);
             particleSystem.setBurstCount(allVertices.length / 3);
             particleSystem.startPS();
+            // After setup, update the worker with the new values
+            if (workerManagerRef.current) {
+                workerManagerRef.current.updateWorkerValues();
+            }
         }
 
         setTextVisible(false);
@@ -132,8 +146,9 @@ const HeroContent = () => {
     }, [handleInteraction]);
 
     useFrame((state, delta) => {
-        if (particleSystem && particleMesh) {
-            particleSystem.updateSimulation(delta, false, true, true, false);
+        // Offload simulation to the worker
+        if (workerManagerRef.current) {
+            workerManagerRef.current.updateSimulation(delta);
         }
     });
 
