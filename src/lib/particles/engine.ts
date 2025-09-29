@@ -71,22 +71,8 @@ export class Particles {
         this.indexSlide = false;
 	}
 
-	addChildParticleSysthem(particleSysthem: Particles, spawnOverLifeTime: number, spawnFrequencyOverLifeTime: number) {
-		particleSysthem.instance.instanceCount=0;
-		this.childParticles.set(this.childParticles.size, {
-			ps: particleSysthem,
-			spawnOverLifeTime: spawnOverLifeTime,
-			spawnFrequencyOverLifeTime: spawnFrequencyOverLifeTime,
-			tempIndex:0
-		})
-	}
-
-	setMorphTargets(morphTargets: any[]) {
-		for (let i = 0; i < morphTargets.length; i++) {
-			this.properties.set("morphTargets", parseInt(morphTargets[i]))
-		}
-		this.properties.get("morphTargetInfluences").attribute.needsUpdate = true
-	}
+    // This is a subset of the original methods, adapted for the current use case.
+    // A full implementation would require porting all methods from workerParticles.js
 
 	setMaxLifeTime(maxLifeTime: number,random?: boolean,minRange?: number,maxRange?: number) {
 		const temp=this.properties.get("sourceValues").get("maxLifeTime")
@@ -94,41 +80,13 @@ export class Particles {
 			temp.random=random
 			temp.minRange=minRange
 			temp.maxRange=maxRange
-
 		}else{
 			temp.random=false
 		}
 		temp.values=maxLifeTime
 	}
 
-	setNoise(strength: number) {
-		this.noise = strength
-	}
-
-	setTransform(x: number, y: number, z: number, index: number) {
-		const indexA0=index*3
-		const trans= this.properties.get("transform").array
-		trans[indexA0]= x
-		trans[indexA0+1]= y
-		trans[indexA0+2]= z
-	}
-
-    setStartDirection(x: number, y: number, z: number,random?: boolean,minRange?: number,maxRange?: number){
-		const direc=this.properties.get("sourceValues").get("direction")
-		direc.values[0]=x
-		direc.values[1]=y
-		direc.values[2]=z
-		if(random==true){
-			direc.random=true
-			direc.minRange=minRange
-			direc.maxRange=maxRange
-		}
-		else{
-			direc.random=false
-		}
-	}
-
-    setForce(force: number[]) {
+	setForce(force: number[]) {
 		this.force = force
 		this.properties.get("sourceValues").set("force", force)
 	}
@@ -141,20 +99,22 @@ export class Particles {
 		}
 	}
 
-	setSpawnOverTime(bool: boolean) {
-		this.spawnOverTime = bool
-	}
-
-	setSpawnFrequency(freq: number) {
-		this.spawFrequency = freq
-	}
-
-	setMaxSpawnCount(count: number) {
-		if (count > this.amount) {
-			count = this.amount
+    setStartPositionFromArray(deactivate: boolean, array: Float32Array, random?: boolean, minRange?: number, maxRange?: number) {
+        if (deactivate == false) {
+			this.pointCloud = Array.from(array); // Simplified point cloud creation
+			this.startPositionFromgeometry = true
+		} else {
+			this.startPositionFromgeometry = false
 		}
-		this.maxSpawnCount=count
-		this.instance.instanceCount = 0
+
+        const pos=this.properties.get("sourceValues").get("transform");
+		if(random){
+			pos.random=random
+			pos.minRange=minRange
+			pos.maxRange=maxRange
+		} else{
+			pos.random=false
+		}
 	}
 
     setSourceAttributes(attributes: string | string[], values: any,random?: boolean | boolean[],minRange?: number | number[],maxRange?: number | number[]) {
@@ -184,24 +144,9 @@ export class Particles {
 		}
 	}
 
-    updateValues(attributes: string | string[]) {
-		if (Array.isArray(attributes)) {
-			for (const attribute of attributes) {
-                try {
-                    this.properties.get(attribute).attribute.needsUpdate = true
-                }
-                catch { console.warn(attribute + " is not defined, pls check your spelling, or check if the attribute exist") }
-            }
-		} else {
-            this.properties.get(attributes).attribute.needsUpdate = true;
-        }
-	}
-
     resetParticle(index: number) {
 		const attributesoverLifeTimeValues = this.attributesoverLifeTime;
 		const indexA0=index*3;
-		const indexA1=indexA0+1;
-		const indexA2=indexA1+1;
 
 		const sourceValues = this.properties.get("sourceValues");
         const rot=sourceValues.get("rotation");
@@ -209,22 +154,22 @@ export class Particles {
         const pos =sourceValues.get("transform");
         const direc=sourceValues.get("direction");
 
-        // Simplified reset logic
-        const pos1 = this.startPositionFromgeometry ? [this.pointCloud[index*3], this.pointCloud[index*3+1], this.pointCloud[index*3+2]] : pos.values;
+        const pos1 = this.startPositionFromgeometry ? [this.pointCloud[indexA0], this.pointCloud[indexA0+1], this.pointCloud[indexA0+2]] : pos.values;
+
+        positionVector[0] = pos1[0] || 0;
+        positionVector[1] = pos1[1] || 0;
+        positionVector[2] = pos1[2] || 0;
 
         for (let i=0;i<3;i++){
-            positionVector[i]=pos1[i];
             rotationVector[i]=rot.values[i];
             scaleVector[i]=scale.values[i];
         }
 
-        // Apply randomness if configured
         if(pos.random){
             positionVector[0]+=range(0,1,pos.minRange,pos.maxRange,Math.random());
             positionVector[1]+=range(0,1,pos.minRange,pos.maxRange,Math.random());
             positionVector[2]+=range(0,1,pos.minRange,pos.maxRange,Math.random());
         }
-        // ... (Repeat for rotation and scale)
 
         const transArray = this.properties.get("transform").array;
         const scaleArray = this.properties.get("scale").array;
@@ -237,49 +182,30 @@ export class Particles {
         }
 
         const direc1=this.properties.get("direction")
-        direc1.array[indexA0]=direc.values[0]
-        direc1.array[indexA1]=direc.values[1]
-        direc1.array[indexA2]=direc.values[2]
+        for (let i=0;i<3;i++) { direc1.array[indexA0+i]=direc.values[i]; }
         if(direc.random){
-            direc1.array[(indexA0)]+=range(0,1,direc.minRange,direc.maxRange,Math.random())
-            direc1.array[(indexA1)]+=range(0,1,direc.minRange,direc.maxRange,Math.random())
-            direc1.array[(indexA2)]+=range(0,1,direc.minRange,direc.maxRange,Math.random())
+            for (let i=0;i<3;i++) { direc1.array[indexA0+i]+=range(0,1,direc.minRange,direc.maxRange,Math.random()); }
         }
 
 		attributesoverLifeTimeValues.forEach((value: any, attribute: string) => {
 			if (attribute !== "transform" && attribute !== "rotation" && attribute !== "scale" && attribute !== "force" && attribute !== "direction") {
                 const sourceAttribute = sourceValues.get(attribute);
                 const attrArray = this.properties.get(attribute).array;
-                let randomX=0, randomY=0, randomZ=0;
+                let randoms = [0,0,0];
 
                 if(sourceAttribute.random){
-                    randomX=range(0,1,sourceAttribute.minRange,sourceAttribute.maxRange,Math.random());
-                    randomY=range(0,1,sourceAttribute.minRange,sourceAttribute.maxRange,Math.random());
-                    randomZ=range(0,1,sourceAttribute.minRange,sourceAttribute.maxRange,Math.random());
+                    for(let i=0; i<3; i++) randoms[i]=range(0,1,sourceAttribute.minRange,sourceAttribute.maxRange,Math.random());
                 }
 
-                switch (sourceAttribute.values.length) {
-                    case (3):
-                        attrArray[indexA0]=sourceAttribute.values[0]+randomX;
-                        attrArray[indexA1]=sourceAttribute.values[1]+randomY;
-                        attrArray[indexA2]=sourceAttribute.values[2]+randomZ;
-                        break;
-                    case (2):
-                        attrArray[indexA0]=sourceAttribute.values[0]+randomX;
-                        attrArray[indexA1]=sourceAttribute.values[1]+randomY;
-                        break;
-                    case (1):
-                        attrArray[indexA0]=sourceAttribute.values[0]+randomZ;
-                        break;
+                for(let i=0; i<sourceAttribute.values.length; i++) {
+                    attrArray[indexA0+i] = sourceAttribute.values[i] + randoms[i];
                 }
 			}
 		})
     }
 
-	updateSimulation(delta: number, respawn: boolean, reset: boolean, kill: boolean, translate: boolean) {
-        if(this.maxSpawnCount==0){
-			return(console.warn("No need to update the PS! => maxSpawnCount is 0"))
-		}
+	updateSimulation(delta: number, respawn: boolean, reset: boolean, kill: boolean) {
+        if(this.maxSpawnCount==0){ return; }
 
 		if(respawn) {
 			if (this.waitingtime < this.spawFrequency) {
@@ -297,76 +223,62 @@ export class Particles {
 		}
 
 		let force = [...this.force]
-		for (let count=this.instance.instanceCount;count>0;count--) {
-			const index =(this.instance.instanceCount-count)
+		for (let i=0; i < this.instance.instanceCount; i++) {
 			const lifeTime= this.properties.get("lifeTime").array
-			const lifeTimeIndex=index*2
+			const lifeTimeIndex=i*2
 			lifeTime[lifeTimeIndex]+=delta
 
 			if (lifeTime[lifeTimeIndex]<= lifeTime[(lifeTimeIndex+1)]) {
 				let direction=this.properties.get("direction").array
-				const lifeTimedelta = (lifeTime[(lifeTimeIndex)]/lifeTime[lifeTimeIndex+1] )
-			    const indexA0=index*3
-			    const indexA1=indexA0+1
-			    const indexA2=indexA1+ 1
+				const lifeTimedelta = (lifeTime[lifeTimeIndex] / lifeTime[lifeTimeIndex+1] )
+			    const indexA0=i*3
 
                 const transArray = this.properties.get("transform").array
 
-                for (let i=0;i<3;i++){ directionVector[i]=0 }
+                for (let j=0;j<3;j++){ directionVector[j]=0 }
 
-                // Simplified Over-Lifetime Logic
                 this.attributesoverLifeTime.forEach((value: any, attribute: string) => {
                     if (attribute === "force") {
-                        force[0] += (value.values[0])
-                        force[1] += (value.values[1])
-                        force[2] += (value.values[2])
+                        for(let j=0; j<3; j++) force[j] += (value.values[j] * lifeTimedelta);
                     } else if(attribute === "direction") {
-                        direction[indexA0]+= (value.values[0])
-						direction[indexA1]+= (value.values[1])
-						direction[indexA2]+=(value.values[2])
+                        for(let j=0; j<3; j++) direction[indexA0+j] += (value.values[j] * lifeTimedelta);
                     } else {
                         const arr = this.properties.get(attribute).array
-                        // simplified lerp
-                        arr[indexA0] += (value.end[0] - value.values[0]) * lifeTimedelta;
-                        if(value.values.length > 1) arr[indexA1] += (value.end[1] - value.values[1]) * lifeTimedelta;
-                        if(value.values.length > 2) arr[indexA2] += (value.end[2] - value.values[2]) * lifeTimedelta;
+                        for(let j=0; j<value.values.length; j++){
+                            arr[indexA0+j] = lerp(value.values[j], value.end[j], lifeTimedelta);
+                        }
                     }
                 })
 
-				directionVector[0] +=(direction[indexA0]!==0?(force[0]*direction[indexA0]):force[0])
-				directionVector[1] +=(direction[indexA1]!==0?(force[1]*direction[indexA1]):force[1])
-				directionVector[2] +=(direction[indexA2]!==0?(force[2]*direction[indexA2]):force[2])
+                for(let j=0; j<3; j++){
+                    directionVector[j] += (direction[indexA0+j] !== 0 ? (force[j] * direction[indexA0+j]) : force[j]);
+                }
 
                 if (this.noise > 0) {
 					const noise = Math.sin(delta * 10 * this.noise)
-					directionVector[0] += noise
-					directionVector[1] += noise
-					directionVector[2] += noise
+                    for(let j=0; j<3; j++) directionVector[j] += noise;
 				}
 
-				for (let i=0;i<3;i++){
-			        transArray[indexA0+i]+=directionVector[i]
+                for (let j=0;j<3;j++){
+			        transArray[indexA0+j]+=directionVector[j] * delta;
                 }
             } else {
 				const max=this.properties.get("sourceValues").get("maxLifeTime")
 				lifeTime[lifeTimeIndex]=0
 				lifeTime[lifeTimeIndex+1]=max.values
                 if(max.random==true){
-                    lifeTime[lifeTimeIndex+1]	+=range(0,1,max.minRange,max.maxRange,Math.random())
+                    lifeTime[lifeTimeIndex+1] += range(0,1,max.minRange,max.maxRange,Math.random())
                 }
 
                 if(kill){ killCount+=1 }
-                if(reset){ this.resetParticle(index) }
+                if(reset){ this.resetParticle(i) }
             }
 		}
 		this.instance.instanceCount-=killCount
         killCount=0
 	}
 
-	InitializeParticles(scene: THREE.Scene, mesh: THREE.Mesh, amount: number) {
-		this.spawnOfset=0
-		this.indexSlide=false
-
+	InitializeParticles(mesh: THREE.Mesh, amount: number) {
         // Default values
         const startPosition = {values:[0, 0, 0],random:false, minRange: 0, maxRange: 0 };
         const startScale = {values:[1, 1, 1],random:false, minRange: 0, maxRange: 0 };
@@ -407,14 +319,14 @@ export class Particles {
 		const opacityAttribute = new THREE.InstancedBufferAttribute(opacityArray, 1, true)
 		const boxPositionAttribute=	new THREE.InstancedBufferAttribute( matrixArray[0], 3 )
 		const boxSizeAttribute=   	new THREE.InstancedBufferAttribute( matrixArray[1], 3 )
-		const rotatioAttributen= 	new THREE.InstancedBufferAttribute( matrixArray[2], 3 )
+		const rotationAttribute= 	new THREE.InstancedBufferAttribute( matrixArray[2], 3 )
 
 		instancedGeometry.setAttribute('aInstanceColor',colorAttribute)
 		instancedGeometry.setAttribute('aInstanceEmissive',emissiveAttribute)
 		instancedGeometry.setAttribute('opacity1',opacityAttribute)
 		instancedGeometry.setAttribute( 'boxPosition', boxPositionAttribute);
 		instancedGeometry.setAttribute( 'boxSize',boxSizeAttribute );
-		instancedGeometry.setAttribute( 'rotation', rotatioAttributen);
+		instancedGeometry.setAttribute( 'rotation', rotationAttribute);
 		Object.keys(geometry.attributes).forEach(attributeName => {
 			(instancedGeometry.attributes as any)[attributeName] = (geometry.attributes as any)[attributeName]
 		})
@@ -431,7 +343,7 @@ export class Particles {
 		sourceValues.set("maxLifeTime",maxLifeTime)
 		this.properties.set("sourceValues", sourceValues)
 		this.properties.set("transform", { array: matrixArray[0], attribute: boxPositionAttribute })
-		this.properties.set("rotation", { array: matrixArray[2], attribute: rotatioAttributen})
+		this.properties.set("rotation", { array: matrixArray[2], attribute: rotationAttribute})
 		this.properties.set("scale", { array: matrixArray[1], attribute: boxSizeAttribute })
 		this.properties.set("color", { array: colorArray, attribute: colorAttribute })
 		this.properties.set("emission", { array: emissionArray, attribute: emissiveAttribute })
@@ -503,13 +415,13 @@ export class Particles {
           varying float vOpacity;
           ${shader.fragmentShader.replace(
         'vec4 diffuseColor = vec4( diffuse, opacity );',
-        'vec4 diffuseColor = vec4( vInstanceColor/255.0, vOpacity );', // Divide color by 255
+        'vec4 diffuseColor = vec4( vInstanceColor/255.0, vOpacity );',
         )}`
         shader.fragmentShader = `
           varying vec3 vInstanceEmissive;
           ${shader.fragmentShader.replace(
         'vec3 totalEmissiveRadiance = emissive;',
-        'vec3 totalEmissiveRadiance = vInstanceEmissive/255.0; ', // Divide emissive by 255
+        'vec3 totalEmissiveRadiance = vInstanceEmissive/255.0; ',
         )}`
         };
 		this.instance.instanceCount=0
@@ -517,7 +429,39 @@ export class Particles {
 			instancedGeometry,
 			instanceMaterial
 		)
-		// scene.add(instaneMesh) // We no longer add to scene directly
-        return instaneMesh; // Return the mesh to be used in React components
+        return instaneMesh;
 	}
+
+    startPS(){
+        const	lifeTime=this.properties.get("lifeTime").array;
+        const max=this.properties.get("sourceValues").get("maxLifeTime");
+        const sourceValues = this.properties.get("sourceValues");
+        const col=sourceValues.get("color");
+        const collArr =this.properties.get("color").array;
+        const emm=sourceValues.get("emission");
+        const emmArr =this.properties.get("emission").array;
+        const op=sourceValues.get("opacity");
+        const opArr =this.properties.get("opacity").array;
+
+        for (let i =0;i<this.amount;i++){
+            const index=i*3
+            opArr[i]=op.values[0]
+            for (let j=0;j<3;j++){
+                collArr[index+j]=col.values[j]
+                emmArr[index+j]=emm.values[j]
+            }
+            if(col.random==true){
+                for(let j=0; j<3; j++) collArr[index+j]+=range(0,1,col.minRange,col.maxRange,Math.random());
+            }
+            if(emm.random==true){
+                for(let j=0; j<3; j++) emmArr[index+j]+=range(0,1,emm.minRange,emm.maxRange,Math.random());
+            }
+            lifeTime[i*2]=0
+            lifeTime[(i*2)+1]=max.values
+            if(max.random==true){
+                lifeTime[(i*2)+1]+=range(0,1,max.minRange,max.maxRange,Math.random())
+            }
+        }
+        this.instance.instanceCount=this.burstCount
+    }
 }
