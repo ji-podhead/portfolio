@@ -1,6 +1,6 @@
 "use client";
 import * as THREE from 'three';
-import React, { useMemo, useRef, useEffect } from 'react';
+import React, { useMemo, useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 
 // Statically import all available shaders
@@ -9,12 +9,14 @@ import backgroundFragmentShader from '@/lib/shaders/background.frag';
 import ribbonFragmentShader from '@/lib/shaders/ribbon.frag';
 import metaballFragmentShader from '@/lib/shaders/metaball.frag';
 import ditherFragmentShader from '@/lib/shaders/dither-effect.frag';
+import fontFragmentShader from '@/lib/shaders/font-renderer.frag';
 
 const shaders = {
     background: backgroundFragmentShader,
     ribbon: ribbonFragmentShader,
     metaball: metaballFragmentShader,
     dither: ditherFragmentShader,
+    font: fontFragmentShader,
 };
 
 type ShaderName = keyof typeof shaders;
@@ -59,6 +61,7 @@ const GLSLBackground = ({ shaderName }: { shaderName: ShaderName }) => {
                 vertexShader={vertexShader}
                 fragmentShader={fragmentShader}
                 side={THREE.DoubleSide}
+                transparent={true} // Enable transparency for blending
             />
         </mesh>
     );
