@@ -1,27 +1,27 @@
 import Header from '@/components/Header';
 import GLSLBackground from '@/components/GLSLBackground';
-import Projects from '@/components/Projects';
-import Skills from '@/components/Skills';
+import CVSection from '@/components/CVSection';
+import OpenSourceSection from '@/components/OpenSourceSection';
+import ProjectsSection from '@/components/ProjectsSection';
+import ArticlesSection from '@/components/ArticlesSection';
 import Footer from '@/components/Footer';
-import Experience from '@/components/Experience';
-import HeroContent from '@/components/HeroContent';
-import OSMView from '@/components/OSMView'; // Import the new map component
-import ParticleText from '@/lib/particles/particles';
+import ScrollspyNav from '@/components/ScrollspyNav';
 
 export default function Home() {
   return (
-    <div>
-      <ParticleText></ParticleText>
-      {/* <GLSLBackground />
+    <div className="min-h-screen bg-black text-white relative font-sans">
+      <GLSLBackground shaderName="background" />
       <Header />
-      <main>
-        <HeroContent />
-        <Experience />
-        <OSMView />
-        <Projects />
-        <Skills />
+      <ScrollspyNav />
+
+      <main className="relative z-10 space-y-12 pb-20">
+        <CVSection />
+        <OpenSourceSection />
+        <ProjectsSection />
+        <ArticlesSection />
       </main>
-      <Footer /> */}
+
+      <Footer />
     </div>
   );
 }

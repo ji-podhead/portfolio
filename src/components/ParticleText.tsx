@@ -79,14 +79,12 @@ const ParticleTextSystem = ({ textGeometries }: { textGeometries: Float32Array[]
         const geometry = new THREE.SphereGeometry(0.03, 8, 8);
         const material = new THREE.MeshStandardMaterial({ color: '#00ff41', emissive: '#00ff41', emissiveIntensity: 2 });
         const mesh = new THREE.Mesh(geometry, material);
-        const pMesh = particleSystem.InitializeParticles(mesh, PARTICLE_COUNT);
+        const pMesh: any = particleSystem.InitializeParticles(mesh, PARTICLE_COUNT);
 
         // Start particles from the first word's geometry
         particleSystem.setStartPositionFromArray(false, textGeometries[0]);
         particleSystem.startPS();
-        // If InitializeParticles returns void, pMesh will be undefined.
-        // Set particleMesh to null in that case, as it expects Mesh | null.
-        setParticleMesh(pMesh === undefined ? null : pMesh);
+        setParticleMesh((pMesh as THREE.Mesh) || null);
 
         // Setup kooljs animator to cycle through targets
         const animator = new Animator(60);

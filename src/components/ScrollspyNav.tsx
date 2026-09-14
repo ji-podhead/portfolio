@@ -14,7 +14,7 @@ const ScrollspyNav: React.FC = () => {
           }
         });
       },
-      { threshold: 0.5 } // Adjust as needed
+      { threshold: 0.3 }
     );
 
     sections.forEach((section) => {
@@ -29,24 +29,26 @@ const ScrollspyNav: React.FC = () => {
   }, []);
 
   const navItems = [
-    { id: 'hero', label: 'Home' },
-    { id: 'experience', label: 'Experience' },
-    { id: 'map', label: 'Map' },
+    { id: 'cv', label: 'CV' },
+    { id: 'opensource', label: 'OpenSource' },
     { id: 'projects', label: 'Projects' },
-    { id: 'skills', label: 'Skills' },
+    { id: 'articles', label: 'Articles' },
   ];
 
   return (
-    <nav className="scrollspy-nav">
-      <ul>
+    <nav className="scrollspy-nav fixed right-6 top-1/2 -translate-y-1/2 z-40 hidden lg:block bg-gray-900/80 p-3 rounded-full border border-gray-800 backdrop-blur">
+      <ul className="flex flex-col gap-3">
         {navItems.map((item) => (
           <li key={item.id}>
             <a
               href={`#${item.id}`}
-              className={activeSection === item.id ? 'active' : ''}
-            >
-              {item.label}
-            </a>
+              className={`block w-3 h-3 rounded-full transition-all ${
+                activeSection === item.id
+                  ? 'bg-green-400 scale-125 ring-4 ring-green-400/20'
+                  : 'bg-gray-600 hover:bg-gray-400'
+              }`}
+              title={item.label}
+            />
           </li>
         ))}
       </ul>
