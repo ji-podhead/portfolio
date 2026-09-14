@@ -1,12 +1,7 @@
+const shader = `
 varying vec2 vUv;
 uniform float time;
-uniform vec2 mouse;
 uniform vec2 u_resolutions;
-
-// Color palette
-vec3 c1 = vec3(255./16.,  255./161.,  255./157.);
-vec3 c2 = vec3(255./84.,  255./3.,    255./117.);
-vec3 c3 = vec3(255./255., 255./112.,  255./0.01);
 
 // Helper functions for hexagonal grid and noise
 float hash(vec2 co) {
@@ -31,11 +26,6 @@ vec2 hextile(inout vec2 p) {
   p = p3;
   n -= vec2(0.5);
   return round(n*2.0)*0.5;
-}
-
-float pmax(float a, float b, float k) {
-  float h = clamp(0.5+0.5*(b-a)/k, 0.0, 1.0);
-  return mix(b, a, h) - k*h*(1.0-h);
 }
 
 float cellf(vec2 p, vec2 n) {
@@ -83,20 +73,28 @@ vec3 effect(vec2 p, vec2 pp) {
 
 void main()
 {
-  vec2 p = -1. + 2. * vUv;
-  p.x *= u_resolutions.x/u_resolutions.y;
+    vec2 xy = vUv;
+    vec2 p = -1. + 2. * xy;
+    p.x *= u_resolutions.x/u_resolutions.y;
 
-  vec3 col = effect(p, p);
+    vec3 colCubes = effect(p, p);
+    vec3 col = colCubes;
 
-  // Dithering and color adjustments from the original shader
-  float dither = fract(dot(vec2(sin(time*0.001)+10.,-10.) ,gl_FragCoord.xy)/70.);
-  col.y = max( 0.0, col.y );
-  col.y = step( 0.5, col.y*col.y + dither ) *0.9;
-  col.x = max( 0.0, col.x );
-  col.x = step( 0.5, col.x*col.x + dither )*0.4;
-  col.z = max( 0.0, col.z );
-  col.z = step( 0.5, col.z*col.z + dither )*0.8;
-  col = col * 2.0;
+    // Dithering and color adjustments
+    float gradient = min( xy.y, 0.0 );
+    float dither2 = fract(dot(vec2((time*0.1)+0.,xy.y/2./xy.x/sin(time*2.)),gl_FragCoord.xy))-0.5 ;
 
-  gl_FragColor = vec4(col,1.0);
+    col.y = max( 0.0, col.y + gradient * 1.0 );
+    col.y = step( 0.5, col.y*col.y + dither2 ) * 0.8 + 0.02;
+    col.x = max( 0.0, col.x + gradient * 1.0 );
+    col.x = step( 0.5, col.x*col.x + dither2 ) * 0.1 + 0.01;
+    col.z = max( 0.0, col.z + gradient * 1.0 );
+    col.z = step( 0.5, col.z*col.z + dither2*0.5 ) * 0.1 + 0.02;
+
+    col /= vec3(.4, .4, .3) + 0.5*pow(100.0*xy.x*xy.y*(1.0-xy.x)*(1.0-xy.y), .1 );
+    col=mix(col,colCubes,sin(time*0.2));
+
+    gl_FragColor = vec4(col, 1.0 );
 }
+`;
+export default shader;

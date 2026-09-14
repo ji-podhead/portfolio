@@ -1,3 +1,4 @@
+const shader = `
 varying vec2 vUv;
 uniform float time;
 uniform vec2 mouse;
@@ -100,3 +101,5 @@ void main()
 
   gl_FragColor = vec4(col,1.0);
 }
+`;
+export default shader;

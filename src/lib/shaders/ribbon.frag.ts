@@ -1,3 +1,4 @@
+const shader = `
 varying vec2 vUv;
 uniform float time;
 uniform vec2 u_resolutions;
@@ -40,3 +41,5 @@ void main() {
 
     gl_FragColor = finalColor;
 }
+`;
+export default shader;
