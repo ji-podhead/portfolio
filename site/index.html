@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ji-podhead — MLOps, AI Security & Infrastructure</title>
+<meta name="description" content="Head of MLOps / Lead AI & Security Architect. Neurosymbolic reasoning, LLM guardrails, GPU particle engines, and enterprise infrastructure automation.">
+<meta property="og:title" content="ji-podhead — MLOps, AI Security & Infrastructure">
+<meta property="og:description" content="NeurIPS paper code author. Creator of SharkGuard, kooljs, ji-GPU-Particles. Enterprise guides for DNS, Foreman, and Agentic Protocols.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b1329">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-0:#0b1329; --bg-1:#1c2541; --card:#0f172a; --card-2:#1e293b;
+  --line:#3a506b; --muted:#94a3b8; --dim:#64748b;
+  --cyan:#38bdf8; --violet:#818cf8; --green:#34d399; --amber:#f59e0b;
+  --text:#fafafa;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --sans:'Inter',system-ui,'Segoe UI',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:var(--sans);background:linear-gradient(135deg,var(--bg-0),var(--bg-1));color:var(--text);line-height:1.6;overflow-x:hidden}
+::selection{background:rgba(56,189,248,.3)}
+a{color:var(--cyan);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ── Nav ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(11,19,41,.85);backdrop-filter:blur(12px);border-bottom:1px solid rgba(58,80,107,.4)}
+.nav-in{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.8rem 1.5rem}
+.logo{font-weight:900;font-size:1.1rem;letter-spacing:.5px;color:var(--text)}
+.logo b{color:var(--cyan)}
+.nav-links{display:flex;gap:1.5rem;font-size:.85rem}
+.nav-links a{color:var(--muted);transition:color .2s}
+.nav-links a:hover{color:var(--cyan);text-decoration:none}
+
+/* ── Hero ── */
+header{position:relative;min-height:92vh;display:flex;align-items:center;padding:7rem 1.5rem 4rem}
+#field{position:absolute;inset:0;z-index:0;opacity:.55}
+.hero{position:relative;z-index:1;max-width:1200px;margin:0 auto;width:100%}
+.eyebrow{font-family:var(--mono);font-size:.8rem;color:var(--cyan);letter-spacing:2px;text-transform:uppercase;margin-bottom:1rem}
+h1{font-size:clamp(2.2rem,6vw,4.2rem);font-weight:900;line-height:1.08;letter-spacing:-1px;margin-bottom:1rem}
+h1 .grad{background:linear-gradient(90deg,var(--cyan),var(--violet),var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font-size:clamp(1rem,2.5vw,1.35rem);color:var(--muted);font-weight:500;margin-bottom:1.5rem}
+.role b{color:var(--text)}
+.summary{max-width:640px;color:var(--muted);margin-bottom:2rem}
+.highlights{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;max-width:900px;margin-bottom:2.5rem}
+.highlight{display:flex;gap:.6rem;align-items:flex-start;padding:.8rem 1rem;background:rgba(56,189,248,.06);border:1px solid rgba(56,189,248,.18);border-radius:12px;font-size:.85rem;color:var(--muted)}
+.highlight::before{content:"▸";color:var(--cyan);font-weight:700}
+.cta-row{display:flex;gap:1rem;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.5rem;border-radius:10px;font-weight:700;font-size:.9rem;border:1px solid;transition:transform .15s,box-shadow .15s;text-decoration:none!important}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:linear-gradient(90deg,var(--cyan),#0ea5e9);color:#0b1329;border-color:transparent;box-shadow:0 4px 24px rgba(56,189,248,.3)}
+.btn-ghost{color:var(--text);border-color:var(--line);background:rgba(15,23,42,.5)}
+.btn-ghost:hover{border-color:var(--cyan)}
+
+/* ── Sections ── */
+section{max-width:1200px;margin:0 auto;padding:4.5rem 1.5rem}
+.sec-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:.5rem}
+.sec-num{font-family:var(--mono);color:var(--cyan);font-size:.9rem}
+h2{font-size:clamp(1.5rem,3.5vw,2.2rem);font-weight:900;letter-spacing:-.5px}
+.sec-sub{color:var(--dim);font-family:var(--mono);font-size:.8rem;margin-bottom:2.2rem;padding-left:3.2rem}
+.grid{display:grid;gap:1.2rem}
+.g-3{grid-template-columns:repeat(auto-fill,minmax(330px,1fr))}
+.g-2{grid-template-columns:repeat(auto-fill,minmax(420px,1fr))}
+
+/* ── Project cards ── */
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.4rem;display:flex;flex-direction:column;gap:.7rem;position:relative;transition:border-color .2s,transform .15s}
+.card:hover{border-color:var(--accent,var(--cyan));transform:translateY(-3px)}
+.tier-1{--accent:var(--cyan)}
+.tier-2{--accent:var(--violet)}
+.tier-3{--accent:var(--green)}
+.tier-4{--accent:var(--dim)}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:.75rem}
+.card h3{font-size:1.05rem;font-weight:700;letter-spacing:-.2px}
+.card h3 a{color:var(--text)}
+.card h3 a:hover{color:var(--accent,var(--cyan))}
+.tier-badge{font-family:var(--mono);font-size:.62rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:.25rem .55rem;border-radius:6px;white-space:nowrap}
+.tier-1 .tier-badge{color:var(--cyan);background:rgba(56,189,248,.12);border:1px solid rgba(56,189,248,.3)}
+.tier-2 .tier-badge{color:var(--violet);background:rgba(129,140,248,.12);border:1px solid rgba(129,140,248,.3)}
+.tier-3 .tier-badge{color:var(--green);background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.3)}
+.tier-4 .tier-badge{color:var(--dim);background:rgba(100,116,139,.12);border:1px solid rgba(100,116,139,.3)}
+.scores{display:flex;gap:.4rem;flex-wrap:wrap}
+.score{font-family:var(--mono);font-size:.65rem;padding:.15rem .5rem;border-radius:5px;background:var(--card-2);border:1px solid var(--line);color:var(--muted)}
+.score b{color:var(--green)}
+.tech{font-family:var(--mono);font-size:.72rem;color:var(--violet)}
+.desc{font-size:.85rem;color:var(--muted);flex:1}
+
+/* ── Guide cards ── */
+.guide{--accent:var(--amber)}
+.guide .tech{color:var(--amber)}
+.volume{font-family:var(--mono);font-size:.62rem;color:var(--dim)}
+
+/* ── CV strip ── */
+.cv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;margin-top:2rem}
+.cv-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.4rem}
+.cv-card h4{font-size:.75rem;font-family:var(--mono);color:var(--cyan);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:.75rem}
+.cv-card p{font-size:.9rem;color:var(--muted)}
+.cv-card p b{color:var(--text)}
+
+/* ── Footer ── */
+footer{border-top:1px solid rgba(58,80,107,.4);padding:3rem 1.5rem 4rem;text-align:center;color:var(--dim);font-family:var(--mono);font-size:.75rem}
+footer .links{display:flex;justify-content:center;gap:1.5rem;margin-top:1rem;flex-wrap:wrap}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--cyan)}
+
+@media(max-width:640px){
+  .nav-links{display:none}
+  .sec-sub{padding-left:0}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .card:hover,.btn:hover{transform:none}
+  #field{display:none}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <a class="logo" href="#top">ji<b>-</b>podhead</a>
+    <div class="nav-links">
+      <a href="#flagship">Projects</a>
+      <a href="#tools">Tools</a>
+      <a href="#integrations">Integrations</a>
+      <a href="#guides">Guides</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/ji-podhead" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</nav>
+
+<header id="top">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="hero">
+    <p class="eyebrow">Head of MLOps · AI &amp; Security Architect · Berlin</p>
+    <h1>Building <span class="grad">secure agent infrastructure</span> — from kernel to cloud.</h1>
+    <p class="role">Specialized in <b>AI Engineering</b>, <b>SecOps</b>, <b>Network Automation</b>, Infrastructure-as-Code, and High-Performance Web Architecture.</p>
+    <p class="summary">Creator of neurosymbolic reasoning frameworks, model guardrails, and custom WebGL particle engines. Author of enterprise guides for DNS, Kea DHCP, DRBD HA, RHEL 9 Foreman, and Agentic Protocols.</p>
+    <div class="highlights">
+      <div class="highlight">NeurIPS 2024 paper code author — neurosymbolic reasoning with Z3 SMT Solver &amp; OpenAI API.</div>
+      <div class="highlight">Head of MLOps leading AI safety, model moderation, and enterprise SecOps automation.</div>
+      <div class="highlight">Creator of kooljs, ji-GPU-Particles (150k+ GPU particles at 60 FPS), and clean-agent-harness.</div>
+      <div class="highlight">Author of enterprise guides: DNS, Kea DHCP, DRBD HA, RHEL 9 Foreman, Agentic Protocols.</div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#flagship">Explore Projects</a>
+      <a class="btn btn-ghost" href="https://github.com/ji-podhead" target="_blank" rel="noopener">GitHub Profile ↗</a>
+      <a class="btn btn-ghost" href="#guides">Read the Guides</a>
+    </div>
+  </div>
+</header>
+
+<section id="flagship">
+  <div class="sec-head"><span class="sec-num">01</span><h2>Flagship Projects</h2></div>
+  <p class="sec-sub">// tier 1 — core research &amp; production systems</p>
+  <div class="grid g-3">
+
+    <article class="card tier-1">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/proofofthought" target="_blank" rel="noopener">proofofthought</a></div><span class="tier-badge">Tier 1</span></div>
+      <div class="scores"><span class="score">code <b>10/10</b></span><span class="score">docs <b>9.5/10</b></span><span class="score">High (NeurIPS)</span></div>
+      <p class="tech">Python · Z3 SMT Solver · OpenAI API</p>
+      <p class="desc">NeurIPS 2024 paper code: neurosymbolic reasoning with Z3 formal logic to avoid LLM hallucinations.</p>
+    </article>
+
+    <article class="card tier-1">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/clean-agent-harness" target="_blank" rel="noopener">clean-agent-harness</a></div><span class="tier-badge">Tier 1</span></div>
+      <div class="scores"><span class="score">code <b>9.5/10</b></span><span class="score">docs <b>9.5/10</b></span><span class="score">High</span></div>
+      <p class="tech">Python · DAP Protocol · Claude Code Arch</p>
+      <p class="desc">Model-agnostic agent harness without sabotage features, with dynamic DAP tool discovery.</p>
+    </article>
+
+    <article class="card tier-1">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/SharkGuard" target="_blank" rel="noopener">SharkGuard</a></div><span class="tier-badge">Tier 1</span></div>
+      <div class="scores"><span class="score">code <b>9.5/10</b></span><span class="score">docs <b>9/10</b></span><span class="score">High</span></div>
+      <p class="tech">Python · ONNX · DistilBERT · FastAPI</p>
+      <p class="desc">Local LLM guardrail &amp; moderation sandbox (&lt;1ms regex sanitizer + CPU DistilBERT ONNX).</p>
+    </article>
+
+    <article class="card tier-1">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/S-ANFIS-PyTorch" target="_blank" rel="noopener">S-ANFIS-PyTorch</a></div><span class="tier-badge">Tier 1</span></div>
+      <div class="scores"><span class="score">code <b>9.5/10</b></span><span class="score">docs <b>9/10</b></span><span class="score">Core Package</span></div>
+      <p class="tech">PyTorch · Python · Neuro-Fuzzy</p>
+      <p class="desc">PyTorch package implementation of State-Adaptive Neuro-Fuzzy Inference Systems (IEEE paper).</p>
+    </article>
+
+    <article class="card tier-1">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/opnsense-helper" target="_blank" rel="noopener">opnsense-helper</a></div><span class="tier-badge">Tier 1</span></div>
+      <div class="scores"><span class="score">code <b>9/10</b></span><span class="score">docs <b>9.5/10</b></span><span class="score">114+ Py</span></div>
+      <p class="tech">Python · OPNsense REST · Kea DHCP</p>
+      <p class="desc">Production backend API &amp; automation engine for OPNsense firewalling and networking.</p>
+    </article>
+
+    <article class="card tier-1">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/dap-docs" target="_blank" rel="noopener">dap-docs</a></div><span class="tier-badge">Tier 1</span></div>
+      <div class="scores"><span class="score">code <b>8.5/10</b></span><span class="score">docs <b>10/10</b></span><span class="score">Spec</span></div>
+      <p class="tech">Markdown · PRD · Protocol Architecture</p>
+      <p class="desc">Reference specification of the Dynamic Agent Protocol (DAP v1.0) for prompt decoupling.</p>
+    </article>
+
+    <article class="card tier-1">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/opnsense-scripts-autodocs" target="_blank" rel="noopener">opnsense-scripts-autodocs</a></div><span class="tier-badge">Tier 1</span></div>
+      <div class="scores"><span class="score">code <b>9/10</b></span><span class="score">docs <b>9/10</b></span><span class="score">158+ Py</span></div>
+      <p class="tech">Python · AST Parser · Sphinx</p>
+      <p class="desc">Automatic docstring &amp; documentation generation system via Abstract Syntax Trees (AST).</p>
+    </article>
+  </div>
+</section>
+
+<section id="tools">
+  <div class="sec-head"><span class="sec-num">02</span><h2>Production Tools &amp; Core Utilities</h2></div>
+  <p class="sec-sub">// tier 2 — tools that run in real environments</p>
+  <div class="grid g-3">
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/ovs-bridge-collection" target="_blank" rel="noopener">ovs-bridge-collection</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Open vSwitch · Ansible · Libvirt</p>
+      <p class="desc">Ansible collection for OVS bridges, tagged VLANs, Libvirt virtual networks &amp; Docker.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/kooljs" target="_blank" rel="noopener">kooljs</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Web Workers · SharedArrayBuffer · JS</p>
+      <p class="desc">Multithreaded off-main-thread animation engine for React &amp; HTML.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/ji-GPU-Particles" target="_blank" rel="noopener">ji-GPU-Particles</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">WebGL · Three.js · GLSL Vertex Shader</p>
+      <p class="desc">Instanced GPU particle system (150k+ particles at 60 FPS), inspired by Unity Shuriken.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/ji_ui" target="_blank" rel="noopener">ji_ui</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">gRPC-Web · Protobuf · React · Go</p>
+      <p class="desc">Cross-platform UI framework with gRPC binary streams instead of JSON overhead.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/protobuffctl" target="_blank" rel="noopener">protobuffctl</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Node.js · Protobuf.js · gRPC</p>
+      <p class="desc">CLI, API server &amp; dashboard for dynamically testing and versioning protobuf contracts.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/onpremctl" target="_blank" rel="noopener">onpremctl</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Docker Compose · Tailscale · Vault</p>
+      <p class="desc">Remote edge controller for Tailscale mesh VPN, Vault secrets &amp; OpenWrt routers.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/DevOps" target="_blank" rel="noopener">DevOps</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Terraform · Vault · Proxmox · CI/CD</p>
+      <p class="desc">DevOps playground &amp; research notebook with Vault AppRole IaC &amp; static scanners.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/ilohelper-collection" target="_blank" rel="noopener">ilohelper-collection</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Python · Redfish API · Ansible</p>
+      <p class="desc">Out-of-band HPE iLO hardware control &amp; server status automation via Redfish.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/CropPulse-Hackathon1" target="_blank" rel="noopener">CropPulse-Hackathon1</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Sentinel-2 · LightGBM · Earth Engine</p>
+      <p class="desc">Precision agriculture satellite remote-sensing &amp; LightGBM harvest failure forecasting.</p>
+    </article>
+
+    <article class="card tier-2">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/ad1" target="_blank" rel="noopener">ad1</a></div><span class="tier-badge">Tier 2</span></div>
+      <p class="tech">Python · EU Compliance · Email Parsing</p>
+      <p class="desc">Secure, modular platform for automated email and document processing (EU compliance).</p>
+    </article>
+  </div>
+</section>
+
+<section id="integrations">
+  <div class="sec-head"><span class="sec-num">03</span><h2>Integrations &amp; Ecosystem</h2></div>
+  <p class="sec-sub">// tier 3 — MCP servers, tooling &amp; ecosystem</p>
+  <div class="grid g-3">
+
+    <article class="card tier-3">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/Gmail-MCP-Server" target="_blank" rel="noopener">Gmail-MCP-Server</a></div><span class="tier-badge">Tier 3</span></div>
+      <p class="tech">MCP Standard · OAuth2 · Gmail API</p>
+      <p class="desc">Model Context Protocol server with automatic OAuth2 refresh auth for AI agents.</p>
+    </article>
+
+    <article class="card tier-3">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/pinecone-bridged-mcp" target="_blank" rel="noopener">pinecone-bridged-mcp</a></div><span class="tier-badge">Tier 3</span></div>
+      <p class="tech">MCP · SSE · Docker · Pinecone</p>
+      <p class="desc">Dockerized MCP server with SSE transport bridge for Pinecone vector search.</p>
+    </article>
+
+    <article class="card tier-3">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/ollama-mcp-client" target="_blank" rel="noopener">ollama-mcp-client</a></div><span class="tier-badge">Tier 3</span></div>
+      <p class="tech">Python · Ollama · MCP Standard</p>
+      <p class="desc">Async MCP client connecting local Ollama models to MCP tooling.</p>
+    </article>
+
+    <article class="card tier-3">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/netbox_docker_podman_collection" target="_blank" rel="noopener">netbox_docker_podman_collection</a></div><span class="tier-badge">Tier 3</span></div>
+      <p class="tech">Podman Quadlet · NetBox · Ansible</p>
+      <p class="desc">Automated NetBox IPAM deployment collection via Podman quadlets &amp; Ansible.</p>
+    </article>
+
+    <article class="card tier-3">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/lil_bind" target="_blank" rel="noopener">lil_bind</a></div><span class="tier-badge">Tier 3</span></div>
+      <p class="tech">Podman · Quadlet · Bind9</p>
+      <p class="desc">Containerized rootless Bind9 DNS deployment via Podman quadlets.</p>
+    </article>
+
+    <article class="card tier-3">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/kubyplexer" target="_blank" rel="noopener">kubyplexer</a></div><span class="tier-badge">Tier 3</span></div>
+      <p class="tech">Rust · VS Code Extension API</p>
+      <p class="desc">In-IDE VS Code extension for mouse-driven Kubernetes cluster management.</p>
+    </article>
+
+    <article class="card tier-3">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/openai-cti-summarizer" target="_blank" rel="noopener">openai-cti-summarizer</a></div><span class="tier-badge">Tier 3</span></div>
+      <p class="tech">FastAPI · OpenAI GPT-4</p>
+      <p class="desc">CTI report analysis engine with structured IoC extraction (IPs, domains, MD5).</p>
+    </article>
+  </div>
+</section>
+
+<section id="guides">
+  <div class="sec-head"><span class="sec-num">04</span><h2>Guides &amp; Publications</h2></div>
+  <p class="sec-sub">// enterprise documentation &amp; research writing</p>
+  <div class="grid g-2">
+
+    <article class="card guide">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/Network-Guides" target="_blank" rel="noopener">Network-Guides</a></div><span class="volume">19 markdown guides</span></div>
+      <div class="scores"><span class="score">docs <b>10/10</b></span></div>
+      <p class="tech">BIND9 · Kea · DRBD · TSIG · DNSSEC</p>
+      <p class="desc">Comprehensive handbook for enterprise DNS, dynamic updates, Kea DHCP &amp; DRBD high-availability clusters.</p>
+    </article>
+
+    <article class="card guide">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/RHEL_9_Foreman_Guide" target="_blank" rel="noopener">RHEL 9 Foreman Guide</a></div><span class="volume">10 detailed guides</span></div>
+      <div class="scores"><span class="score">docs <b>10/10</b></span></div>
+      <p class="tech">RHEL 9 · Puppet · Katello · PXE</p>
+      <p class="desc">Production guide for bare-metal discovery, PXE boot, TFTP/DHCP &amp; Katello lifecycle management.</p>
+    </article>
+
+    <article class="card guide">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/dap-docs" target="_blank" rel="noopener">dap-docs — DAP v1.0 Spec</a></div><span class="volume">Specification</span></div>
+      <div class="scores"><span class="score">docs <b>10/10</b></span></div>
+      <p class="tech">Markdown · PRD · Protocol Architecture</p>
+      <p class="desc">Reference specification of the Dynamic Agent Protocol (DAP v1.0) for prompt decoupling.</p>
+    </article>
+
+    <article class="card guide">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/articles" target="_blank" rel="noopener">Technical Articles</a></div><span class="volume">24 blogposts + 53 SVGs</span></div>
+      <div class="scores"><span class="score">docs <b>9/10</b></span></div>
+      <p class="tech">eBPF · gVisor · SIEM · LLM Routing · MCP</p>
+      <p class="desc">Published technical articles: kernel-level LLM guards, workspace isolation, SIEM guides, entropy routing, MCP ecosystems.</p>
+    </article>
+
+    <article class="card guide">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/agentic-knowledge" target="_blank" rel="noopener">agentic-knowledge</a></div><span class="volume">Research knowledge base</span></div>
+      <div class="scores"><span class="score">docs <b>9/10</b></span></div>
+      <p class="tech">OKF v1.0 · Agent Protocols · A2A</p>
+      <p class="desc">Open knowledge base on agent protocols, multi-agent coordination, routing, and safety — OKF v1.0 format.</p>
+    </article>
+
+    <article class="card guide">
+      <div class="card-top"><h3><a href="https://github.com/ji-podhead/DevOps" target="_blank" rel="noopener">Web &amp; Cloud Security Research</a></div><span class="volume">Research guides</span></div>
+      <div class="scores"><span class="score">docs <b>9/10</b></span></div>
+      <p class="tech">Suricata IDS · OpenSearch · SIEM</p>
+      <p class="desc">Enterprise security research on web attack vectors, Suricata IDS &amp; SIEM monitoring.</p>
+    </article>
+  </div>
+</section>
+
+<section id="about">
+  <div class="sec-head"><span class="sec-num">05</span><h2>About</h2></div>
+  <p class="sec-sub">// background &amp; current work</p>
+  <p class="summary">Leading AI safety and enterprise SecOps automation at <b>DeepSafety GmbH</b> — building model moderation pipelines, agentic security infrastructure, and the operational tooling around them. Before that: infrastructure engineering, network automation, and high-performance graphics on the web.</p>
+  <div class="cv-grid">
+    <div class="cv-card">
+      <h4>Current</h4>
+      <p><b>Head of MLOps</b><br>DeepSafety GmbH<br>AI safety · model moderation · enterprise SecOps automation</p>
+    </div>
+    <div class="cv-card">
+      <h4>Education</h4>
+      <p><b>TU Berlin</b><br>Computer Science &amp; Engineering Studies</p>
+    </div>
+    <div class="cv-card">
+      <h4>Location</h4>
+      <p><b>Berlin, Germany</b><br>Open to collaboration on agent infrastructure &amp; security</p>
+    </div>
+    <div class="cv-card">
+      <h4>Focus</h4>
+      <p>Neurosymbolic reasoning · LLM guardrails · GPU graphics · network automation · Infrastructure-as-Code</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>ji-podhead — built with a static site, zero build step, zero framework version hell.</p>
+  <div class="links">
+    <a href="https://github.com/ji-podhead" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/leonardo-jacobi" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/ji-podhead/articles" target="_blank" rel="noopener">Articles</a>
+    <a href="https://github.com/ji-podhead/agentic-knowledge" target="_blank" rel="noopener">Knowledge Base</a>
+  </div>
+</footer>
+
+<script>
+// Particle field — lightweight canvas, inspired by ji-GPU-Particles (that one does 150k on GPU; this one does 60, politely)
+(function(){
+  const c=document.getElementById('field'),x=c.getContext('2d');
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce)return;
+  let w,h,pts=[],mouse={x:-999,y:-999};
+  const N=innerWidth<640?28:60;
+  function size(){w=c.width=c.offsetWidth;h=c.height=c.offsetHeight;}
+  addEventListener('resize',size);size();
+  for(let i=0;i<N;i++)pts.push({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35,r:Math.random()*1.6+.6});
+  addEventListener('pointermove',e=>{const b=c.getBoundingClientRect();mouse.x=e.clientX-b.left;mouse.y=e.clientY-b.top;});
+  const COLORS=['56,189,248','129,140,248','52,211,153'];
+  function tick(){
+    x.clearRect(0,0,w,h);
+    for(const p of pts){
+      p.x+=p.vx;p.y+=p.vy;
+      if(p.x<0||p.x>w)p.vx*=-1;
+      if(p.y<0||p.y>h)p.vy*=-1;
+      x.beginPath();x.arc(p.x,p.y,p.r,0,6.283);
+      x.fillStyle='rgba(125,211,252,.5)';x.fill();
+    }
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+      const a=pts[i],b=pts[j],dx=a.x-b.x,dy=a.y-b.y,d=dx*dx+dy*dy;
+      if(d<150*150){
+        x.strokeStyle='rgba(58,80,107,'+(0.3*(1-d/22500))+')';
+        x.lineWidth=.6;x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke();
+      }
+    }
+    for(const p of pts){
+      const dx=p.x-mouse.x,dy=p.y-mouse.y,d=dx*dx+dy*dy;
+      if(d<120*120){
+        x.strokeStyle='rgba(56,189,248,'+(0.45*(1-d/14400))+')';
+        x.lineWidth=.8;x.beginPath();x.moveTo(p.x,p.y);x.lineTo(mouse.x,mouse.y);x.stroke();
+      }
+    }
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();
+</script>
+</body>
+</html>
