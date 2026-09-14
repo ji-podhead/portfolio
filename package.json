@@ -1,6 +1,7 @@
 {
   "name": "portfolio-next",
   "version": "0.1.0",
+  "homepage": "https://ji-podhead.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@changey/react-leaflet-markercluster": "^4.0.0-rc1",
