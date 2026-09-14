@@ -334,47 +334,103 @@ export const articlesData: ArticleItem[] = [
     docsScore: "10/10",
     volume: "19 Markdown Guides",
     tech: "BIND9, Kea, DRBD, TSIG, DNSSEC",
-    description: "Umfassendes Handbuch für Enterprise DNS, Dynamic Updates, Kea DHCP & DRBD High-Availability Clusters.",
-    url: "https://github.com/ji-podhead/articles/tree/main"
+    description: "Comprehensive handbook for enterprise DNS, dynamic updates, Kea DHCP & DRBD high-availability clusters.",
+    url: "https://github.com/ji-podhead/Network-Guides"
   },
   {
-    title: "RHEL_9_Foreman_Guide",
+    title: "RHEL 9 Foreman Guide",
     docsScore: "10/10",
     volume: "10 Detailed Guides",
     tech: "RHEL 9, Puppet, Katello, PXE",
-    description: "Production Guide für Bare-Metal-Discovery, PXE-Boot, TFTP/DHCP & Katello Lifecycle Management.",
-    url: "https://github.com/ji-podhead/articles/tree/main"
+    description: "Production guide for bare-metal discovery, PXE boot, TFTP/DHCP & Katello lifecycle management.",
+    url: "https://github.com/ji-podhead/RHEL_9_Foreman_Guide"
   },
   {
-    title: "dap-docs",
+    title: "Stopping Prompt Injection at the Kernel Level",
+    docsScore: "9/10",
+    volume: "eBPF · LLM Guards",
+    tech: "eBPF, SecComp, Tetragon, Falco",
+    description: "Why userspace LLM guardrails always lose — and how eBPF LSM hooks change the game.",
+    url: "https://github.com/ji-podhead/articles/tree/main/ebpf"
+  },
+  {
+    title: "Entropy-Gated Model Cascades",
+    docsScore: "9/10",
+    volume: "LLM Routing",
+    tech: "Shannon Entropy, Cascade Routing, FrugalGPT",
+    description: "Sliding-window entropy as a circuit breaker between cheap and reasoning models.",
+    url: "https://github.com/ji-podhead/articles/tree/main/entropy-cascades"
+  },
+  {
+    title: "You Have Logs. You Don't Have a SIEM.",
     docsScore: "10/10",
-    volume: "Spec Specification",
-    tech: "Markdown, PRD, Protocol Architecture",
-    description: "Referenz-Spezifikation des Dynamic Agent Protocol (DAP v1.0) zur Prompt-Entkopplung.",
-    url: "https://github.com/ji-podhead/dap-docs"
+    volume: "OSS vs AWS · SMB Guide",
+    tech: "Wazuh, Falco, OpenSearch, Suricata",
+    description: "The complete honest guide to building a security operations stack — OSS vs AWS-native.",
+    url: "https://github.com/ji-podhead/articles/tree/main/siem-smb-guide"
+  },
+  {
+    title: "The Bouncer, the Wall, and the Straitjacket",
+    docsScore: "9/10",
+    volume: "gVisor Workspace Isolation",
+    tech: "gVisor, macvlan, K-LAF, Docker",
+    description: "Three layers of workspace isolation: network segments, firewalls, and syscall sandboxes.",
+    url: "https://github.com/ji-podhead/articles/tree/main/gvisor-workspace-isolation"
+  },
+  {
+    title: "OKF: Porting Research into Open Knowledge for Agents",
+    docsScore: "9/10",
+    volume: "Knowledge Engineering",
+    tech: "OKF v1.0, GraphRAG, D3, Docsify",
+    description: "How heterogeneous research slop became a machine-readable knowledge base — 8-stage pipeline, entity graphs, and a live GraphRAG portal.",
+    url: "https://github.com/ji-podhead/articles/tree/main/okf-agentic-knowledge-porting"
+  },
+  {
+    title: "Technical Article Collection",
+    docsScore: "9/10",
+    volume: "24 Blogposts + 53 SVGs",
+    tech: "eBPF, SIEM, TabFM, MCP, Kalman, GOAP",
+    description: "All published articles: LLM security, routing economics, data harmonization, zero-shot tabular ML, MCP ecosystems, object tracking, AI planning.",
+    url: "https://github.com/ji-podhead/articles"
+  },
+  {
+    title: "agentic-knowledge (GraphRAG Portal)",
+    docsScore: "9/10",
+    volume: "58 OKF Docs · Live Portal",
+    tech: "OKF v1.0, D3 Force Graph, Multi-Hop",
+    description: "Open knowledge base with an interactive GraphRAG explorer: entity & chunk visualization, multi-hop drill-down, and an AI retrieval assistant.",
+    url: "https://ji-podhead.github.io/agentic-knowledge/"
+  },
+  {
+    title: "awesome-ai-ml-dl",
+    docsScore: "8.5/10",
+    volume: "Curated Ecosystem List",
+    tech: "MCP Servers, Agent Frameworks, Tools",
+    description: "Curated list of MCP frameworks, servers, tutorials and platforms for AI agent development.",
+    url: "https://github.com/ji-podhead/awesome-ai-ml-dl"
   },
   {
     title: "Web-And-CloudSecurity",
     docsScore: "9.0/10",
     volume: "Research Guides",
     tech: "Suricata IDS, OpenSearch, SIEM",
-    description: "Enterprise Security Research zu Web Attack Vectors, Suricata IDS & SIEM Monitoring.",
-    url: "https://github.com/ji-podhead/articles/tree/main"
-  },
-  {
-    title: "agentic-knowledge",
-    docsScore: "9.0/10",
-    volume: "Research Notes",
-    tech: "Agent Protocols, A2A Architecture, LLM Tooling",
-    description: "Forschungsnotizen und Wissensbasis zu Agent-to-Agent Protokollen, Multi-Agent Coordination & Safety.",
-    url: "https://github.com/ji-podhead/agentic-knowledge"
+    description: "Enterprise security research on web attack vectors, Suricata IDS & SIEM monitoring.",
+    url: "https://github.com/ji-podhead/articles/tree/main/devops-network-security"
   },
   {
     title: "ml-knowledge-base",
     docsScore: "8.5/10",
     volume: "Educational Tutorials",
     tech: "Linear Algebra, Vector Calculus, PyTorch",
-    description: "Grundlagen-Tutorials zu Vektoralgebra (Cross-Product, Dot-Product) und Mathematical ML Foundations.",
-    url: "https://github.com/ji-podhead/articles/tree/main"
+    description: "Foundational tutorials on vector algebra (cross-product, dot-product) and mathematical ML foundations.",
+    url: "https://github.com/ji-podhead/articles/tree/main/object-tracking-computer-vision"
+  },
+  {
+    title: "DAP — Dynamic Agent Protocol Reference",
+    docsScore: "10/10",
+    volume: "Spec Specification",
+    tech: "Markdown, PRD, Protocol Architecture",
+    description: "Reference specification of the Dynamic Agent Protocol (DAP v1.0) for prompt decoupling.",
+    url: "https://github.com/ji-podhead/dap-docs"
   }
 ];

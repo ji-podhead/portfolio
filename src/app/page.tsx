@@ -6,6 +6,7 @@ import CVSection from '@/components/CVSection';
 import OpenSourceSection from '@/components/OpenSourceSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ArticlesSection from '@/components/ArticlesSection';
+import KnowledgePortalSection from '@/components/KnowledgePortalSection';
 import Footer from '@/components/Footer';
 import ScrollspyNav from '@/components/ScrollspyNav';
 
@@ -30,6 +31,7 @@ export default function Home() {
         <OpenSourceSection />
         <ProjectsSection />
         <ArticlesSection />
+        <KnowledgePortalSection />
       </main>
 
       <Footer />

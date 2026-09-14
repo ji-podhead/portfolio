@@ -33,6 +33,7 @@ const ScrollspyNav: React.FC = () => {
     { id: 'opensource', label: 'OpenSource' },
     { id: 'projects', label: 'Projects' },
     { id: 'articles', label: 'Articles' },
+    { id: 'knowledge', label: 'Knowledge' },
   ];
 
   return (
