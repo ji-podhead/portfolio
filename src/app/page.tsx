@@ -1,5 +1,7 @@
 import Header from '@/components/Header';
 import GLSLBackground from '@/components/GLSLBackground';
+import HeroContent from '@/components/HeroContent';
+import ShaderShowcase from '@/components/ShaderShowcase';
 import CVSection from '@/components/CVSection';
 import OpenSourceSection from '@/components/OpenSourceSection';
 import ProjectsSection from '@/components/ProjectsSection';
@@ -14,6 +16,15 @@ export default function Home() {
       <Header />
       <ScrollspyNav />
 
+      {/* Interactive Hero Section with Particle Morphing */}
+      <section id="hero" className="relative">
+        <HeroContent />
+      </section>
+
+      {/* Interactive Shader & Particle Playground */}
+      <ShaderShowcase />
+
+      {/* Portfolio Core Sections */}
       <main className="relative z-10 space-y-12 pb-20">
         <CVSection />
         <OpenSourceSection />
