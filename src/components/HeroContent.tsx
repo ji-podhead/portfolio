@@ -79,13 +79,11 @@ const ParticleTextSystem = ({ onExplode }: { onExplode: (system: Particles) => v
         const geometry = new THREE.SphereGeometry(0.02, 8, 8);
         const material = new THREE.MeshStandardMaterial({ color: '#00ff41', emissive: '#00ff41', emissiveIntensity: 2 });
         const mesh = new THREE.Mesh(geometry, material);
-        const pMesh = particleSystem.InitializeParticles(mesh, PARTICLE_COUNT);
+        const pMesh: any = particleSystem.InitializeParticles(mesh, PARTICLE_COUNT);
 
         particleSystem.setStartPositionFromArray(false, targets[0]);
         particleSystem.startPS();
-        // If InitializeParticles returns void, pMesh will be undefined.
-        // Set particleMesh to null in that case, as it expects Mesh | null.
-        setParticleMesh(pMesh === undefined ? null : pMesh);
+        setParticleMesh((pMesh as THREE.Mesh) || null);
 
         const animator = new Animator(60);
         animatorRef.current = animator;
