@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { articlesData } from '@/data/portfolioData';
+import { articlesData } from '../data/portfolioData';
 
 const ArticlesSection = () => {
   return (

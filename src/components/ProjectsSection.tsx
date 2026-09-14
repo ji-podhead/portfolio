@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { projectsData } from '@/data/portfolioData';
+import { projectsData } from '../data/portfolioData';
 
 const ProjectsSection = () => {
   const [selectedTier, setSelectedTier] = useState<number | 'ALL'>('ALL');

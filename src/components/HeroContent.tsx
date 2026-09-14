@@ -6,7 +6,7 @@ import { Animator } from '../lib/kooljs/animator';
 import { Particles } from '../lib/particles/workerParticles';
 import * as THREE from 'three';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js'; // Import FontLoader directly
-import ParticlesMain from '@/lib/particles/particles';
+import ParticlesMain from '../lib/particles/particles';
 
 const words = ["devops", "mlops", "ml", "robotics", "fullstack"];
 const PARTICLE_COUNT = 4000;

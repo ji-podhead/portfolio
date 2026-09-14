@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { cvData } from '@/data/portfolioData';
+import { cvData } from '../data/portfolioData';
 
 const CVSection = () => {
   return (

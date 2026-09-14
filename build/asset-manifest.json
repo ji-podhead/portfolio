@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4cee898a.css",
+    "main.js": "/portfolio/static/js/main.28470354.js",
+    "static/js/741.c59d6b4d.chunk.js": "/portfolio/static/js/741.c59d6b4d.chunk.js",
+    "static/js/453.c161b6f3.chunk.js": "/portfolio/static/js/453.c161b6f3.chunk.js",
+    "static/media/font-renderer.frag": "/portfolio/static/media/font-renderer.e409c48223fd5d845a9b.frag",
+    "static/media/background.frag": "/portfolio/static/media/background.d8258d5cfb8528213268.frag",
+    "static/media/dither-effect.frag": "/portfolio/static/media/dither-effect.652dd555183ec0ba23d8.frag",
+    "static/media/final-background.frag": "/portfolio/static/media/final-background.5d202635417f35d4d416.frag",
+    "static/media/metaball.frag": "/portfolio/static/media/metaball.fc61d1af183616e9c788.frag",
+    "static/media/ribbon.frag": "/portfolio/static/media/ribbon.0913724f309b139e31fb.frag",
+    "index.html": "/portfolio/index.html",
+    "static/media/background.vert": "/portfolio/static/media/background.7b70a097226aec572efc.vert",
+    "main.4cee898a.css.map": "/portfolio/static/css/main.4cee898a.css.map",
+    "main.28470354.js.map": "/portfolio/static/js/main.28470354.js.map",
+    "741.c59d6b4d.chunk.js.map": "/portfolio/static/js/741.c59d6b4d.chunk.js.map",
+    "453.c161b6f3.chunk.js.map": "/portfolio/static/js/453.c161b6f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cee898a.css",
+    "static/js/main.28470354.js"
+  ]
+}

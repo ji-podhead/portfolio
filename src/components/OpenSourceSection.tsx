@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { openSourceData } from '@/data/portfolioData';
+import { openSourceData } from '../data/portfolioData';
 
 const OpenSourceSection = () => {
   return (
